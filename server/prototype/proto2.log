@@ -1,0 +1,57 @@
+:443 FS
+:9000 SDK
+:8080 GS
+:18080 GS-alt
+:18081 GS-alt2
+:19000 SDK-alt
+:19001 SDK-alt2
+:10011 HOT
+:10012 HOT2
+
+[FS:443] /assetbundle/official/Android/version?time=1789963398 host=ak-fs-3rd.hypergryph.com uid=- seqnum=-
+
+[FS:443] /announce/hgAndroid/preannouncement.meta.json host=ak-fs-3rd.hypergryph.com uid=- seqnum=-
+
+[SDK:9000] /user/guestLogin host=ak-as-3rd.hypergryph.com:9000 uid=- seqnum=-
+  REQ  {"deviceId":"cb58ac5edfc7b1cb61a447dbb092d744","sign":"76b632d9af64aa1e29846b35b506142966f15e1b"}
+
+[SDK:9000] /u8/user/getToken host=ak-as-3rd.hypergryph.com:9000 uid=- seqnum=-
+  REQ  {"appId":"1","channelId":"1","extension":"{\"uid\":\"1000001\",\"access_token\":\"proto-token-0001\"}","sign":"c8e7a6658e687955f72ddd0b70be3c7112df8ba7"}
+
+[SDK:9000] /u8/pay/getAllProductList host=ak-as-3rd.hypergryph.com:9000 uid=- seqnum=-
+  REQ  {"appId":"1","channelId":"1","worldId":1}
+
+[GS:8080] /account/login host=ak-gs-3rd.hypergryph.com:8080 uid=- seqnum=0
+  REQ  {"uid":"1000001","token":"proto-token-0001","assetsVersion":"0.6.66","clientVersion":"0.6.66","platform":1}
+
+[GS:8080] /account/syncData host=ak-gs-3rd.hypergryph.com:8080 uid=- seqnum=1
+  REQ  {}
+
+[GS:8080] /pay/confirmOrder host=ak-gs-3rd.hypergryph.com:8080 uid=- seqnum=2
+  REQ  {"all":1,"orderId":""}
+
+[GS:8080] /user/bindNickName host=ak-gs-3rd.hypergryph.com:8080 uid=- seqnum=3
+  REQ  {"nickName":"111"}
+
+[GS:8080] /account/syncStatus host=ak-gs-3rd.hypergryph.com:8080 uid=- seqnum=4
+  REQ  {"modules":223,"params":{"16":{"goodIdMap":{"LS":[],"HS":[],"ES":[],"CASH":[],"GP":["GP_Once_1"],"SOCIAL":[]}}}}
+
+[FS:443] /announce/hgAndroid/preannouncement.meta.json host=ak-fs-3rd.hypergryph.com uid=- seqnum=-
+
+[SDK:9000] /user/auth host=ak-as-3rd.hypergryph.com:9000 uid=- seqnum=-
+  REQ  {"token":"proto-token-0001","sign":"d70d5e3009071774c399e4c8e3bc227559189223"}
+
+[SDK:9000] /u8/user/getToken host=ak-as-3rd.hypergryph.com:9000 uid=- seqnum=-
+  REQ  {"appId":"1","channelId":"1","extension":"{\"uid\":\"1000001\",\"access_token\":\"proto-token-0001\"}","sign":"c8e7a6658e687955f72ddd0b70be3c7112df8ba7"}
+
+[SDK:9000] /u8/pay/getAllProductList host=ak-as-3rd.hypergryph.com:9000 uid=- seqnum=-
+  REQ  {"appId":"1","channelId":"1","worldId":1}
+
+[GS:8080] /account/login host=ak-gs-3rd.hypergryph.com:8080 uid=- seqnum=5
+  REQ  {"uid":"1000001","token":"proto-token-0001","assetsVersion":"0.6.66","clientVersion":"0.6.66","platform":1}
+
+[GS:8080] /account/syncData host=ak-gs-3rd.hypergryph.com:8080 uid=- seqnum=6
+  REQ  {}
+
+[GS:8080] /pay/confirmOrder host=ak-gs-3rd.hypergryph.com:8080 uid=- seqnum=7
+  REQ  {"all":1,"orderId":""}

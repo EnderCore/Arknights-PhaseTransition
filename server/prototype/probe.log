@@ -1,0 +1,24 @@
+:18080 HTTP
+:18081 HTTP
+:19000 HTTP
+:19001 HTTP
+:10011 HTTP
+:10012 HTTP
+:443 HTTPS
+:8080 HTTPS
+:9000 HTTPS
+:9091 HTTPS
+
+[S443] GET /assetbundle/official/Android/version?time=1789962430 host=ak-fs-3rd.hypergryph.com uid=- seqnum=-
+  RESP {"resVersion":"0.6.66","clientVersion":"0.6.66","versionId":"0.6.66","fullPack":{"name":"","hash":"","md5":"","totalSize":0},"abInfos":[],"assetsVersion":"0.6.66"}
+
+[S443] GET /announce/hgAndroid/preannouncement.meta.json host=ak-fs-3rd.hypergryph.com uid=- seqnum=-
+  RESP announce-empty
+
+[S9000] POST /user/login host=ak-as-3rd.hypergryph.com:9000 uid=- seqnum=-
+  REQ  {"account":"doctor001","password":"Passw0rd123Passw0rd123","deviceId":"cb58ac5edfc7b1cb61a447dbb092d744","platform":1,"sign":"e5e183ac022869f507769135931ec05a48dd51df"}
+  RESP {"data":{}}  <-- unhandled
+
+[S9000] POST /u8/user/getToken host=ak-as-3rd.hypergryph.com:9000 uid=- seqnum=-
+  REQ  {"appId":"1","channelId":"1","extension":"{\"uid\":null,\"access_token\":null}","sign":"1b36fa169b60d1497d0c21427d93b38784c02eab"}
+  RESP {"data":{}}  <-- unhandled

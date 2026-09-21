@@ -1,0 +1,9 @@
+# 大文件与可再生产物不进版本库
+apk/
+work/
+*.apk
+*.so
+*.dex
+*.dat
+node_modules/
+server/prototype/certs/*.key

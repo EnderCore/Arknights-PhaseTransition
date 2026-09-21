@@ -1,0 +1,263 @@
+ActivityConfirmMissionRequest: string missionId, string activityId
+ActivityConfirmMissionResponse: List<RewardItemModel> items
+ActivityConfirmMissionGroupRequest: string groupId, string activityId
+ActivityConfirmMissionGroupResponse: List<RewardItemModel> items
+ActivityFirstExchangeShopRequest: string activityId, string goodId, int count
+ActivityFirstExchangeShopResponse: RewardItemModel item
+LoginRequest: string account, string password, string deviceId, PlatformKey platform
+LoginResponse: int result, string uid, int role, string token, bool isAuthenticate, DateTime issuedAt, DateTime expiresIn
+AuthRequest: string token
+AuthResponse: string uid
+UserSendSmsCodeRequest: string account, int type
+UserSendSmsCodeResponse: int result, string code
+UserGuestLoginRequest: string deviceId
+UserGuestLoginResponse: int result, string uid, int role, string token, long issueAt, long expiresIn
+UserRegisterRequest: string account, string password, string smsCode, PlatformKey platform, string deviceId
+UserRegisterResponse: int result, string uid, int role, string token, long issuedAt, long expiresIn
+UserLoginBySmsRequest: string account, string smsCode, string deviceId, PlatformKey platform
+UserLoginBySmsResponse: int result, string uid, int role, string token, bool isAuthenticate, long issuedAt, long expiresIn
+UserIdentityAuthRequest: string token, string name, string idCardNum
+UserIdentityAuthResponse: int result
+WebHttpResponse: bool isTimeout, bool isError, long responseCode, Dictionary<string, string> header, string text, byte[] data, string error
+GetOpenServerCheckInRewardRequest: int index
+GetOpenServerCheckInRewardResponse: ActivityItemModel reward
+GetChainLogInRewardRequest: int index
+GetChainLogInRewardResponse: ActivityItemModel reward
+GetChainLogInFinalRewardsRequest: 
+GetChainLogInFinalRewardsResponse: List<ActivityItemModel> rewards
+SDKLoginRequest: string account, string password, string deviceId, PlatformKey platform, SDKType sdk
+SDKLoginResponse: int result, string uid, int role, string token, DateTime issuedAt, DateTime expiresIn
+SDKAuthRequest: string token
+SDKAuthResponse: string uid
+SaveBattleReplayRequest: string battleId, string battleReplay
+SaveBattleReplayResponse: int result
+LoadBattleReplayRequest: string stageId
+LoadBattleReplayReponse: string battleReplay
+BindNickNameRequest: string nickName
+BindNickNameResponse: int result
+BuildingSyncRequest: 
+BuildingSyncResponse: 
+BuildingUpgradeRoomRequest: string roomSlotId, int targetLevel
+BuildingUpgradeRoomResponse: int result
+BuildingDegradeRoomRequest: string roomSlotId, int targetLevel
+BuildingDegradeRoomResponse: 
+BuildingCleanRoomRequest: string roomSlotId
+BuildingCleanRoomResponse: int result
+BuildingBuildRoomRequest: string roomSlotId, string roomId
+BuildingBuildRoomResponse: int result, List<ServiceAlertStruct> alert
+BuildingUpgradeCompleteRoomRequest: string roomSlotId, int targetLevel
+BuildingUpgradeCompleteRoomResponse: int result, List<ServiceAlertStruct> alert
+BuildingDIYChangeDIYSolutionRequest: string roomSlotId, PlayerBuildingDIYSolution solution
+BuildingDIYChangeDIYResponse: 
+BuildingDIYSavePresetSolutionRequest: int solutionId, string name, PlayerBuildingDIYSolution solution, string thumbnail
+BuildingDIYSavePresetSolutionResponse: int result
+BuildingDIYRenamePresetSolutionRequest: int solutionId, string name
+BuildingDIYRenamePresetSolutionResponse: int result
+BuildingDIYGetPresetThumbnailUrlRequest: List<int> solutionId
+BuildingDIYGetPresetThumbnailUrlResponse: List<string> url
+BuildingGetFurnitureGoodListRequest: 
+BuildingBuyFurnitureGoodRequest: string goodId, int buyCount, CostType costType
+BuildingBuyFurnitureGoodResponse: 
+BuildingSettleManufactRequest: List<string> roomSlotIdList
+BuildingSettleManufactResponse: 
+BuildingSettleSaleRequest: List<string> roomSlotIdList
+BuildingSettleSaleResponse: 
+BuildingChangeManufactRequest: string roomSlotId, string targetFormulaId, int solutionCount
+BuildingChangeManufactResponse: bool change
+BuildingChangeShopRequest: string roomSlotId, int stockIndex, string targetFormulaId, int solutionCount
+BuildingChangeShopResponse: bool change
+BuildingAssignCharRequest: string roomSlotId, List<int> charInstIdList
+BuildingAssignCharResponse: 
+CharBuildIncIntimacyRequest: int charInstId
+CharBuildIncIntimacyResponse: 
+CharBuildIncAssistIntimacyRequest: int charInstId
+CharBuildIncAssistIntimacyResponse: 
+UpdateSpecializationRequest: int skillIndex
+UpdateSpecializationResponse: 
+CompleteUpgradeSpecializationRequest: 
+CompleteUpgradeSpecializationResponse: 
+BuildingWorkshopSynthesisRequest: string formulaId, int times
+BuildingWorkshopSynthesisResponse: ItemBundle results, List<ItemBundle> additional
+BuildingWorkshopDecompositionRequest: string furniId, int times
+BuildingWorkshopDecompositionResponse: ItemBundle results
+BuildingTradingDeliveryRequest: string slotId, long orderId
+BuildingTradingDeliveryResponse: 
+BuildingTradingChangeStrategyRequest: string slotId, BuildingData.OrderType strategy
+BuildingTradingChangeStrategyResponse: 
+BuildingTradingDeleteOrderRequest: string slotId, long orderId
+BuildingTradingDeleteOrderResponse: 
+BuildingTradingLaborAccelRequest: string slotId, long orderId, int cost
+BuildingTradingLaborAccelResponse: int result
+BuildingManufactLaborAccelRequest: string slotId, int cost
+BuildingManufactLaborAccelResponse: 
+BuildingBuyLaborRequest: int count, long ts
+BuildingBuyLaborResponse: 
+BuildingAssistReportRequest: 
+BuildingAssistReportResponse: List<BuildingDailyReport> reports
+BuildingSetAssistRequest: int type, int charInstId
+BuildingSetAssistResponse: 
+BuildingMeetingClueDeleteOwnClueRequest: string clueId
+BuildingMeetingClueDeleteOwnClueResponse: 
+BuildingMeetingClueDeleteReceiveClueRequest: string clueId
+BuildingMeetingClueDeleteReceiveClueResponse: 
+BuildingMeetingCluePutClueToTheBoardRequest: string clueId
+BuildingMeetingCluePutClueToTheBoardResponse: 
+BuildingMeetingClueSendClueRequest: string friendId, string clueId
+BuildingMeetingClueSendClueResponse: 
+BuildingMeetingClueGetMeetingRoomRewardRequest: List<int> type
+BuildingMeetingClueGetMeetingRoomRewardResponse: List<ItemBundle> rewards
+BuildingMeetingClueUpdateWaitingClueRequest: 
+BuildingMeetingClueReceiveClueToStockRequest: List<string> clues
+BuildingMeetingClueReceiveClueToStockResponse: 
+BuildingMeetingClueStartInfoShareRequest: 
+BuildingMeetingClueStartInfoShareResponse: 
+BuildingMeetingClueTakeClueFromBoardRequest: string type
+BuildingMeetingClueTakeClueFromBoardResponse: 
+BuildingMeetingClueGetInfoShareVisitorsRequest: 
+BuildingMeetingClueGetInfoShareVisitorsResponse: int num
+BuildingMeetingClueReceiveInfoShareRewardRequest: 
+BuildingGetRecentVisitorsRequest: 
+BuildingMeetingClueGetDailyClueRequest: 
+BuildingMeetingClueGetDailyClueResponse: 
+CampaignConfirmBreakRewardRequest: string stageId, int index
+CampaignStartBattleRequest: 
+CampaignStartBattleResponse: 
+CampaignFinishBattleRequest: 
+CampaignFinishBattleResponse: int currentFeeBefore, int currentFeeAfter
+BoostPotentialRequest: int charInstId, string itemId, int targetRank
+BoostPotentialResponse: int resultOneSuc
+UpgradeSkillRequest: int charInstId, int targetLevel
+UpgradeSkillResponse: 
+UpgradeSpecializationRequest: int charInstId, int skillIndex, int targetLevel
+UpgradeSpecializationResponse: 
+ChangeCharSkinRequest: int charInstId, string skinId
+ChangeCharSkinResponse: 
+CheatRequest: string cmd
+CheatResponse: 
+EvolveCharRequest: int charInstId, EvolvePhase destEvolvePhase
+EvolveCharResponse: 
+DefaultFinishBattleRequest: 
+DefaultFinishBattleResponse: float goldScale, float expScale, List<RewardModel> firstRewards, string[] unlockStages, List<ServiceAlertStruct> alert
+FinishStoryRequest: string storyId
+FinishStoryResponse: 
+DeleteFriendRequest: string friendId
+DeleteFriendResponse: 
+SendFriendRequest: string friendId, int afterBattle
+SendFriendResponse: int result
+ProcessFriendRequest: string friendId, FriendDealEnum action
+ProcessFriendResponse: int result
+GetSortListInfoRequest: FriendServiceType type, List<string> sortKeyList, Dictionary<string, string> param
+GetSortListInfoResponse: List<FriendSortViewModel> result
+SearchPlayerRequest: List<string> idList
+SearchPlayerResponse: List<FriendData> players, List<FriendStatus> friendStatusList, List<string> resultIdList
+GetFriendListRequest: List<string> idList
+GetFriendListResponse: List<FriendDataWithNameCard> friends, List<string> friendAlias, List<string> resultIdList
+GetFriendRequestListRequest: List<string> idList
+GetFriendRequestResponse: List<FriendData> requestList, List<string> resultIdList
+SetAssistCharListRequest: List<AssistCharList> assistCharList
+SetAssistCharListResponse: 
+SetFriendAliasRequest: string friendId, string alias
+SetAssistAliasResponse: int result
+ChangeResumeRequest: string resume
+ChangeResumeResponse: int result
+CancelNormalGachaRequest: int slotId
+CancelNormalGachaResponse: int result
+RefreshTagsGachaRequest: int slotId
+RefreshTagsGachaResponse: 
+SyncNormalGachaRequest: 
+SyncNormalGachaResponse: 
+BuyRecruitSlotRequest: int slotId
+BuyRecruitSlotResponse: 
+NormalGachaRequest: int slotId, int[] tagList, int specialTagId, long duration
+NormalGachaResponse: 
+FinishNormalGachaRequest: int slotId
+FinishNormalGachaResponse: int result, GachaResult charGet
+BoostNormalGachaRequest: int slotId, int buy
+BoostNormalGachaResponse: int result
+AdvancedGachaRequest: string poolId, bool useTkt
+AdvancedGachaResponse: GachaResult charGet
+TenAdvancedGachaRequest: string poolId, bool useTkt
+TenAdvancedGachaResponse: GachaResult[] gachaResultList
+ReceiveTeamCollectionRewardRequest: string rewardId
+ReceiveTeamCollectionRewardResponse: List<HandBookMissionReward> items
+BuyApRequest: 
+BuyApResponse: int result
+ExchangeDiamondShardRequest: int count
+ExchangeDiamondShardResponse: 
+CheckInRequest: 
+PlayerSyncStatusRequest: long modules, Dictionary<long, PlayerSyncParam> paramDict
+PlayerSyncStatusResponse: string announcementVersion, long ts, Dictionary<long, JObject> result
+LoginRequest: string uid, string token, string assetsVersion, string clientVersion, PlatformKey platform
+LoginResponse: int result, string uid, string secret, PlayerDataDelta playerDataDelta
+ListMailBoxRequest: List<int> mailIdList
+ListMailBoxResponse: ItemType type, string id, int mailId, string uid, List<MailReward> items, string from, string subject, string content, DateTime createAt, DateTime expireAt, DateTime receiveAt, List<MailItem> mailList
+ReceiveMailRequest: int mailId
+ReceiveMailResponse: int result, List<MailGet> items
+RemoveAllRecievedMailRequest: List<int> mailIdList
+RemoveAllRecievedMailResponse: 
+ReceiveAllMailRequest: List<int> mailIdList
+ReceiveAllMailResponse: List<MailGet> items
+GetMetaInfoListRequest: long from
+GetMetaInfoListResponse: List<MailMetaInfo> result
+ConfirmMissionRequest: string missionId
+ConfirmMissionResponse: 
+ExchangeMissionRewardsRequest: string targetRewardsId
+ExchangeMissionRewardsResponse: 
+ConfirmMissionGroupRequest: string missionGroupId
+ConfirmMissionGroupResponse: 
+ChangeSecretaryRequest: int charInstId, string skinId
+ChangeSecretaryResponse: 
+SellCharRequest: int[] charInstIdList
+SellCharResponse: 
+SetDefaultSkillRequest: int charInstId, int defaultSkillIndex
+SetDefaultSkillResponse: 
+BuyCashGoodRequest: string goodId
+BuyCashGoodResponse: List<ShopItemModel> items
+BuySkinGoodRequest: string goodId
+BuyGPGoodRequest: string goodId
+BuyGPGoodResponse: List<ShopItemModel> items
+BuyLowGoodRequest: string goodId, int count
+BuyLowGoodResponse: List<ShopItemModel> items
+BuyExtraGoodRequest: string goodId, int count
+BuyExtraGoodResponse: List<ShopItemModel> items
+BuyHighGoodRequest: string goodId, int count
+BuyHighGoodResponse: List<ShopItemModel> items
+BuySocialGoodRequest: string goodId, int count
+BuySocialGoodResponse: List<ShopItemModel> items
+DecomposePotentialItemRequest: List<string> charInstIdList
+DecomposePotentialItemResponse: List<ShopItemModel> items
+GetSkinGoodListRequest: List<string> charIdList
+GetSkinGoodListResponse: List<ShopSkinItemViewModel> goodList
+GetCashGoodListRequest: 
+GetCashGoodListResponse: List<CashShopObject> goodList
+GetHighGoodListRequest: 
+GetHighGoodListResponse: List<QCObject> goodList, Dictionary<string, List<QCProgressGoodItem>> progressGoodList
+GetExtraGoodListRequest: 
+GetExtraGoodListResponse: List<QCObject> goodList, long shopEndTime
+GetLowGoodListRequest: 
+GetLowGoodListResponse: List<QCObject> goodList, List<string> groups, long shopEndTime
+GetSocialGoodListRequest: 
+GetSocialGoodListResponse: List<SocialShopData> goodList, Dictionary<string, int> charPurchase, int costSocialPoint, string creditGroup
+ShopCashGoodPurchaseRequest: 
+PayCreateOrderRequest: int storeId, string goodId
+PayCreateOrderResponse: int result, string orderId, string extension
+PayConfirmOrderRequest: bool all, string orderId
+PayConfirmOrderResponse: List<ShopItemModel> items, int result, string goodId, Good receiveItems
+GetGPGoodListRequest: 
+GetGPGoodListResponse: PeriodicityGroup weeklyGroup, PeriodicityGroup monthlyGroup, List<MonthlySubItem> monthlySub, List<LevelGPItem> levelGP, List<NormalGPItem> oneTimeGP
+GetGoodPurchaseStateRequest: ShopPurchaseState goodIdMap
+GetGoodPurchaseStateResponse: Dictionary<string, int> result
+ReceiveSocialPointRequest: 
+ReceiveSocialPointResponse: List<ShopItemModel> reward
+SquadFormationResponse: 
+SquadRenameRequest: string squadId, string name
+SquadRenameResponse: int result
+GetFriendAssistCharListResponse: SquadFriendData[] assistFriendCharList, string[] friendAliasList, SquadFriendData[] assistNotFriendCharList, int refreshTimes
+GetFriendAssistCharListRequest: bool refresh
+DefaultStartBattleRequest: 
+DefaultStartBattleResponse: bool isApProtect, int apFailReturn, bool notifyPowerScoreNotEnoughIfFailed
+SyncDataRequest: 
+SyncDataResponse: PlayerDataModel user, long ts
+UpgradeCharRequest: string id, int charInstId, ExpMat[] expMats
+UpgradeCharResponse: 
+VisitBuildingRequest: string friendId

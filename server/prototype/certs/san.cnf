@@ -1,0 +1,25 @@
+[req]
+distinguished_name = dn
+x509_extensions = v3
+prompt = no
+[dn]
+CN = ak-gs-3rd.hypergryph.com
+[v3]
+subjectAltName = @alt
+basicConstraints = critical,CA:TRUE
+keyUsage = critical,digitalSignature,keyCertSign
+[alt]
+DNS.1 = ak-gs-3rd.hypergryph.com
+DNS.2 = ak-as-3rd.hypergryph.com
+DNS.3 = ak-fs-3rd.hypergryph.com
+DNS.4 = ak.hypergryph.com
+DNS.5 = an-1-bus.hypergryph.com
+DNS.6 = s-an-bus.hypergryph.com
+DNS.7 = ak-staging.hypergryph.com
+DNS.8 = ak-web-staging.hypergryph.com
+DNS.9 = s-an-staging.hypergryph.com
+DNS.10 = dev-gs.mpcjnet.com
+DNS.11 = distr-srv.int.hypergryph.com
+DNS.12 = *.hypergryph.com
+DNS.13 = *.mpcjnet.com
+IP.1 = 172.18.0.1
