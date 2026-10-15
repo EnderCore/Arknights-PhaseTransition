@@ -813,6 +813,28 @@ function route(tag, req, res, body) {
     });
   }
 
+  // 更换干员皮肤（客户端 serviceCode: charBuild/changeCharSkin 无前导斜杠，服务端按带斜杠口径匹配）
+  // ChangeCharSkinRequest{int charInstId, string skinId} -> 写 ch.skin；非法参数回 result=1
+  if (p === '/charBuild/changeCharSkin') {
+    let charInstId = 0, skinId = '';
+    try { const j = JSON.parse(body || '{}'); charInstId = j.charInstId; skinId = j.skinId || ''; } catch (e) {}
+    const ch = troopChars[String(charInstId)];
+    if (!ch || !skinId) {
+      console.log(`[SKIN] changeCharSkin 参数非法 instId=${charInstId} skinId=${skinId}`);
+      return G({ result: 1, playerDataDelta: { modified: {}, deleted: {} } });
+    }
+    ch.skin = skinId;
+    persist();
+    console.log(`[SKIN] instId=${charInstId} ${ch.charId} skin=${skinId}`);
+    return G({
+      result: 0,
+      playerDataDelta: {
+        modified: { troop: { chars: { [String(charInstId)]: { skin: skinId } } } },
+        deleted: {}
+      }
+    });
+  }
+
   // 技能/潜能/皮肤等：只回成功，客户端本地状态足够
   if (p.startsWith('/charBuild/')) {
     return G({ result: 0, playerDataDelta: { modified: {}, deleted: {} } });
@@ -917,6 +939,80 @@ function route(tag, req, res, body) {
         deleted: {}
       }
     });
+  }
+
+  // ---- 调试作弊 ----
+  // 客户端 UIDebugPanel 调试面板 cheat 命令（CheatRequest{cmd} -> CheatResponse 空类，只回 result）
+  // 命令集来自 stringliteral.json 全量提取（11 条）：addGold / getExpItem.{id} / getChar.{charId}.{lv}.{phase}
+  //   / addRecruitLicense / updateCheckIn / BattleLogic.unlockAllStage / addAp / gainItem
+  //   / getAllFurniture / disableGuideAvg / getAllChar；改动写 save 后 persist() 落盘，客户端下次 syncData 全量下发。
+  if (p === '/admin/cheat') {
+    let cmd = '';
+    try { const j = JSON.parse(body || '{}'); cmd = j.cmd || ''; } catch (e) {}
+    let result = 0;
+    try {
+      if (cmd === 'addGold') {
+        statusRes.gold += 50000;
+      } else if (cmd.startsWith('getExpItem.')) {
+        const itemId = cmd.split('.')[1];
+        if (!itemId) { result = 1; } else { inventory[itemId] = (inventory[itemId] || 0) + 10; }
+      } else if (cmd.startsWith('getChar.')) {
+        const parts = cmd.split('.');
+        const charId = parts[1];
+        const wantLv = parseInt(parts[2] || '1', 10) || 1;
+        const phase = Math.min(2, Math.max(0, parseInt(parts[3] || '0', 10) || 0));
+        if (!charId || !CHAR_TABLE_STATIC[charId]) { result = 1; } else {
+          const r = addCharToTroop(charId);
+          const ch = troopChars[String(r.instId)];
+          if (ch) {
+            const rarity = CHAR_TABLE_STATIC[charId]?.rarity ?? 3;
+            const maxLv = CONST.maxLevel[rarity]?.[phase] ?? 50;
+            ch.evolvePhase = phase;
+            ch.level = Math.min(maxLv, Math.max(1, wantLv));
+            ch.exp = 0;
+          }
+        }
+      } else if (cmd === 'addRecruitLicense') {
+        statusRes.recruitLicense += 10;
+      } else if (cmd === 'updateCheckIn') {
+        checkInState.canCheckIn = true;
+      } else if (cmd === 'BattleLogic.unlockAllStage') {
+        for (const sid of Object.keys(STAGE_INIT.stages)) {
+          if (!playerStages[sid]) playerStages[sid] = { ...STAGE_INIT.stages[sid] };
+          playerStages[sid].state = 3;
+        }
+      } else if (cmd === 'addAp') {
+        statusRes.ap = 120;
+      } else if (cmd === 'gainItem') {
+        for (const [iid, it] of Object.entries(ITEM_TABLE.items)) {
+          if (!/^\d+$/.test(iid)) continue;
+          if (it.itemType === 'MATERIAL' || it.itemType === 'CARD_EXP') inventory[iid] = (inventory[iid] || 0) + 100;
+          else if (it.itemType === 'DIAMOND') inventory[iid] = (inventory[iid] || 0) + 1000;
+        }
+      } else if (cmd === 'getAllFurniture') {
+        const FURNI_IDS = JSON.parse(fs.readFileSync('data/furni_ids.json', 'utf-8'));
+        save.furniture = save.furniture || {};
+        for (const f of FURNI_IDS) save.furniture[f.furniId] = 1;
+      } else if (cmd === 'disableGuideAvg') {
+        const STORY_IDS = fs.readFileSync('data/story_ids.txt', 'utf-8').split('\n').map(s => s.trim()).filter(Boolean);
+        for (const sid of STORY_IDS) if (sid.includes('guide')) finishedStories[sid] = true;
+      } else if (cmd === 'getAllChar') {
+        for (const cid of BETA_CHAR_IDS) {
+          if (!cid.startsWith('char_') || !CHAR_TABLE_STATIC[cid]) continue;
+          if (cid.includes('_token_') || cid.includes('_trap_')) continue;
+          if (parseInt((cid.split('_')[1] || ''), 10) >= 1000) continue;
+          addCharToTroop(cid);
+        }
+      } else {
+        result = 1;
+      }
+    } catch (e) {
+      result = 2;
+      console.log('[CHEAT] error ' + e.message);
+    }
+    if (result === 0) persist();
+    console.log(`[CHEAT] cmd=${cmd} result=${result}`);
+    return G({ result });
   }
 
   // ---- 寻访 ----
