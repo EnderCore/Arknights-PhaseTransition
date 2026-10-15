@@ -1,0 +1,5012 @@
+{
+ "stages": {
+  "main_00-01": {
+   "stageId": "main_00-01",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "tr_01": {
+   "stageId": "tr_01",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "main_00-02": {
+   "stageId": "main_00-02",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "tr_02": {
+   "stageId": "tr_02",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "main_00-03": {
+   "stageId": "main_00-03",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "tr_03": {
+   "stageId": "tr_03",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "main_00-04": {
+   "stageId": "main_00-04",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "tr_04": {
+   "stageId": "tr_04",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "main_00-05": {
+   "stageId": "main_00-05",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "main_00-06": {
+   "stageId": "main_00-06",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "tr_05": {
+   "stageId": "tr_05",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "main_00-07": {
+   "stageId": "main_00-07",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "tr_06": {
+   "stageId": "tr_06",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "main_00-08": {
+   "stageId": "main_00-08",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "main_00-09": {
+   "stageId": "main_00-09",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "tr_07": {
+   "stageId": "tr_07",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "main_00-10": {
+   "stageId": "main_00-10",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "main_00-11": {
+   "stageId": "main_00-11",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "main_01-01": {
+   "stageId": "main_01-01",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "main_01-02": {
+   "stageId": "main_01-02",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "main_01-03": {
+   "stageId": "main_01-03",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "main_01-04": {
+   "stageId": "main_01-04",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "main_01-05": {
+   "stageId": "main_01-05",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "tr_08": {
+   "stageId": "tr_08",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "main_01-06": {
+   "stageId": "main_01-06",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "tr_09": {
+   "stageId": "tr_09",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "main_01-07": {
+   "stageId": "main_01-07",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "main_01-08": {
+   "stageId": "main_01-08",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "tr_10": {
+   "stageId": "tr_10",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "main_01-09": {
+   "stageId": "main_01-09",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "main_01-10": {
+   "stageId": "main_01-10",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "main_01-11": {
+   "stageId": "main_01-11",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "main_01-12": {
+   "stageId": "main_01-12",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "tr_11": {
+   "stageId": "tr_11",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "main_02-01": {
+   "stageId": "main_02-01",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "sub_02-01": {
+   "stageId": "sub_02-01",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "main_02-02": {
+   "stageId": "main_02-02",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "sub_02-02": {
+   "stageId": "sub_02-02",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "sub_02-03": {
+   "stageId": "sub_02-03",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "sub_02-04": {
+   "stageId": "sub_02-04",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "main_02-03": {
+   "stageId": "main_02-03",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "tr_12": {
+   "stageId": "tr_12",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "main_02-04": {
+   "stageId": "main_02-04",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "sub_02-05": {
+   "stageId": "sub_02-05",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "sub_02-06": {
+   "stageId": "sub_02-06",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "sub_02-07": {
+   "stageId": "sub_02-07",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "tr_13": {
+   "stageId": "tr_13",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "main_02-05": {
+   "stageId": "main_02-05",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "main_02-06": {
+   "stageId": "main_02-06",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "tr_14": {
+   "stageId": "tr_14",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "main_02-07": {
+   "stageId": "main_02-07",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "sub_02-08": {
+   "stageId": "sub_02-08",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "sub_02-09": {
+   "stageId": "sub_02-09",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "main_02-08": {
+   "stageId": "main_02-08",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "main_02-09": {
+   "stageId": "main_02-09",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "sub_02-10": {
+   "stageId": "sub_02-10",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "sub_02-11": {
+   "stageId": "sub_02-11",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "sub_02-12": {
+   "stageId": "sub_02-12",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "main_02-10": {
+   "stageId": "main_02-10",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "main_03-01": {
+   "stageId": "main_03-01",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "main_03-02": {
+   "stageId": "main_03-02",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "main_03-03": {
+   "stageId": "main_03-03",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "tr_15": {
+   "stageId": "tr_15",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "main_03-04": {
+   "stageId": "main_03-04",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "main_03-05": {
+   "stageId": "main_03-05",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "main_03-06": {
+   "stageId": "main_03-06",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "main_03-07": {
+   "stageId": "main_03-07",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "main_03-08": {
+   "stageId": "main_03-08",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "sub_03-1-1": {
+   "stageId": "sub_03-1-1",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "sub_03-1-2": {
+   "stageId": "sub_03-1-2",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "sub_03-2-1": {
+   "stageId": "sub_03-2-1",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "sub_03-2-2": {
+   "stageId": "sub_03-2-2",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "sub_03-2-3": {
+   "stageId": "sub_03-2-3",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "sub_03-3-1": {
+   "stageId": "sub_03-3-1",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "sub_03-3-2": {
+   "stageId": "sub_03-3-2",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "guide_01": {
+   "stageId": "guide_01",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "guide_02": {
+   "stageId": "guide_02",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "main_04-01": {
+   "stageId": "main_04-01",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "main_04-02": {
+   "stageId": "main_04-02",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "main_04-03": {
+   "stageId": "main_04-03",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "main_04-04": {
+   "stageId": "main_04-04",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "main_04-05": {
+   "stageId": "main_04-05",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "main_04-06": {
+   "stageId": "main_04-06",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "main_04-07": {
+   "stageId": "main_04-07",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "main_04-08": {
+   "stageId": "main_04-08",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "main_04-09": {
+   "stageId": "main_04-09",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "main_04-10": {
+   "stageId": "main_04-10",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "main_05-01": {
+   "stageId": "main_05-01",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "main_05-02": {
+   "stageId": "main_05-02",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "main_05-03": {
+   "stageId": "main_05-03",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "main_05-04": {
+   "stageId": "main_05-04",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "main_05-05": {
+   "stageId": "main_05-05",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "main_05-06": {
+   "stageId": "main_05-06",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "main_05-07": {
+   "stageId": "main_05-07",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "main_05-08": {
+   "stageId": "main_05-08",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "main_05-09": {
+   "stageId": "main_05-09",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "main_05-10": {
+   "stageId": "main_05-10",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "st_05-01": {
+   "stageId": "st_05-01",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "main_06-01": {
+   "stageId": "main_06-01",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "main_06-02": {
+   "stageId": "main_06-02",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "main_06-03": {
+   "stageId": "main_06-03",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "main_06-04": {
+   "stageId": "main_06-04",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "main_06-05": {
+   "stageId": "main_06-05",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "st_06-01": {
+   "stageId": "st_06-01",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "main_06-06": {
+   "stageId": "main_06-06",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "main_06-07": {
+   "stageId": "main_06-07",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "tr_16": {
+   "stageId": "tr_16",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "main_06-08": {
+   "stageId": "main_06-08",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "main_06-09": {
+   "stageId": "main_06-09",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "main_06-10": {
+   "stageId": "main_06-10",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "main_06-11": {
+   "stageId": "main_06-11",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "st_06-02": {
+   "stageId": "st_06-02",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "main_06-12": {
+   "stageId": "main_06-12",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "main_06-13": {
+   "stageId": "main_06-13",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "main_06-14": {
+   "stageId": "main_06-14",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "main_06-15": {
+   "stageId": "main_06-15",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "st_06-03": {
+   "stageId": "st_06-03",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "st_07-01": {
+   "stageId": "st_07-01",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "main_07-01": {
+   "stageId": "main_07-01",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "main_07-02": {
+   "stageId": "main_07-02",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "main_07-03": {
+   "stageId": "main_07-03",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "main_07-04": {
+   "stageId": "main_07-04",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "tr_17": {
+   "stageId": "tr_17",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "main_07-05": {
+   "stageId": "main_07-05",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "st_07-02": {
+   "stageId": "st_07-02",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "main_07-06": {
+   "stageId": "main_07-06",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "main_07-07": {
+   "stageId": "main_07-07",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "main_07-08": {
+   "stageId": "main_07-08",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "main_07-09": {
+   "stageId": "main_07-09",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "main_07-10": {
+   "stageId": "main_07-10",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "main_07-11": {
+   "stageId": "main_07-11",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "main_07-12": {
+   "stageId": "main_07-12",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "main_07-13": {
+   "stageId": "main_07-13",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "main_07-14": {
+   "stageId": "main_07-14",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "main_07-15": {
+   "stageId": "main_07-15",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "main_07-16": {
+   "stageId": "main_07-16",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "st_07-03": {
+   "stageId": "st_07-03",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "st_07-04": {
+   "stageId": "st_07-04",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "main_08-01": {
+   "stageId": "main_08-01",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "st_08-01": {
+   "stageId": "st_08-01",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "tr_18": {
+   "stageId": "tr_18",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "main_08-02": {
+   "stageId": "main_08-02",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "main_08-03": {
+   "stageId": "main_08-03",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "st_08-02": {
+   "stageId": "st_08-02",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "main_08-04": {
+   "stageId": "main_08-04",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "st_08-03": {
+   "stageId": "st_08-03",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "main_08-05": {
+   "stageId": "main_08-05",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "st_08-04": {
+   "stageId": "st_08-04",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "main_08-06": {
+   "stageId": "main_08-06",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "st_08-05": {
+   "stageId": "st_08-05",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "main_08-07": {
+   "stageId": "main_08-07",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "main_08-08": {
+   "stageId": "main_08-08",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "main_08-09": {
+   "stageId": "main_08-09",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "main_08-10": {
+   "stageId": "main_08-10",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "main_08-11": {
+   "stageId": "main_08-11",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "main_08-12": {
+   "stageId": "main_08-12",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "main_08-13": {
+   "stageId": "main_08-13",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "main_08-14": {
+   "stageId": "main_08-14",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "main_08-15": {
+   "stageId": "main_08-15",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "main_08-16": {
+   "stageId": "main_08-16",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "main_08-17": {
+   "stageId": "main_08-17",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "st_08-06": {
+   "stageId": "st_08-06",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "spst_08-01": {
+   "stageId": "spst_08-01",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "spst_08-02": {
+   "stageId": "spst_08-02",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "spst_08-03": {
+   "stageId": "spst_08-03",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "spst_08-04": {
+   "stageId": "spst_08-04",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "spst_08-05": {
+   "stageId": "spst_08-05",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "sub_04-1-1": {
+   "stageId": "sub_04-1-1",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "sub_04-1-2": {
+   "stageId": "sub_04-1-2",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "sub_04-1-3": {
+   "stageId": "sub_04-1-3",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "sub_04-2-1": {
+   "stageId": "sub_04-2-1",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "sub_04-2-2": {
+   "stageId": "sub_04-2-2",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "sub_04-2-3": {
+   "stageId": "sub_04-2-3",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "sub_04-3-1": {
+   "stageId": "sub_04-3-1",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "sub_04-3-2": {
+   "stageId": "sub_04-3-2",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "sub_04-3-3": {
+   "stageId": "sub_04-3-3",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "sub_04-4-1": {
+   "stageId": "sub_04-4-1",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "sub_05-1-1": {
+   "stageId": "sub_05-1-1",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "sub_05-1-2": {
+   "stageId": "sub_05-1-2",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "sub_05-2-1": {
+   "stageId": "sub_05-2-1",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "sub_05-2-2": {
+   "stageId": "sub_05-2-2",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "sub_05-3-1": {
+   "stageId": "sub_05-3-1",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "sub_05-3-2": {
+   "stageId": "sub_05-3-2",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "sub_05-4-1": {
+   "stageId": "sub_05-4-1",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "sub_05-4-2": {
+   "stageId": "sub_05-4-2",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "sub_05-4-3": {
+   "stageId": "sub_05-4-3",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "sub_06-1-1": {
+   "stageId": "sub_06-1-1",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "sub_06-1-2": {
+   "stageId": "sub_06-1-2",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "sub_06-2-1": {
+   "stageId": "sub_06-2-1",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "sub_06-2-2": {
+   "stageId": "sub_06-2-2",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "sub_07-1-1": {
+   "stageId": "sub_07-1-1",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "sub_07-1-2": {
+   "stageId": "sub_07-1-2",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "hard_05-01": {
+   "stageId": "hard_05-01",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "hard_05-02": {
+   "stageId": "hard_05-02",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "hard_05-03": {
+   "stageId": "hard_05-03",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "hard_05-04": {
+   "stageId": "hard_05-04",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "hard_06-01": {
+   "stageId": "hard_06-01",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "hard_06-02": {
+   "stageId": "hard_06-02",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "hard_06-03": {
+   "stageId": "hard_06-03",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "hard_06-04": {
+   "stageId": "hard_06-04",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "hard_07-01": {
+   "stageId": "hard_07-01",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "hard_07-02": {
+   "stageId": "hard_07-02",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "hard_07-03": {
+   "stageId": "hard_07-03",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "hard_07-04": {
+   "stageId": "hard_07-04",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "hard_08-01": {
+   "stageId": "hard_08-01",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "hard_08-02": {
+   "stageId": "hard_08-02",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "hard_08-03": {
+   "stageId": "hard_08-03",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "hard_08-04": {
+   "stageId": "hard_08-04",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "st_09-01": {
+   "stageId": "st_09-01",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "main_09-01": {
+   "stageId": "main_09-01",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "main_09-02": {
+   "stageId": "main_09-02",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "main_09-03": {
+   "stageId": "main_09-03",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "main_09-04": {
+   "stageId": "main_09-04",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "main_09-05": {
+   "stageId": "main_09-05",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "tr_19": {
+   "stageId": "tr_19",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "main_09-06": {
+   "stageId": "main_09-06",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "st_09-02": {
+   "stageId": "st_09-02",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "main_09-07": {
+   "stageId": "main_09-07",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "main_09-08": {
+   "stageId": "main_09-08",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "main_09-09": {
+   "stageId": "main_09-09",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "main_09-10": {
+   "stageId": "main_09-10",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "main_09-11": {
+   "stageId": "main_09-11",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "main_09-12": {
+   "stageId": "main_09-12",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "main_09-13": {
+   "stageId": "main_09-13",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "main_09-14": {
+   "stageId": "main_09-14",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "main_09-15": {
+   "stageId": "main_09-15",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "main_09-16": {
+   "stageId": "main_09-16",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "main_09-17": {
+   "stageId": "main_09-17",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "st_09-03": {
+   "stageId": "st_09-03",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "st_09-04": {
+   "stageId": "st_09-04",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "sub_09-1-1": {
+   "stageId": "sub_09-1-1",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "hard_09-01": {
+   "stageId": "hard_09-01",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "hard_09-02": {
+   "stageId": "hard_09-02",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "hard_09-03": {
+   "stageId": "hard_09-03",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "hard_09-04": {
+   "stageId": "hard_09-04",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "hard_09-05": {
+   "stageId": "hard_09-05",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "hard_09-06": {
+   "stageId": "hard_09-06",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "wk_melee_1": {
+   "stageId": "wk_melee_1",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "wk_melee_2": {
+   "stageId": "wk_melee_2",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "wk_melee_3": {
+   "stageId": "wk_melee_3",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "wk_melee_4": {
+   "stageId": "wk_melee_4",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "wk_melee_5": {
+   "stageId": "wk_melee_5",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "wk_armor_1": {
+   "stageId": "wk_armor_1",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "wk_armor_2": {
+   "stageId": "wk_armor_2",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "wk_armor_3": {
+   "stageId": "wk_armor_3",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "wk_armor_4": {
+   "stageId": "wk_armor_4",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "wk_armor_5": {
+   "stageId": "wk_armor_5",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "wk_kc_1": {
+   "stageId": "wk_kc_1",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "wk_kc_2": {
+   "stageId": "wk_kc_2",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "wk_kc_3": {
+   "stageId": "wk_kc_3",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "wk_kc_4": {
+   "stageId": "wk_kc_4",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "wk_kc_5": {
+   "stageId": "wk_kc_5",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "wk_toxic_1": {
+   "stageId": "wk_toxic_1",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "wk_toxic_2": {
+   "stageId": "wk_toxic_2",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "wk_toxic_3": {
+   "stageId": "wk_toxic_3",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "wk_toxic_4": {
+   "stageId": "wk_toxic_4",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "wk_toxic_5": {
+   "stageId": "wk_toxic_5",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "wk_fly_1": {
+   "stageId": "wk_fly_1",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "wk_fly_2": {
+   "stageId": "wk_fly_2",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "wk_fly_3": {
+   "stageId": "wk_fly_3",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "wk_fly_4": {
+   "stageId": "wk_fly_4",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "wk_fly_5": {
+   "stageId": "wk_fly_5",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "pro_a_1": {
+   "stageId": "pro_a_1",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "pro_a_2": {
+   "stageId": "pro_a_2",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "pro_b_1": {
+   "stageId": "pro_b_1",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "pro_b_2": {
+   "stageId": "pro_b_2",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "pro_c_1": {
+   "stageId": "pro_c_1",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "pro_c_2": {
+   "stageId": "pro_c_2",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "pro_d_1": {
+   "stageId": "pro_d_1",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "pro_d_2": {
+   "stageId": "pro_d_2",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "act13side_st01": {
+   "stageId": "act13side_st01",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "act13side_tr01": {
+   "stageId": "act13side_tr01",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "act13side_01": {
+   "stageId": "act13side_01",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "act13side_02": {
+   "stageId": "act13side_02",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "act13side_03": {
+   "stageId": "act13side_03",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "act13side_04": {
+   "stageId": "act13side_04",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "act13side_st02": {
+   "stageId": "act13side_st02",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "act13side_tr02": {
+   "stageId": "act13side_tr02",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "act13side_05": {
+   "stageId": "act13side_05",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "act13side_06": {
+   "stageId": "act13side_06",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "act13side_st03": {
+   "stageId": "act13side_st03",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "act13side_07": {
+   "stageId": "act13side_07",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "act13side_08": {
+   "stageId": "act13side_08",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "act13side_09": {
+   "stageId": "act13side_09",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "act13side_10": {
+   "stageId": "act13side_10",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "act13side_st04": {
+   "stageId": "act13side_st04",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "act13side_ex01": {
+   "stageId": "act13side_ex01",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "act13side_ex02": {
+   "stageId": "act13side_ex02",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "act13side_ex03": {
+   "stageId": "act13side_ex03",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "act13side_ex04": {
+   "stageId": "act13side_ex04",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "act13side_ex05": {
+   "stageId": "act13side_ex05",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "act13side_ex06": {
+   "stageId": "act13side_ex06",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "act13side_ex07": {
+   "stageId": "act13side_ex07",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "act13side_ex08": {
+   "stageId": "act13side_ex08",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "act13side_s01": {
+   "stageId": "act13side_s01",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "act13side_s02": {
+   "stageId": "act13side_s02",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "act13side_s03": {
+   "stageId": "act13side_s03",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "act13side_s04": {
+   "stageId": "act13side_s04",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "act13side_s05": {
+   "stageId": "act13side_s05",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "act9mini_01": {
+   "stageId": "act9mini_01",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "act9mini_02": {
+   "stageId": "act9mini_02",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "act9mini_03": {
+   "stageId": "act9mini_03",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "act9mini_04": {
+   "stageId": "act9mini_04",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "act9mini_05": {
+   "stageId": "act9mini_05",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "act9mini_06": {
+   "stageId": "act9mini_06",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "act12side_st01": {
+   "stageId": "act12side_st01",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "act12side_tr01": {
+   "stageId": "act12side_tr01",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "act12side_01": {
+   "stageId": "act12side_01",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "act12side_02": {
+   "stageId": "act12side_02",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "act12side_03": {
+   "stageId": "act12side_03",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "act12side_st02": {
+   "stageId": "act12side_st02",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "act12side_04": {
+   "stageId": "act12side_04",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "act12side_05": {
+   "stageId": "act12side_05",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "act12side_tr02": {
+   "stageId": "act12side_tr02",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "act12side_06": {
+   "stageId": "act12side_06",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "act12side_st03": {
+   "stageId": "act12side_st03",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "act12side_07": {
+   "stageId": "act12side_07",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "act12side_08": {
+   "stageId": "act12side_08",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "act12side_09": {
+   "stageId": "act12side_09",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "act12side_st04": {
+   "stageId": "act12side_st04",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "act12side_ex01": {
+   "stageId": "act12side_ex01",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "act12side_ex02": {
+   "stageId": "act12side_ex02",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "act12side_ex03": {
+   "stageId": "act12side_ex03",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "act12side_ex04": {
+   "stageId": "act12side_ex04",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "act12side_ex05": {
+   "stageId": "act12side_ex05",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "act12side_ex06": {
+   "stageId": "act12side_ex06",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "act12side_ex07": {
+   "stageId": "act12side_ex07",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "act12side_ex08": {
+   "stageId": "act12side_ex08",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "act12side_s01": {
+   "stageId": "act12side_s01",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "act12side_s02": {
+   "stageId": "act12side_s02",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "act12side_s03": {
+   "stageId": "act12side_s03",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "act12side_s04": {
+   "stageId": "act12side_s04",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "act12side_mo01": {
+   "stageId": "act12side_mo01",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "act8mini_01": {
+   "stageId": "act8mini_01",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "act8mini_02": {
+   "stageId": "act8mini_02",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "act8mini_03": {
+   "stageId": "act8mini_03",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "act8mini_04": {
+   "stageId": "act8mini_04",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "act8mini_05": {
+   "stageId": "act8mini_05",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "act8mini_06": {
+   "stageId": "act8mini_06",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "act8mini_07": {
+   "stageId": "act8mini_07",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "act1lock_a-01": {
+   "stageId": "act1lock_a-01",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "act1lock_a-02": {
+   "stageId": "act1lock_a-02",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "act1lock_a-03": {
+   "stageId": "act1lock_a-03",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "act1lock_a-04": {
+   "stageId": "act1lock_a-04",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "act1lock_b-01": {
+   "stageId": "act1lock_b-01",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "act1lock_b-02": {
+   "stageId": "act1lock_b-02",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "act1lock_b-03": {
+   "stageId": "act1lock_b-03",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "act1lock_b-04": {
+   "stageId": "act1lock_b-04",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "act1lock_c-01": {
+   "stageId": "act1lock_c-01",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "act7mini_01": {
+   "stageId": "act7mini_01",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "act7mini_02": {
+   "stageId": "act7mini_02",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "act7mini_03": {
+   "stageId": "act7mini_03",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "act7mini_04": {
+   "stageId": "act7mini_04",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "act7mini_05": {
+   "stageId": "act7mini_05",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "act18d3_01": {
+   "stageId": "act18d3_01",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "act18d3_tr01": {
+   "stageId": "act18d3_tr01",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "act18d3_02": {
+   "stageId": "act18d3_02",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "act18d3_03": {
+   "stageId": "act18d3_03",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "act18d3_04": {
+   "stageId": "act18d3_04",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "act18d3_05": {
+   "stageId": "act18d3_05",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "act18d3_06": {
+   "stageId": "act18d3_06",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "act18d3_07": {
+   "stageId": "act18d3_07",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "act18d3_st01": {
+   "stageId": "act18d3_st01",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "act18d3_08": {
+   "stageId": "act18d3_08",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "act18d3_09": {
+   "stageId": "act18d3_09",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "act18d3_st02": {
+   "stageId": "act18d3_st02",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "act18d3_ex01": {
+   "stageId": "act18d3_ex01",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "act18d3_ex02": {
+   "stageId": "act18d3_ex02",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "act18d3_ex03": {
+   "stageId": "act18d3_ex03",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "act18d3_ex04": {
+   "stageId": "act18d3_ex04",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "act18d3_ex05": {
+   "stageId": "act18d3_ex05",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "act18d3_ex06": {
+   "stageId": "act18d3_ex06",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "act18d3_ex07": {
+   "stageId": "act18d3_ex07",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "act18d3_ex08": {
+   "stageId": "act18d3_ex08",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "act18d0_01": {
+   "stageId": "act18d0_01",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "act18d0_tr01": {
+   "stageId": "act18d0_tr01",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "act18d0_02": {
+   "stageId": "act18d0_02",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "act18d0_03": {
+   "stageId": "act18d0_03",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "act18d0_04": {
+   "stageId": "act18d0_04",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "act18d0_st01": {
+   "stageId": "act18d0_st01",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "act18d0_05": {
+   "stageId": "act18d0_05",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "act18d0_06": {
+   "stageId": "act18d0_06",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "act18d0_07": {
+   "stageId": "act18d0_07",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "act18d0_08": {
+   "stageId": "act18d0_08",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "act18d0_st02": {
+   "stageId": "act18d0_st02",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "act18d0_ex01": {
+   "stageId": "act18d0_ex01",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "act18d0_ex02": {
+   "stageId": "act18d0_ex02",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "act18d0_ex03": {
+   "stageId": "act18d0_ex03",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "act18d0_ex04": {
+   "stageId": "act18d0_ex04",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "act18d0_ex05": {
+   "stageId": "act18d0_ex05",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "act18d0_ex06": {
+   "stageId": "act18d0_ex06",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "act18d0_ex07": {
+   "stageId": "act18d0_ex07",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "act18d0_ex08": {
+   "stageId": "act18d0_ex08",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "act17d7_01": {
+   "stageId": "act17d7_01",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "act17d0_st01": {
+   "stageId": "act17d0_st01",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "act17d0_tr01": {
+   "stageId": "act17d0_tr01",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "act17d0_01": {
+   "stageId": "act17d0_01",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "act17d0_02": {
+   "stageId": "act17d0_02",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "act17d0_03": {
+   "stageId": "act17d0_03",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "act17d0_04": {
+   "stageId": "act17d0_04",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "act17d0_05": {
+   "stageId": "act17d0_05",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "act17d0_06": {
+   "stageId": "act17d0_06",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "act17d0_st02": {
+   "stageId": "act17d0_st02",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "act17d0_07": {
+   "stageId": "act17d0_07",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "act17d0_08": {
+   "stageId": "act17d0_08",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "act17d0_st03": {
+   "stageId": "act17d0_st03",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "act17d0_ex01": {
+   "stageId": "act17d0_ex01",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "act17d0_ex02": {
+   "stageId": "act17d0_ex02",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "act17d0_ex03": {
+   "stageId": "act17d0_ex03",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "act17d0_ex04": {
+   "stageId": "act17d0_ex04",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "act17d0_ex05": {
+   "stageId": "act17d0_ex05",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "act17d0_ex06": {
+   "stageId": "act17d0_ex06",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "act17d0_ex07": {
+   "stageId": "act17d0_ex07",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "act17d0_ex08": {
+   "stageId": "act17d0_ex08",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "act16d5_st01": {
+   "stageId": "act16d5_st01",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "act16d5_01": {
+   "stageId": "act16d5_01",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "act16d5_tr01": {
+   "stageId": "act16d5_tr01",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "act16d5_02": {
+   "stageId": "act16d5_02",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "act16d5_03": {
+   "stageId": "act16d5_03",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "act16d5_04": {
+   "stageId": "act16d5_04",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "act16d5_05": {
+   "stageId": "act16d5_05",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "act16d5_st02": {
+   "stageId": "act16d5_st02",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "act16d5_06": {
+   "stageId": "act16d5_06",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "act16d5_07": {
+   "stageId": "act16d5_07",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "act16d5_08": {
+   "stageId": "act16d5_08",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "act16d5_09": {
+   "stageId": "act16d5_09",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "act16d5_10": {
+   "stageId": "act16d5_10",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "act16d5_st03": {
+   "stageId": "act16d5_st03",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "act16d5_ex01": {
+   "stageId": "act16d5_ex01",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "act16d5_ex02": {
+   "stageId": "act16d5_ex02",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "act16d5_ex03": {
+   "stageId": "act16d5_ex03",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "act16d5_ex04": {
+   "stageId": "act16d5_ex04",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "act16d5_ex05": {
+   "stageId": "act16d5_ex05",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "act16d5_ex06": {
+   "stageId": "act16d5_ex06",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "act16d5_ex07": {
+   "stageId": "act16d5_ex07",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "act16d5_ex08": {
+   "stageId": "act16d5_ex08",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "act15d5_01": {
+   "stageId": "act15d5_01",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "act15d5_02": {
+   "stageId": "act15d5_02",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "act15d5_03": {
+   "stageId": "act15d5_03",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "act15d5_04": {
+   "stageId": "act15d5_04",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "act15d5_05": {
+   "stageId": "act15d5_05",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "act15d5_06": {
+   "stageId": "act15d5_06",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "act15d5_07": {
+   "stageId": "act15d5_07",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "act15d5_08": {
+   "stageId": "act15d5_08",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "act15d0_01": {
+   "stageId": "act15d0_01",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "act15d0_tr01": {
+   "stageId": "act15d0_tr01",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "act15d0_02": {
+   "stageId": "act15d0_02",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "act15d0_03": {
+   "stageId": "act15d0_03",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "act15d0_st01": {
+   "stageId": "act15d0_st01",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "act15d0_04": {
+   "stageId": "act15d0_04",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "act15d0_05": {
+   "stageId": "act15d0_05",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "act15d0_06": {
+   "stageId": "act15d0_06",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "act15d0_07": {
+   "stageId": "act15d0_07",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "act15d0_08": {
+   "stageId": "act15d0_08",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "act15d0_st02": {
+   "stageId": "act15d0_st02",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "act15d0_ex01": {
+   "stageId": "act15d0_ex01",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "act15d0_ex02": {
+   "stageId": "act15d0_ex02",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "act15d0_ex03": {
+   "stageId": "act15d0_ex03",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "act15d0_ex04": {
+   "stageId": "act15d0_ex04",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "act15d0_ex05": {
+   "stageId": "act15d0_ex05",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "act15d0_ex06": {
+   "stageId": "act15d0_ex06",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "act15d0_ex07": {
+   "stageId": "act15d0_ex07",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "act15d0_ex08": {
+   "stageId": "act15d0_ex08",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "act13d5_st01": {
+   "stageId": "act13d5_st01",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "act13d5_01": {
+   "stageId": "act13d5_01",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "act13d5_tr01": {
+   "stageId": "act13d5_tr01",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "act13d5_02": {
+   "stageId": "act13d5_02",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "act13d5_03": {
+   "stageId": "act13d5_03",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "act13d5_04": {
+   "stageId": "act13d5_04",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "act13d5_05": {
+   "stageId": "act13d5_05",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "act13d5_06": {
+   "stageId": "act13d5_06",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "act13d5_07": {
+   "stageId": "act13d5_07",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "act13d5_st02": {
+   "stageId": "act13d5_st02",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "act13d5_08": {
+   "stageId": "act13d5_08",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "act13d5_st03": {
+   "stageId": "act13d5_st03",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "act13d5_ex01": {
+   "stageId": "act13d5_ex01",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "act13d5_ex02": {
+   "stageId": "act13d5_ex02",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "act13d5_ex03": {
+   "stageId": "act13d5_ex03",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "act13d5_ex04": {
+   "stageId": "act13d5_ex04",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "act13d5_ex05": {
+   "stageId": "act13d5_ex05",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "act13d5_ex06": {
+   "stageId": "act13d5_ex06",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "act13d5_ex07": {
+   "stageId": "act13d5_ex07",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "act13d5_ex08": {
+   "stageId": "act13d5_ex08",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "act13d0_01": {
+   "stageId": "act13d0_01",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "act13d0_02": {
+   "stageId": "act13d0_02",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "act13d0_03": {
+   "stageId": "act13d0_03",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "act13d0_04": {
+   "stageId": "act13d0_04",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "act13d0_05": {
+   "stageId": "act13d0_05",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "act13d0_06": {
+   "stageId": "act13d0_06",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "act13d0_07": {
+   "stageId": "act13d0_07",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "act13d0_08": {
+   "stageId": "act13d0_08",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "act12d0_01": {
+   "stageId": "act12d0_01",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "act12d0_02": {
+   "stageId": "act12d0_02",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "act12d0_tr01": {
+   "stageId": "act12d0_tr01",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "act12d0_03": {
+   "stageId": "act12d0_03",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "act12d0_04": {
+   "stageId": "act12d0_04",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "act12d0_st01": {
+   "stageId": "act12d0_st01",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "act12d0_05": {
+   "stageId": "act12d0_05",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "act12d0_06": {
+   "stageId": "act12d0_06",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "act12d0_st02": {
+   "stageId": "act12d0_st02",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "act12d0_07": {
+   "stageId": "act12d0_07",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "act12d0_08": {
+   "stageId": "act12d0_08",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "act12d0_09": {
+   "stageId": "act12d0_09",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "act12d0_ex01": {
+   "stageId": "act12d0_ex01",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "act12d0_ex02": {
+   "stageId": "act12d0_ex02",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "act12d0_ex03": {
+   "stageId": "act12d0_ex03",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "act12d0_ex04": {
+   "stageId": "act12d0_ex04",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "act12d0_ex05": {
+   "stageId": "act12d0_ex05",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "act12d0_ex06": {
+   "stageId": "act12d0_ex06",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "act12d0_ex07": {
+   "stageId": "act12d0_ex07",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "act12d0_ex08": {
+   "stageId": "act12d0_ex08",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "act11d7_st01": {
+   "stageId": "act11d7_st01",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "act11d0_st01": {
+   "stageId": "act11d0_st01",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "act11d0_01": {
+   "stageId": "act11d0_01",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "act11d0_02": {
+   "stageId": "act11d0_02",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "act11d0_tr01": {
+   "stageId": "act11d0_tr01",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "act11d0_03": {
+   "stageId": "act11d0_03",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "act11d0_04": {
+   "stageId": "act11d0_04",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "act11d0_05": {
+   "stageId": "act11d0_05",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "act11d0_06": {
+   "stageId": "act11d0_06",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "act11d0_07": {
+   "stageId": "act11d0_07",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "act11d0_08": {
+   "stageId": "act11d0_08",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "act11d0_st02": {
+   "stageId": "act11d0_st02",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "act11d0_s01": {
+   "stageId": "act11d0_s01",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "act11d0_s02": {
+   "stageId": "act11d0_s02",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "act11d0_ex01": {
+   "stageId": "act11d0_ex01",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "act11d0_ex02": {
+   "stageId": "act11d0_ex02",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "act11d0_ex03": {
+   "stageId": "act11d0_ex03",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "act11d0_ex04": {
+   "stageId": "act11d0_ex04",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "act11d0_ex05": {
+   "stageId": "act11d0_ex05",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "act11d0_ex06": {
+   "stageId": "act11d0_ex06",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "act11d0_ex07": {
+   "stageId": "act11d0_ex07",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "act11d0_ex08": {
+   "stageId": "act11d0_ex08",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "act11d0_mo01": {
+   "stageId": "act11d0_mo01",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "act10d5_01": {
+   "stageId": "act10d5_01",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "act10d5_02": {
+   "stageId": "act10d5_02",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "act10d5_03": {
+   "stageId": "act10d5_03",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "act10d5_04": {
+   "stageId": "act10d5_04",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "act10d5_05": {
+   "stageId": "act10d5_05",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "act10d5_06": {
+   "stageId": "act10d5_06",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "act10d5_07": {
+   "stageId": "act10d5_07",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "act9d0_01": {
+   "stageId": "act9d0_01",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "act9d0_02": {
+   "stageId": "act9d0_02",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "act9d0_03": {
+   "stageId": "act9d0_03",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "act9d0_04": {
+   "stageId": "act9d0_04",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "act9d0_05": {
+   "stageId": "act9d0_05",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "act9d0_06": {
+   "stageId": "act9d0_06",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "act9d0_07": {
+   "stageId": "act9d0_07",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "act9d0_08": {
+   "stageId": "act9d0_08",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "act9d0_st01": {
+   "stageId": "act9d0_st01",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "act9d0_ex01": {
+   "stageId": "act9d0_ex01",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "act9d0_ex02": {
+   "stageId": "act9d0_ex02",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "act9d0_ex03": {
+   "stageId": "act9d0_ex03",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "act9d0_ex04": {
+   "stageId": "act9d0_ex04",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "act9d0_ex05": {
+   "stageId": "act9d0_ex05",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "act9d0_ex06": {
+   "stageId": "act9d0_ex06",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "act9d0_mo01": {
+   "stageId": "act9d0_mo01",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "act7d5_01": {
+   "stageId": "act7d5_01",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "act7d5_02": {
+   "stageId": "act7d5_02",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "act7d5_03": {
+   "stageId": "act7d5_03",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "act7d5_04": {
+   "stageId": "act7d5_04",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "act7d5_05": {
+   "stageId": "act7d5_05",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "act7d5_06": {
+   "stageId": "act7d5_06",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "act6d5_01": {
+   "stageId": "act6d5_01",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "act6d5_02": {
+   "stageId": "act6d5_02",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "act6d5_03": {
+   "stageId": "act6d5_03",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "act6d5_04": {
+   "stageId": "act6d5_04",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "act6d5_05": {
+   "stageId": "act6d5_05",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "act6d5_06": {
+   "stageId": "act6d5_06",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "act6d5_07": {
+   "stageId": "act6d5_07",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "act6d5_08": {
+   "stageId": "act6d5_08",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "act5d0_01": {
+   "stageId": "act5d0_01",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "act5d0_02": {
+   "stageId": "act5d0_02",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "act5d0_03": {
+   "stageId": "act5d0_03",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "act5d0_04": {
+   "stageId": "act5d0_04",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "act5d0_05": {
+   "stageId": "act5d0_05",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "act5d0_st01": {
+   "stageId": "act5d0_st01",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "act5d0_06": {
+   "stageId": "act5d0_06",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "act5d0_07": {
+   "stageId": "act5d0_07",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "act5d0_08": {
+   "stageId": "act5d0_08",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "act5d0_st02": {
+   "stageId": "act5d0_st02",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "act5d0_09": {
+   "stageId": "act5d0_09",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "act5d0_10": {
+   "stageId": "act5d0_10",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "act5d0_st03": {
+   "stageId": "act5d0_st03",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "act5d0_ex01": {
+   "stageId": "act5d0_ex01",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "act5d0_ex02": {
+   "stageId": "act5d0_ex02",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "act5d0_ex03": {
+   "stageId": "act5d0_ex03",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "act5d0_ex04": {
+   "stageId": "act5d0_ex04",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "act5d0_ex05": {
+   "stageId": "act5d0_ex05",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "act5d0_ex06": {
+   "stageId": "act5d0_ex06",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "act5d0_ex07": {
+   "stageId": "act5d0_ex07",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "act5d0_ex08": {
+   "stageId": "act5d0_ex08",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "act4d0_01": {
+   "stageId": "act4d0_01",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "act4d0_02": {
+   "stageId": "act4d0_02",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "act4d0_03": {
+   "stageId": "act4d0_03",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "act4d0_04": {
+   "stageId": "act4d0_04",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "act4d0_05": {
+   "stageId": "act4d0_05",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "a003_st01": {
+   "stageId": "a003_st01",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "a003_01": {
+   "stageId": "a003_01",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "a003_st02": {
+   "stageId": "a003_st02",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "a003_02": {
+   "stageId": "a003_02",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "a003_03": {
+   "stageId": "a003_03",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "a003_04": {
+   "stageId": "a003_04",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "a003_st03": {
+   "stageId": "a003_st03",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "a003_05": {
+   "stageId": "a003_05",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "a003_06": {
+   "stageId": "a003_06",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "a003_st04": {
+   "stageId": "a003_st04",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "a003_07": {
+   "stageId": "a003_07",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "a003_08": {
+   "stageId": "a003_08",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "a003_st05": {
+   "stageId": "a003_st05",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "a003_f01": {
+   "stageId": "a003_f01",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "a003_f02": {
+   "stageId": "a003_f02",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "a003_f03": {
+   "stageId": "a003_f03",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "a003_f04": {
+   "stageId": "a003_f04",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "a003_ex01": {
+   "stageId": "a003_ex01",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "a003_ex02": {
+   "stageId": "a003_ex02",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "a003_ex03": {
+   "stageId": "a003_ex03",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "a003_ex04": {
+   "stageId": "a003_ex04",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "a003_ex05": {
+   "stageId": "a003_ex05",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "a003_ex06": {
+   "stageId": "a003_ex06",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "a001_01": {
+   "stageId": "a001_01",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "a001_02": {
+   "stageId": "a001_02",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "a001_03": {
+   "stageId": "a001_03",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "a001_04": {
+   "stageId": "a001_04",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "a001_05": {
+   "stageId": "a001_05",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "a001_06": {
+   "stageId": "a001_06",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "a001_ex01": {
+   "stageId": "a001_ex01",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "a001_ex02": {
+   "stageId": "a001_ex02",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "a001_ex03": {
+   "stageId": "a001_ex03",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "a001_ex04": {
+   "stageId": "a001_ex04",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "a001_ex05": {
+   "stageId": "a001_ex05",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "a001_ex06": {
+   "stageId": "a001_ex06",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "camp_01": {
+   "stageId": "camp_01",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "camp_02": {
+   "stageId": "camp_02",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "camp_03": {
+   "stageId": "camp_03",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "camp_r_01": {
+   "stageId": "camp_r_01",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "camp_r_02": {
+   "stageId": "camp_r_02",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "camp_r_03": {
+   "stageId": "camp_r_03",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "camp_r_04": {
+   "stageId": "camp_r_04",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "camp_r_05": {
+   "stageId": "camp_r_05",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "camp_r_06": {
+   "stageId": "camp_r_06",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  },
+  "camp_r_07": {
+   "stageId": "camp_r_07",
+   "state": 0,
+   "completeTimes": 0,
+   "hasBattleReplay": false,
+   "noCostCnt": 0
+  }
+ },
+ "stageZoneMap": {
+  "main_00-01": "main_0",
+  "tr_01": "weekly_1",
+  "main_00-02": "main_0",
+  "tr_02": "weekly_2",
+  "main_00-03": "main_0",
+  "tr_03": "weekly_3",
+  "main_00-04": "main_0",
+  "tr_04": "weekly_4",
+  "main_00-05": "main_0",
+  "main_00-06": "main_0",
+  "tr_05": "weekly_5",
+  "main_00-07": "main_0",
+  "tr_06": "weekly_6",
+  "main_00-08": "main_0",
+  "main_00-09": "main_0",
+  "tr_07": "weekly_7",
+  "main_00-10": "main_0",
+  "main_00-11": "main_0",
+  "main_01-01": "main_1",
+  "main_01-02": "main_1",
+  "main_01-03": "main_1",
+  "main_01-04": "main_1",
+  "main_01-05": "main_1",
+  "tr_08": "weekly_8",
+  "main_01-06": "main_1",
+  "tr_09": "weekly_9",
+  "main_01-07": "main_1",
+  "main_01-08": "main_1",
+  "main_01-09": "main_1",
+  "main_01-10": "main_1",
+  "main_01-11": "main_1",
+  "main_01-12": "main_1",
+  "main_02-01": "main_2",
+  "sub_02-01": "main_2",
+  "main_02-02": "main_2",
+  "sub_02-02": "main_2",
+  "sub_02-03": "main_2",
+  "sub_02-04": "main_2",
+  "main_02-03": "main_2",
+  "main_02-04": "main_2",
+  "sub_02-05": "main_2",
+  "sub_02-06": "main_2",
+  "sub_02-07": "main_2",
+  "main_02-05": "main_2",
+  "main_02-06": "main_2",
+  "main_02-07": "main_2",
+  "sub_02-08": "main_2",
+  "sub_02-09": "main_2",
+  "main_02-08": "main_2",
+  "main_02-09": "main_2",
+  "sub_02-10": "main_2",
+  "sub_02-11": "main_2",
+  "sub_02-12": "main_2",
+  "main_02-10": "main_2",
+  "main_03-01": "main_3",
+  "main_03-02": "main_3",
+  "main_03-03": "main_3",
+  "main_03-04": "main_3",
+  "main_03-05": "main_3",
+  "main_03-06": "main_3",
+  "main_03-07": "main_3",
+  "main_03-08": "main_3",
+  "sub_03-1-1": "main_3",
+  "sub_03-1-2": "main_3",
+  "sub_03-2-1": "main_3",
+  "sub_03-2-2": "main_3",
+  "sub_03-2-3": "main_3",
+  "sub_03-3-1": "main_3",
+  "sub_03-3-2": "main_3",
+  "guide_01": "guide_1",
+  "main_04-01": "main_4",
+  "main_04-02": "main_4",
+  "main_04-03": "main_4",
+  "main_04-04": "main_4",
+  "main_04-05": "main_4",
+  "main_04-06": "main_4",
+  "main_04-07": "main_4",
+  "main_04-08": "main_4",
+  "main_04-09": "main_4",
+  "main_04-10": "main_4",
+  "main_05-01": "main_5",
+  "main_05-02": "main_5",
+  "main_05-03": "main_5",
+  "main_05-04": "main_5",
+  "main_05-05": "main_5",
+  "main_05-06": "main_5",
+  "main_05-07": "main_5",
+  "main_05-08": "main_5",
+  "main_05-09": "main_5",
+  "main_05-10": "main_5",
+  "main_06-01": "main_6",
+  "main_06-02": "main_6",
+  "main_06-03": "main_6",
+  "main_06-04": "main_6",
+  "main_06-05": "main_6",
+  "main_06-06": "main_6",
+  "main_06-07": "main_6",
+  "main_06-08": "main_6",
+  "main_06-09": "main_6",
+  "main_06-10": "main_6",
+  "main_06-11": "main_6",
+  "main_06-12": "main_6",
+  "main_06-13": "main_6",
+  "main_06-14": "main_6",
+  "main_06-15": "main_6",
+  "main_07-01": "main_7",
+  "main_07-02": "main_7",
+  "main_07-03": "main_7",
+  "main_07-04": "main_7",
+  "main_07-05": "main_7",
+  "main_07-06": "main_7",
+  "main_07-07": "main_7",
+  "main_07-08": "main_7",
+  "main_07-09": "main_7",
+  "main_07-10": "main_7",
+  "main_07-11": "main_7",
+  "main_07-12": "main_7",
+  "main_07-13": "main_7",
+  "main_07-14": "main_7",
+  "main_07-15": "main_7",
+  "main_07-16": "main_7",
+  "main_08-01": "main_8",
+  "main_08-02": "main_8",
+  "main_08-03": "main_8",
+  "main_08-04": "main_8",
+  "main_08-05": "main_8",
+  "main_08-06": "main_8",
+  "main_08-07": "main_8",
+  "main_08-08": "main_8",
+  "main_08-09": "main_8",
+  "main_08-10": "main_8",
+  "main_08-11": "main_8",
+  "main_08-12": "main_8",
+  "main_08-13": "main_8",
+  "main_08-14": "main_8",
+  "main_08-15": "main_8",
+  "main_08-16": "main_8",
+  "main_08-17": "main_8",
+  "sub_04-1-1": "main_4",
+  "sub_04-1-2": "main_4",
+  "sub_04-1-3": "main_4",
+  "sub_04-2-1": "main_4",
+  "sub_04-2-2": "main_4",
+  "sub_04-2-3": "main_4",
+  "sub_04-3-1": "main_4",
+  "sub_04-3-2": "main_4",
+  "sub_04-3-3": "main_4",
+  "sub_04-4-1": "main_4",
+  "sub_05-1-1": "main_5",
+  "sub_05-1-2": "main_5",
+  "sub_05-2-1": "main_5",
+  "sub_05-2-2": "main_5",
+  "sub_05-3-1": "main_5",
+  "sub_05-3-2": "main_5",
+  "sub_05-4-1": "main_5",
+  "sub_05-4-2": "main_5",
+  "sub_05-4-3": "main_5",
+  "sub_06-1-1": "main_6",
+  "sub_06-1-2": "main_6",
+  "sub_06-2-1": "main_6",
+  "sub_06-2-2": "main_6",
+  "sub_07-1-1": "main_7",
+  "sub_07-1-2": "main_7",
+  "main_09-01": "main_9",
+  "main_09-02": "main_9",
+  "main_09-03": "main_9",
+  "main_09-04": "main_9",
+  "main_09-05": "main_9",
+  "main_09-06": "main_9",
+  "main_09-07": "main_9",
+  "main_09-08": "main_9",
+  "main_09-09": "main_9",
+  "main_09-10": "main_9",
+  "main_09-11": "main_9",
+  "main_09-12": "main_9",
+  "main_09-13": "main_9",
+  "main_09-14": "main_9",
+  "main_09-15": "main_9",
+  "main_09-16": "main_9",
+  "main_09-17": "main_9",
+  "sub_09-1-1": "main_9",
+  "act18d3_01": "act18d3_zone1",
+  "act18d3_tr01": "act18d3_zone1",
+  "act18d3_02": "act18d3_zone1",
+  "act18d3_03": "act18d3_zone1",
+  "act18d3_04": "act18d3_zone1",
+  "act18d3_05": "act18d3_zone1",
+  "act18d3_06": "act18d3_zone1",
+  "act18d3_07": "act18d3_zone1",
+  "act18d3_st01": "act18d3_zone1",
+  "act18d3_08": "act18d3_zone1",
+  "act18d3_09": "act18d3_zone1",
+  "act18d3_st02": "act18d3_zone1",
+  "act18d3_ex01": "act18d3_zone1",
+  "act18d3_ex02": "act18d3_zone1",
+  "act18d3_ex03": "act18d3_zone1",
+  "act18d3_ex04": "act18d3_zone1",
+  "act18d3_ex05": "act18d3_zone1",
+  "act18d3_ex06": "act18d3_zone1",
+  "act18d3_ex07": "act18d3_zone1",
+  "act18d3_ex08": "act18d3_zone1",
+  "act18d0_01": "act18d0_zone1",
+  "act18d0_tr01": "act18d0_zone1",
+  "act18d0_02": "act18d0_zone1",
+  "act18d0_03": "act18d0_zone1",
+  "act18d0_04": "act18d0_zone1",
+  "act18d0_st01": "act18d0_zone1",
+  "act18d0_05": "act18d0_zone1",
+  "act18d0_06": "act18d0_zone1",
+  "act18d0_07": "act18d0_zone1",
+  "act18d0_08": "act18d0_zone1",
+  "act18d0_st02": "act18d0_zone1",
+  "act18d0_ex01": "act18d0_zone1",
+  "act18d0_ex02": "act18d0_zone1",
+  "act18d0_ex03": "act18d0_zone1",
+  "act18d0_ex04": "act18d0_zone1",
+  "act18d0_ex05": "act18d0_zone1",
+  "act18d0_ex06": "act18d0_zone1",
+  "act18d0_ex07": "act18d0_zone1",
+  "act18d0_ex08": "act18d0_zone1",
+  "act17d7_01": "act17d7_zone1",
+  "act17d0_st01": "act17d0_zone1",
+  "act17d0_tr01": "act17d0_zone1",
+  "act17d0_01": "act17d0_zone1",
+  "act17d0_02": "act17d0_zone1",
+  "act17d0_03": "act17d0_zone1",
+  "act17d0_04": "act17d0_zone1",
+  "act17d0_05": "act17d0_zone1",
+  "act17d0_06": "act17d0_zone1",
+  "act17d0_st02": "act17d0_zone1",
+  "act17d0_07": "act17d0_zone1",
+  "act17d0_08": "act17d0_zone1",
+  "act17d0_st03": "act17d0_zone1",
+  "act17d0_ex01": "act17d0_zone1",
+  "act17d0_ex02": "act17d0_zone1",
+  "act17d0_ex03": "act17d0_zone1",
+  "act17d0_ex04": "act17d0_zone1",
+  "act17d0_ex05": "act17d0_zone1",
+  "act17d0_ex06": "act17d0_zone1",
+  "act17d0_ex07": "act17d0_zone1",
+  "act17d0_ex08": "act17d0_zone1",
+  "act16d5_st01": "act16d5_zone1",
+  "act16d5_01": "act16d5_zone1",
+  "act16d5_tr01": "act16d5_zone1",
+  "act16d5_02": "act16d5_zone1",
+  "act16d5_03": "act16d5_zone1",
+  "act16d5_04": "act16d5_zone1",
+  "act16d5_05": "act16d5_zone1",
+  "act16d5_st02": "act16d5_zone1",
+  "act16d5_06": "act16d5_zone1",
+  "act16d5_07": "act16d5_zone1",
+  "act16d5_08": "act16d5_zone1",
+  "act16d5_09": "act16d5_zone1",
+  "act16d5_10": "act16d5_zone1",
+  "act16d5_st03": "act16d5_zone1",
+  "act16d5_ex01": "act16d5_zone1",
+  "act16d5_ex02": "act16d5_zone1",
+  "act16d5_ex03": "act16d5_zone1",
+  "act16d5_ex04": "act16d5_zone1",
+  "act16d5_ex05": "act16d5_zone1",
+  "act16d5_ex06": "act16d5_zone1",
+  "act16d5_ex07": "act16d5_zone1",
+  "act16d5_ex08": "act16d5_zone1",
+  "act15d5_01": "act15d5_zone1",
+  "act15d5_02": "act15d5_zone1",
+  "act15d5_03": "act15d5_zone1",
+  "act15d5_04": "act15d5_zone1",
+  "act15d5_05": "act15d5_zone1",
+  "act15d5_06": "act15d5_zone1",
+  "act15d5_07": "act15d5_zone1",
+  "act15d5_08": "act15d5_zone1",
+  "act15d0_01": "act15d0_zone1",
+  "act15d0_tr01": "act15d0_zone1",
+  "act15d0_02": "act15d0_zone1",
+  "act15d0_03": "act15d0_zone1",
+  "act15d0_st01": "act15d0_zone1",
+  "act15d0_04": "act15d0_zone1",
+  "act15d0_05": "act15d0_zone1",
+  "act15d0_06": "act15d0_zone1",
+  "act15d0_07": "act15d0_zone1",
+  "act15d0_08": "act15d0_zone1",
+  "act15d0_st02": "act15d0_zone1",
+  "act15d0_ex01": "act15d0_zone1",
+  "act15d0_ex02": "act15d0_zone1",
+  "act15d0_ex03": "act15d0_zone1",
+  "act15d0_ex04": "act15d0_zone1",
+  "act15d0_ex05": "act15d0_zone1",
+  "act15d0_ex06": "act15d0_zone1",
+  "act15d0_ex07": "act15d0_zone1",
+  "act15d0_ex08": "act15d0_zone1",
+  "act13d0_01": "act13d0_zone1",
+  "act13d0_02": "act13d0_zone1",
+  "act13d0_03": "act13d0_zone1",
+  "act13d0_04": "act13d0_zone1",
+  "act13d0_05": "act13d0_zone1",
+  "act13d0_06": "act13d0_zone1",
+  "act13d0_07": "act13d0_zone1",
+  "act13d0_08": "act13d0_zone1",
+  "act11d7_st01": "act11d7_zone1",
+  "act10d5_01": "act10d5_zone1",
+  "act10d5_02": "act10d5_zone1",
+  "act10d5_03": "act10d5_zone1",
+  "act10d5_04": "act10d5_zone1",
+  "act10d5_05": "act10d5_zone1",
+  "act10d5_06": "act10d5_zone1",
+  "act10d5_07": "act10d5_zone1"
+ },
+ "zones": {
+  "main_0": {
+   "completeTimes": 0
+  },
+  "main_1": {
+   "completeTimes": 0
+  },
+  "main_2": {
+   "completeTimes": 0
+  },
+  "main_3": {
+   "completeTimes": 0
+  },
+  "guide_1": {
+   "completeTimes": 0
+  },
+  "main_4": {
+   "completeTimes": 0
+  },
+  "main_5": {
+   "completeTimes": 0
+  },
+  "main_6": {
+   "completeTimes": 0
+  },
+  "main_7": {
+   "completeTimes": 0
+  },
+  "main_8": {
+   "completeTimes": 0
+  },
+  "main_9": {
+   "completeTimes": 0
+  },
+  "weekly_9": {
+   "completeTimes": 0
+  },
+  "weekly_8": {
+   "completeTimes": 0
+  },
+  "weekly_7": {
+   "completeTimes": 0
+  },
+  "weekly_5": {
+   "completeTimes": 0
+  },
+  "weekly_6": {
+   "completeTimes": 0
+  },
+  "weekly_1": {
+   "completeTimes": 0
+  },
+  "weekly_2": {
+   "completeTimes": 0
+  },
+  "weekly_3": {
+   "completeTimes": 0
+  },
+  "weekly_4": {
+   "completeTimes": 0
+  },
+  "act13side_zone1": {
+   "completeTimes": 0
+  },
+  "act13side_zone2": {
+   "completeTimes": 0
+  },
+  "act13side_zone3": {
+   "completeTimes": 0
+  },
+  "act9mini_zone1": {
+   "completeTimes": 0
+  },
+  "act12side_zone1": {
+   "completeTimes": 0
+  },
+  "act12side_zone2": {
+   "completeTimes": 0
+  },
+  "act12side_zone3": {
+   "completeTimes": 0
+  },
+  "act8mini_zone1": {
+   "completeTimes": 0
+  },
+  "act1lock_zone1": {
+   "completeTimes": 0
+  },
+  "act7mini_zone1": {
+   "completeTimes": 0
+  },
+  "act18d3_zone1": {
+   "completeTimes": 0
+  },
+  "act18d3_zone2": {
+   "completeTimes": 0
+  },
+  "act18d0_zone1": {
+   "completeTimes": 0
+  },
+  "act18d0_zone2": {
+   "completeTimes": 0
+  },
+  "act17d7_zone1": {
+   "completeTimes": 0
+  },
+  "act17d0_zone1": {
+   "completeTimes": 0
+  },
+  "act17d0_zone2": {
+   "completeTimes": 0
+  },
+  "act16d5_zone1": {
+   "completeTimes": 0
+  },
+  "act16d5_zone2": {
+   "completeTimes": 0
+  },
+  "act15d5_zone1": {
+   "completeTimes": 0
+  },
+  "act15d0_zone1": {
+   "completeTimes": 0
+  },
+  "act15d0_zone2": {
+   "completeTimes": 0
+  },
+  "act7sre_zone1": {
+   "completeTimes": 0
+  },
+  "act7sre_zone2": {
+   "completeTimes": 0
+  },
+  "act13d0_zone1": {
+   "completeTimes": 0
+  },
+  "act6sre_zone1": {
+   "completeTimes": 0
+  },
+  "act6sre_zone2": {
+   "completeTimes": 0
+  },
+  "act11d7_zone1": {
+   "completeTimes": 0
+  },
+  "act5sre_zone1": {
+   "completeTimes": 0
+  },
+  "act5sre_zone2": {
+   "completeTimes": 0
+  },
+  "act5sre_zone3": {
+   "completeTimes": 0
+  },
+  "act10d5_zone1": {
+   "completeTimes": 0
+  },
+  "act17d5_zone1": {
+   "completeTimes": 0
+  },
+  "act17d5_zone2": {
+   "completeTimes": 0
+  },
+  "act17d5_zone3": {
+   "completeTimes": 0
+  },
+  "act14d7_zone1": {
+   "completeTimes": 0
+  },
+  "act14d7_zone2": {
+   "completeTimes": 0
+  },
+  "act11d7_zone2": {
+   "completeTimes": 0
+  },
+  "act11d7_zone3": {
+   "completeTimes": 0
+  },
+  "act13d2_zone1": {
+   "completeTimes": 0
+  },
+  "act13d2_zone2": {
+   "completeTimes": 0
+  },
+  "camp_zone_3": {
+   "completeTimes": 0
+  },
+  "camp_zone_1": {
+   "completeTimes": 0
+  },
+  "camp_zone_4": {
+   "completeTimes": 0
+  },
+  "camp_zone_5": {
+   "completeTimes": 0
+  },
+  "camp_zone_6": {
+   "completeTimes": 0
+  },
+  "camp_zone_7": {
+   "completeTimes": 0
+  },
+  "camp_zone_8": {
+   "completeTimes": 0
+  }
+ }
+}

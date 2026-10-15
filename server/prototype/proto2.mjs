@@ -29,6 +29,10 @@ const CONST = JSON.parse(fs.readFileSync('data/gamedata_const.json', 'utf-8'));
 // PlayerStageState: 0=UNLOCKED 1=PLAYED 2=PASS 3=COMPLETE
 const STAGE_INIT = JSON.parse(fs.readFileSync('data/stage_init.json', 'utf-8'));
 const STAGE_UNLOCK_MAP = JSON.parse(fs.readFileSync('data/stage_unlock_map.json', 'utf-8'));
+// stageId -> zoneId 权威映射（数据侧，与 STAGE_INIT.zones 68 键同源生成）。
+// 客户端 ZoneDB.CompleteTimes 驱动 zone 完成度/奖励领取；旧代码 onStageComplete 只改 stage，
+// 战斗后 zone.completeTimes 永不递增。zone 表无对应编号的 stage（actNdN_/aN_/camp_ 等）不在此表中。
+const STAGE_ZONE_MAP = STAGE_INIT.stageZoneMap || {};
 // 关卡经验/金币产出（从 stage_table 提取，用于 battleFinish 结算）
 const STAGE_REWARDS = JSON.parse(fs.readFileSync('data/stage_rewards.json', 'utf-8'));
 // 干员表（稀有度用于算等级上限；寻访池另见 GACHA_POOL）
@@ -208,13 +212,19 @@ const troopChars = save.chars;
 let lastBattleStageId = '';
 let lastBattleId = '';
 
-// 完成 stageId：标 COMPLETE(3)，并返回依赖它而新解锁的关卡列表。
+// 完成 stageId：标 COMPLETE(3)，并按 stageZoneMap 递增所属 zone 的 completeTimes，
+// 返回依赖它而新解锁的关卡列表。
 function onStageComplete(stageId) {
   const st = playerStages[stageId];
   if (!st) return [];
   st.state = 3;
   st.completeTimes = (st.completeTimes || 0) + 1;
   st.hasBattleReplay = true;
+  // zone 完成度：按数据侧权威映射累加（与 L707 mainStageProgress 同为存档推进指针）
+  const zoneId = STAGE_ZONE_MAP[stageId];
+  if (zoneId && playerZones[zoneId]) {
+    playerZones[zoneId].completeTimes = (playerZones[zoneId].completeTimes || 0) + 1;
+  }
   const unlocked = [];
   for (const next of STAGE_UNLOCK_MAP[stageId] || []) {
     const nst = playerStages[next];
@@ -433,7 +443,9 @@ function playerData() {
       assist: [-1, -1, -1, -1, -1],
       roomSlots: BUILDING_ROOM_SLOTS,
       rooms: buildBuildingRooms(),
-      furniture: {},
+      // 已购家具：与 /building/sync L1424(buildFurniture) 及 cheat getAllFurniture L992-995 写入口径对齐
+      // （旧代码硬编码 {}，导致客户端 syncData 永远收不到已购家具）
+      furniture: save.furniture || {},
       diyPresetSolutions: {}
     }
   };
@@ -650,7 +662,7 @@ function route(tag, req, res, body) {
         '2': {},
         '4': { announcementVersion: '0' },
         '8': {},
-        '16': { goodPurchaseState: { result: {} } },
+        '16': { goodPurchaseState: { result: { ...save.goodPurchaseState } } },
         '32': {},
         '64': {},
         '128': {}
