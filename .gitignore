@@ -1,9 +1,16 @@
-# 大文件与可再生产物不进版本库
+# Binaries, APKs and decompiled dumps
 apk/
 work/
-*.apk
-*.so
-*.dex
-*.dat
-node_modules/
 server/prototype/certs/*.key
+server/prototype/certs/*.srl
+
+# Logs and temp files
+*.log
+*.tmp
+server/prototype/proto2.log
+
+# OS and editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
