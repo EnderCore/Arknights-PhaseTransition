@@ -4,3 +4,9 @@
 *.bak_i1162
 lib/
 aptmp/
+
+# 解码树产物不入库(意图1339)
+build/
+original/
+assets/AB/
+
