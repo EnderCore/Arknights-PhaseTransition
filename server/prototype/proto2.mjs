@@ -162,6 +162,7 @@ const DEFAULT_SAVE = () => ({
   secretarySkinId: '', // 助理皮肤（空则由 secretary + '#1' 推导）
   nextCharInstId: 13,
   secretary: 'char_002_amiya',
+  chatMask: '',       // 四表会话字段 chatMask 的种子（本地测试确定性派生，非真实密钥）
 });
 
 let save;
@@ -368,9 +369,42 @@ function buildDexNavCharacter() {
   return out;
 }
 
+// ---- 四表 AES-128-CBC 会话字段 chatMask（§6.5 硬前置）----
+// 客户端 PlayerData.m_chatMask 长度必须恰好 0x20（32 字节 UTF-8 可打印 ASCII），
+// key=UTF8(chatMask[0:16])、ivMask=UTF8(chatMask[16:32])（fact306/fact303 口径），
+// 长度≠0x20 抛 "chatMask is invalid!"。本地测试：确定性生成（同档稳定），
+// 非真实密钥、不入库、不写普通日志（红线 §6.5）。
+const CHAT_MASK_LEN = 0x20;
+function deriveChatMask(seedStr) {
+  const out = [];
+  let counter = 0;
+  while (out.length < CHAT_MASK_LEN) {
+    const chunk = crypto
+      .createHash('sha256')
+      .update(`${seedStr}:${counter++}`)
+      .digest('base64');
+    for (const ch of chunk) {
+      if (/[A-Za-z0-9]/.test(ch)) out.push(ch);
+      if (out.length === CHAT_MASK_LEN) break;
+    }
+  }
+  return out.join('');
+}
+let CHAT_MASK_CACHE = null;
+function getChatMask() {
+  if (CHAT_MASK_CACHE) return CHAT_MASK_CACHE;
+  // 无存档 chatMask 时按 uid 确定派生（本地测试环境无需真实密钥）。
+  const seed = (save && save.chatMask) ? save.chatMask : `proto-chatmask-${UID}`;
+  CHAT_MASK_CACHE = deriveChatMask(seed);
+  return CHAT_MASK_CACHE;
+}
+
 function playerData() {
   const nowSec = FIXED_BETA_EPOCH;
   return {
+    // 四表 AES-128-CBC 运行期会话字段（§6.5）：客户端 CrypticConverter 读入
+    // PlayerData.m_chatMask 派生 key/IV 解 tableconfig。32 字节 UTF-8 可打印 ASCII。
+    chatMask: getChatMask(),
     events: { building: nowSec },
     pushFlags: { hasGifts: false, hasFriendRequest: false, hasClues: false, hasFreeLevelGP: false },
     status: {
