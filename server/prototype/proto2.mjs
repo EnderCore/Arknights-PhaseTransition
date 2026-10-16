@@ -760,6 +760,8 @@ function route(tag, req, res, body) {
       if (m) reqStageId = m[0];
     } catch (e) {}
     const stageId = reqStageId || lastBattleStageId || '';
+    // D5 首通奖励：onStageComplete 会把 completeTimes 0→1，故须在调用前判定是否首通
+    const isFirstClear = !!(stageId && playerStages[stageId] && (playerStages[stageId].completeTimes || 0) === 0);
     const unlockedNext = stageId ? (onStageComplete(stageId) || []) : [];
 
     const modifiedStages = {};
@@ -784,6 +786,21 @@ function route(tag, req, res, body) {
     if (rw.slProgress) save.progress = Math.max(save.progress || 0, rw.slProgress);
     statusDelta.mainStageProgress = save.mainStageProgress;
     statusDelta.progress = save.progress || 0;
+
+    // D5 首通奖励：仅首次通关（completeTimes 从 0 起算）时下发源石，数量取 stage_table.diamondOnceDrop
+    // （主线=1，教学/部署/训练=0）。applyItem 定义在本函数更靠后（L941），battleFinish 内不可引用，
+    // 故此处内联 DIAMOND 入账逻辑（写 inventory['4002'] 并同步 playerDataDelta.inventory）。
+    const firstRewards = [];
+    const firstInvDelta = {};
+    if (isFirstClear) {
+      const d = rw.diamondOnceDrop || 0;
+      if (d > 0) {
+        // RewardModel: { id, type(ItemType 字符串), count, charGet } —— 与客户端 CommonFinishBattleResponse.RewardModel 对齐
+        firstRewards.push({ id: '4002', type: 'DIAMOND', charGet: null, count: d });
+        inventory['4002'] = (inventory['4002'] || 0) + d;
+        firstInvDelta['4002'] = inventory['4002'];
+      }
+    }
     persist();
 
     return G({
@@ -791,7 +808,7 @@ function route(tag, req, res, body) {
       apFailReturn: 0,
       goldScale: 1.0,
       expScale: 1.0,
-      firstRewards: [],
+      firstRewards: firstRewards,
       unlockStages: unlockedNext,
       alert: [],
       rewards: [],
@@ -804,7 +821,8 @@ function route(tag, req, res, body) {
             stages: modifiedStages,
             zones: playerZones
           },
-          status: statusDelta
+          status: statusDelta,
+          inventory: firstInvDelta
         },
         deleted: {}
       }
