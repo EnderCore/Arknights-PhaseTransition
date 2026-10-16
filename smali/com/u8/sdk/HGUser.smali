@@ -106,7 +106,7 @@
 
     .prologue
     .line 86
-    const-string v0, "{\"gameServerUrl\":\"https://dev-gs.mpcjnet.com:18081\",\"sdkServerUrl\":\"https://dev-gs.mpcjnet.com:18081\",\"u8ServerUrl\":\"https://dev-gs.mpcjnet.com:18081\",\"hotUpdateUrl\":\"https://dev-gs.mpcjnet.com:10012\",\"announceUrl\":\"https://dev-gs.mpcjnet.com:10012\",\"preAnnounceUrl\":\"https://dev-gs.mpcjnet.com:10012\",\"serviceLicenseUrl\":\"https://dev-gs.mpcjnet.com:18081\",\"officialUrl\":\"https://dev-gs.mpcjnet.com:18081\",\"packageDownloadUrlAndroid\":\"https://dev-gs.mpcjnet.com:10012\",\"packageDownloadUrlIOS\":\"https://dev-gs.mpcjnet.com:10012\"}"
+    const-string v0, "{\"gameServerUrl\":\"https://s-an-bus.hypergryph.com:18081\",\"sdkServerUrl\":\"https://s-an-bus.hypergryph.com:18081\",\"u8ServerUrl\":\"https://s-an-bus.hypergryph.com:18081/u8\",\"hotUpdateUrl\":\"https://dev-gs.mpcjnet.com:10012/assetbundle/official\",\"announceUrl\":\"https://dev-gs.mpcjnet.com:10012/announce/hgAndroid/announcement.meta.json\",\"preAnnounceUrl\":\"https://dev-gs.mpcjnet.com:10012/announce/hgAndroid/preannouncement.meta.json\",\"serviceLicenseUrl\":\"https://dev-gs.mpcjnet.com:18081/protocol/\",\"officialUrl\":\"https://dev-gs.mpcjnet.com:18081/\",\"packageDownloadUrlAndroid\":\"https://dev-gs.mpcjnet.com:10012/\",\"packageDownloadUrlIOS\":\"https://dev-gs.mpcjnet.com:10012/\"}"
 
     return-object v0
 .end method
