@@ -788,17 +788,16 @@ function route(tag, req, res, body) {
     statusDelta.progress = save.progress || 0;
 
     // D5 首通奖励：仅首次通关（completeTimes 从 0 起算）时下发源石，数量取 stage_table.diamondOnceDrop
-    // （主线=1，教学/部署/训练=0）。applyItem 定义在本函数更靠后（L941），battleFinish 内不可引用，
-    // 故此处内联 DIAMOND 入账逻辑（写 inventory['4002'] 并同步 playerDataDelta.inventory）。
+    // （主线=1，教学/部署/训练=0）。applyItem 定义在本函数更靠后，battleFinish 内不可引用，故此处内联。
+    // D8 单账本：源石入账写 status.crystal（与源石商店/皮肤购买门禁同口径），不再写 inventory['4002'] 死账。
     const firstRewards = [];
-    const firstInvDelta = {};
     if (isFirstClear) {
       const d = rw.diamondOnceDrop || 0;
       if (d > 0) {
         // RewardModel: { id, type(ItemType 字符串), count, charGet } —— 与客户端 CommonFinishBattleResponse.RewardModel 对齐
         firstRewards.push({ id: '4002', type: 'DIAMOND', charGet: null, count: d });
-        inventory['4002'] = (inventory['4002'] || 0) + d;
-        firstInvDelta['4002'] = inventory['4002'];
+        statusRes.crystal = (statusRes.crystal || 0) + d;
+        statusDelta.crystal = statusRes.crystal;
       }
     }
     persist();
@@ -821,8 +820,7 @@ function route(tag, req, res, body) {
             stages: modifiedStages,
             zones: playerZones
           },
-          status: statusDelta,
-          inventory: firstInvDelta
+          status: statusDelta
         },
         deleted: {}
       }
@@ -979,7 +977,7 @@ function route(tag, req, res, body) {
     // ItemType -> 入账位置
     switch (type) {
       case 'GOLD':       statusRes.gold += count; statusDelta.gold = statusRes.gold; break;
-      case 'DIAMOND':    /* 4002 源石 */ inventory['4002'] = (inventory['4002']||0) + count; invDelta['4002'] = inventory['4002']; break;
+      case 'DIAMOND':    /* 4002 源石：D8 单账本入 status.crystal（与消费门禁同口径） */ statusRes.crystal = (statusRes.crystal||0) + count; statusDelta.crystal = statusRes.crystal; break;
       case 'DIAMOND_SHD':statusRes.diamondShard += count; statusDelta.diamondShard = statusRes.diamondShard; break;
       case 'HGG_SHD':    statusRes.hggShard += count; statusDelta.hggShard = statusRes.hggShard; break;
       case 'LGG_SHD':    statusRes.lggShard += count; statusDelta.lggShard = statusRes.lggShard; break;
@@ -1040,7 +1038,7 @@ function route(tag, req, res, body) {
         statusRes.gold += 50000;
       } else if (cmd.startsWith('getExpItem.')) {
         const itemId = cmd.split('.')[1];
-        if (!itemId) { result = 1; } else { inventory[itemId] = (inventory[itemId] || 0) + 10; }
+        if (!itemId) { result = 1; } else if (itemId === '4002') { statusRes.crystal = (statusRes.crystal || 0) + 10; } else { inventory[itemId] = (inventory[itemId] || 0) + 10; }
       } else if (cmd.startsWith('getChar.')) {
         const parts = cmd.split('.');
         const charId = parts[1];
@@ -1072,7 +1070,7 @@ function route(tag, req, res, body) {
         for (const [iid, it] of Object.entries(ITEM_TABLE.items)) {
           if (!/^\d+$/.test(iid)) continue;
           if (it.itemType === 'MATERIAL' || it.itemType === 'CARD_EXP') inventory[iid] = (inventory[iid] || 0) + 100;
-          else if (it.itemType === 'DIAMOND') inventory[iid] = (inventory[iid] || 0) + 1000;
+          else if (it.itemType === 'DIAMOND') statusRes.crystal = (statusRes.crystal || 0) + 1000;  // D8 单账本
         }
       } else if (cmd === 'getAllFurniture') {
         const FURNI_IDS = JSON.parse(fs.readFileSync('data/furni_ids.json', 'utf-8'));
