@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="id" name="dialog_view" />
+    <item type="id" name="loading" />
+    <item type="id" name="tipTextView" />
+    <item type="id" name="hg_pay_group" />
+    <item type="id" name="hg_btn_wechat" />
+    <item type="id" name="hg_btn_alipay" />
+    <item type="id" name="hg_btn_cancel" />
+</resources>

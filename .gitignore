@@ -1,0 +1,6 @@
+﻿*.apk
+*.apk.idsig
+*.log
+*.bak_i1162
+lib/
+aptmp/

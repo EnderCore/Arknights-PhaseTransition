@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">arknights</string>
+    <string name="hg_cancel_pay">取消</string>
+    <string name="hg_prepay_title">支付订单</string>
+    <string name="hg_payment_name">订单详情 :</string>
+    <string name="hg_payment_amount">订单金额 :</string>
+    <string name="hg_confirm_pay">立即支付</string>
+    <string name="hg_pay_user_canceled">支付被取消</string>
+    <string name="hg_network_timeout">网络状况不良，请求超时</string>
+    <string name="hg_network_loading">网络通信中...</string>
+    <string name="hg_network_error">网络通信失败，错误号(%d)</string>
+    <string name="hg_wechat_not_installed">未安装微信，无法使用微信支付</string>
+    <string name="hg_wechat_not_supported">当前版本微信不支持支付功能</string>
+    <string name="hg_wechat_pay_failed_with_error">发生异常，支付失败</string>
+    <string name="hg_create_order_service_error">支付失败，创建订单服务异常，错误号(%s)</string>
+    <string name="hg_wechat_pay_create_order_response_error">创建微信支付订单失败，请选用其它支付方式</string>
+    <string name="hg_alipay_pay_create_order_response_error">创建支付宝订单失败，请选用其它支付方式</string>
+    <string name="hg_wechat_pay_sdk_error">微信支付异常，支付失败，请选用其它支付方式</string>
+    <string name="hg_confirm_pay_timeout">获取支付结果超时，请以游戏内实际支付结果为准，如有异常请联系客服</string>
+    <string name="hg_confirm_pay_error">获取支付结果失败，错误号(%s)，请以游戏内实际支付结果为准，如有异常请联系客服</string>
+    <string name="hg_confirm_pay_failed">服务异常，未获取到支付结果，请以游戏内实际结果为准</string>
+    <string name="hg_dialog_ok">我知道了</string>
+    <string name="hg_alipay_internal_error">支付失败，错误号%s</string>
+</resources>

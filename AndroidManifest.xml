@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:compileSdkVersion="28" android:compileSdkVersionCodename="9" android:installLocation="preferExternal" package="com.hypergryph.arknights" platformBuildVersionCode="23" platformBuildVersionName="6.0-2438415">
+    <supports-screens android:anyDensity="true" android:largeScreens="true" android:normalScreens="true" android:smallScreens="true" android:xlargeScreens="true"/>
+    <uses-permission android:name="android.permission.READ_LOGS"/>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+    <uses-permission android:name="android.permission.GET_TASKS"/>
+    <application android:allowBackup="true" android:debuggable="false" android:icon="@drawable/app_icon" android:isGame="true" android:label="@string/app_name" android:name="com.u8.sdk.U8Application" android:networkSecurityConfig="@xml/network_security_config" android:resizeableActivity="true" android:theme="@style/UnityThemeSelector">
+        <activity android:configChanges="density|fontScale|keyboard|keyboardHidden|layoutDirection|locale|mcc|mnc|navigation|orientation|screenLayout|screenSize|smallestScreenSize|touchscreen|uiMode" android:label="@string/app_name" android:launchMode="singleTask" android:name="com.u8.sdk.U8UnityContext" android:screenOrientation="sensorLandscape">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+                <category android:name="android.intent.category.LEANBACK_LAUNCHER"/>
+            </intent-filter>
+            <meta-data android:name="unityplayer.ForwardNativeEventsToDalvik" android:value="false"/>
+            <meta-data android:name="unityplayer.UnityActivity" android:value="true"/>
+        </activity>
+        <activity android:configChanges="keyboardHidden|navigation|orientation|screenSize" android:launchMode="singleTop" android:name="com.hypergryph.sdk.activity.PrePayActivity" android:screenOrientation="landscape"/>
+        <activity android:configChanges="keyboardHidden|navigation|orientation|screenSize" android:launchMode="singleTop" android:name="com.hypergryph.sdk.activity.BridgeActivity" android:screenOrientation="portrait"/>
+        <activity android:exported="true" android:launchMode="singleTop" android:name=".wxapi.WXPayEntryActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="keyboardHidden|navigation|orientation|screenSize" android:exported="false" android:name="com.alipay.sdk.app.H5PayActivity" android:screenOrientation="behind" android:windowSoftInputMode="adjustResize|stateHidden"/>
+        <activity android:configChanges="keyboardHidden|navigation|orientation" android:exported="false" android:name="com.alipay.sdk.app.H5AuthActivity" android:screenOrientation="behind" android:windowSoftInputMode="adjustResize|stateHidden"/>
+        <meta-data android:name="ulog.level" android:value="ERROR"/>
+        <meta-data android:name="ulog.local" android:value="true"/>
+        <meta-data android:name="ulog.enable" android:value="true"/>
+    </application>
+    <uses-feature android:glEsVersion="0x00020000"/>
+    <uses-feature android:name="android.hardware.vulkan" android:required="false"/>
+    <uses-feature android:name="android.hardware.touchscreen" android:required="false"/>
+    <uses-feature android:name="android.hardware.touchscreen.multitouch" android:required="false"/>
+    <uses-feature android:name="android.hardware.touchscreen.multitouch.distinct" android:required="false"/>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+</manifest>

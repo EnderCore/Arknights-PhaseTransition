@@ -1,0 +1,2507 @@
+<linker>
+	<assembly fullname="Assembly-CSharp">
+		<type fullname="Torappu.UI.UIJudgeDialog">
+			<method name="EventOnPositive"/>
+			<method name="EventOnNegative"/>
+			<method name="EventOnPositive"/>
+			<method name="EventOnNegative"/>
+			<method name="EventOnPositive"/>
+			<method name="EventOnNegative"/>
+			<method name="EventOnPositive"/>
+			<method name="EventOnNegative"/>
+			<method name="EventOnPositive"/>
+			<method name="EventOnNegative"/>
+			<method name="EventOnPositive"/>
+			<method name="EventOnNegative"/>
+			<method name="EventOnPositive"/>
+			<method name="EventOnNegative"/>
+			<method name="EventOnPositive"/>
+			<method name="EventOnNegative"/>
+			<method name="EventOnPositive"/>
+			<method name="EventOnNegative"/>
+			<method name="EventOnPositive"/>
+			<method name="EventOnNegative"/>
+		</type>
+		<type fullname="Torappu.UI.UIOKDialog">
+			<method name="EventOnConfrimBtnClick"/>
+			<method name="EventOnBackgroundClick"/>
+			<method name="EventOnConfrimBtnClick"/>
+			<method name="EventOnBackgroundClick"/>
+			<method name="EventOnConfrimBtnClick"/>
+			<method name="EventOnBackgroundClick"/>
+			<method name="EventOnConfrimBtnClick"/>
+			<method name="EventOnBackgroundClick"/>
+			<method name="EventOnConfrimBtnClick"/>
+			<method name="EventOnBackgroundClick"/>
+			<method name="EventOnConfrimBtnClick"/>
+			<method name="EventOnBackgroundClick"/>
+			<method name="EventOnConfrimBtnClick"/>
+			<method name="EventOnBackgroundClick"/>
+			<method name="EventOnConfrimBtnClick"/>
+			<method name="EventOnBackgroundClick"/>
+			<method name="EventOnConfrimBtnClick"/>
+			<method name="EventOnBackgroundClick"/>
+			<method name="EventOnConfrimBtnClick"/>
+			<method name="EventOnBackgroundClick"/>
+		</type>
+		<type fullname="Torappu.UI.UIGuidebookPanel">
+			<method name="EventOnClick"/>
+			<method name="EventOnClick"/>
+			<method name="EventOnClick"/>
+			<method name="EventOnClick"/>
+			<method name="EventOnClick"/>
+			<method name="EventOnClick"/>
+			<method name="EventOnClick"/>
+			<method name="EventOnClick"/>
+			<method name="EventOnClick"/>
+			<method name="EventOnClick"/>
+			<method name="EventOnClick"/>
+			<method name="EventOnClick"/>
+			<method name="EventOnClick"/>
+			<method name="EventOnClick"/>
+			<method name="EventOnClick"/>
+			<method name="EventOnClick"/>
+			<method name="EventOnClick"/>
+			<method name="EventOnClick"/>
+			<method name="EventOnClick"/>
+			<method name="EventOnClick"/>
+		</type>
+		<type fullname="Torappu.Gacha.GachaController">
+			<method name="OnMaskClicked"/>
+			<method name="OnMaskClicked"/>
+			<method name="OnMaskClicked"/>
+			<method name="OnMaskClicked"/>
+			<method name="OnMaskClicked"/>
+			<method name="OnMaskClicked"/>
+			<method name="OnMaskClicked"/>
+			<method name="OnMaskClicked"/>
+			<method name="OnMaskClicked"/>
+			<method name="OnMaskClicked"/>
+			<method name="OnMaskClicked"/>
+		</type>
+		<type fullname="Torappu.UI.UIInvisLoadingMask">
+			<method name="EventOnClick"/>
+			<method name="EventOnClick"/>
+			<method name="EventOnClick"/>
+			<method name="EventOnClick"/>
+			<method name="EventOnClick"/>
+			<method name="EventOnClick"/>
+			<method name="EventOnClick"/>
+			<method name="EventOnClick"/>
+			<method name="EventOnClick"/>
+			<method name="EventOnClick"/>
+		</type>
+		<type fullname="Torappu.UI.HotUpdate.HotUpdateViewController">
+			<method name="OnDeleteCachedFilesClick"/>
+			<method name="OnPanelFinishClick"/>
+		</type>
+		<type fullname="HGSDK.UI.SDKPayPage">
+			<method name="EventOnCloseClicked"/>
+			<method name="EventOnGotoCaptchaLogin"/>
+			<method name="EventOnOpenForgotPasswd"/>
+			<method name="EventOnOpenForgotPasswd"/>
+			<method name="EventOnGotoPasswdLogin"/>
+			<method name="EventOnCloseClicked"/>
+			<method name="EventOnGotoCaptchaLogin"/>
+			<method name="EventOnOpenForgotPasswd"/>
+			<method name="EventOnOpenForgotPasswd"/>
+			<method name="EventOnGotoPasswdLogin"/>
+			<method name="EventOnCloseClicked"/>
+			<method name="EventOnGotoCaptchaLogin"/>
+			<method name="EventOnOpenForgotPasswd"/>
+			<method name="EventOnOpenForgotPasswd"/>
+			<method name="EventOnGotoPasswdLogin"/>
+			<method name="EventOnCloseClicked"/>
+			<method name="EventOnGotoCaptchaLogin"/>
+			<method name="EventOnOpenForgotPasswd"/>
+			<method name="EventOnOpenForgotPasswd"/>
+			<method name="EventOnGotoPasswdLogin"/>
+			<method name="EventOnCloseClicked"/>
+			<method name="EventOnGotoCaptchaLogin"/>
+			<method name="EventOnOpenForgotPasswd"/>
+			<method name="EventOnOpenForgotPasswd"/>
+			<method name="EventOnGotoPasswdLogin"/>
+			<method name="EventOnCloseClicked"/>
+			<method name="EventOnGotoCaptchaLogin"/>
+			<method name="EventOnOpenForgotPasswd"/>
+			<method name="EventOnOpenForgotPasswd"/>
+			<method name="EventOnGotoPasswdLogin"/>
+			<method name="EventOnCloseClicked"/>
+			<method name="EventOnGotoCaptchaLogin"/>
+			<method name="EventOnOpenForgotPasswd"/>
+			<method name="EventOnOpenForgotPasswd"/>
+			<method name="EventOnGotoPasswdLogin"/>
+			<method name="EventOnCloseClicked"/>
+			<method name="EventOnGotoCaptchaLogin"/>
+			<method name="EventOnOpenForgotPasswd"/>
+			<method name="EventOnOpenForgotPasswd"/>
+			<method name="EventOnGotoPasswdLogin"/>
+			<method name="EventOnCloseClicked"/>
+			<method name="EventOnGotoCaptchaLogin"/>
+			<method name="EventOnOpenForgotPasswd"/>
+			<method name="EventOnOpenForgotPasswd"/>
+			<method name="EventOnGotoPasswdLogin"/>
+			<method name="EventOnCloseClicked"/>
+			<method name="EventOnGotoCaptchaLogin"/>
+			<method name="EventOnOpenForgotPasswd"/>
+			<method name="EventOnOpenForgotPasswd"/>
+			<method name="EventOnGotoPasswdLogin"/>
+		</type>
+		<type fullname="Torappu.AVG.AVGController">
+			<method name="OnSkipBtnClicked"/>
+			<method name="OnAutoBtnClicked"/>
+			<method name="OnSkipBtnClicked"/>
+			<method name="OnAutoBtnClicked"/>
+			<method name="OnSkipBtnClicked"/>
+			<method name="OnAutoBtnClicked"/>
+			<method name="OnSkipBtnClicked"/>
+			<method name="OnAutoBtnClicked"/>
+			<method name="OnSkipBtnClicked"/>
+			<method name="OnAutoBtnClicked"/>
+			<method name="OnSkipBtnClicked"/>
+			<method name="OnAutoBtnClicked"/>
+			<method name="OnSkipBtnClicked"/>
+			<method name="OnAutoBtnClicked"/>
+			<method name="OnSkipBtnClicked"/>
+			<method name="OnAutoBtnClicked"/>
+			<method name="OnSkipBtnClicked"/>
+			<method name="OnAutoBtnClicked"/>
+			<method name="OnSkipBtnClicked"/>
+			<method name="OnAutoBtnClicked"/>
+		</type>
+		<type fullname="HGSDK.UI.SDKLoginPage">
+			<method name="EventOnReturnBtnClicked"/>
+			<method name="EventOnGotoAccountMenu"/>
+			<method name="EventOnGotoCaptchaLogin"/>
+			<method name="EventOnOpenForgotPasswd"/>
+			<method name="EventOnOpenPrivacyLicense"/>
+			<method name="EventOnOpenUserAgreement"/>
+			<method name="EventOnGotoPasswdLogin"/>
+			<method name="EventOnOpenUserAgreement"/>
+			<method name="EventOnOpenPrivacyLicense"/>
+			<method name="EventOnReturnBtnClicked"/>
+			<method name="EventOnGotoAccountMenu"/>
+			<method name="EventOnGotoCaptchaLogin"/>
+			<method name="EventOnOpenForgotPasswd"/>
+			<method name="EventOnOpenPrivacyLicense"/>
+			<method name="EventOnOpenUserAgreement"/>
+			<method name="EventOnGotoPasswdLogin"/>
+			<method name="EventOnOpenUserAgreement"/>
+			<method name="EventOnOpenPrivacyLicense"/>
+			<method name="EventOnReturnBtnClicked"/>
+			<method name="EventOnGotoAccountMenu"/>
+			<method name="EventOnGotoCaptchaLogin"/>
+			<method name="EventOnOpenForgotPasswd"/>
+			<method name="EventOnOpenPrivacyLicense"/>
+			<method name="EventOnOpenUserAgreement"/>
+			<method name="EventOnGotoPasswdLogin"/>
+			<method name="EventOnOpenUserAgreement"/>
+			<method name="EventOnOpenPrivacyLicense"/>
+			<method name="EventOnReturnBtnClicked"/>
+			<method name="EventOnGotoAccountMenu"/>
+			<method name="EventOnGotoCaptchaLogin"/>
+			<method name="EventOnOpenForgotPasswd"/>
+			<method name="EventOnOpenPrivacyLicense"/>
+			<method name="EventOnOpenUserAgreement"/>
+			<method name="EventOnGotoPasswdLogin"/>
+			<method name="EventOnOpenUserAgreement"/>
+			<method name="EventOnOpenPrivacyLicense"/>
+			<method name="EventOnReturnBtnClicked"/>
+			<method name="EventOnGotoAccountMenu"/>
+			<method name="EventOnGotoCaptchaLogin"/>
+			<method name="EventOnOpenForgotPasswd"/>
+			<method name="EventOnOpenPrivacyLicense"/>
+			<method name="EventOnOpenUserAgreement"/>
+			<method name="EventOnGotoPasswdLogin"/>
+			<method name="EventOnOpenUserAgreement"/>
+			<method name="EventOnOpenPrivacyLicense"/>
+			<method name="EventOnReturnBtnClicked"/>
+			<method name="EventOnGotoAccountMenu"/>
+			<method name="EventOnGotoCaptchaLogin"/>
+			<method name="EventOnOpenForgotPasswd"/>
+			<method name="EventOnOpenPrivacyLicense"/>
+			<method name="EventOnOpenUserAgreement"/>
+			<method name="EventOnGotoPasswdLogin"/>
+			<method name="EventOnOpenUserAgreement"/>
+			<method name="EventOnOpenPrivacyLicense"/>
+			<method name="EventOnReturnBtnClicked"/>
+			<method name="EventOnGotoAccountMenu"/>
+			<method name="EventOnGotoCaptchaLogin"/>
+			<method name="EventOnOpenForgotPasswd"/>
+			<method name="EventOnOpenPrivacyLicense"/>
+			<method name="EventOnOpenUserAgreement"/>
+			<method name="EventOnGotoPasswdLogin"/>
+			<method name="EventOnOpenUserAgreement"/>
+			<method name="EventOnOpenPrivacyLicense"/>
+			<method name="EventOnReturnBtnClicked"/>
+			<method name="EventOnGotoAccountMenu"/>
+			<method name="EventOnGotoCaptchaLogin"/>
+			<method name="EventOnOpenForgotPasswd"/>
+			<method name="EventOnOpenPrivacyLicense"/>
+			<method name="EventOnOpenUserAgreement"/>
+			<method name="EventOnGotoPasswdLogin"/>
+			<method name="EventOnOpenUserAgreement"/>
+			<method name="EventOnOpenPrivacyLicense"/>
+			<method name="EventOnReturnBtnClicked"/>
+			<method name="EventOnGotoAccountMenu"/>
+			<method name="EventOnGotoCaptchaLogin"/>
+			<method name="EventOnOpenForgotPasswd"/>
+			<method name="EventOnOpenPrivacyLicense"/>
+			<method name="EventOnOpenUserAgreement"/>
+			<method name="EventOnGotoPasswdLogin"/>
+			<method name="EventOnOpenUserAgreement"/>
+			<method name="EventOnOpenPrivacyLicense"/>
+			<method name="EventOnReturnBtnClicked"/>
+			<method name="EventOnGotoAccountMenu"/>
+			<method name="EventOnGotoCaptchaLogin"/>
+			<method name="EventOnOpenForgotPasswd"/>
+			<method name="EventOnOpenPrivacyLicense"/>
+			<method name="EventOnOpenUserAgreement"/>
+			<method name="EventOnGotoPasswdLogin"/>
+			<method name="EventOnOpenUserAgreement"/>
+			<method name="EventOnOpenPrivacyLicense"/>
+		</type>
+		<type fullname="HGSDK.UI.PayRegisterState">
+			<method name="EventOnRegisterClicked"/>
+			<method name="EventOnRegisterClicked"/>
+			<method name="EventOnRegisterClicked"/>
+			<method name="EventOnRegisterClicked"/>
+			<method name="EventOnRegisterClicked"/>
+			<method name="EventOnRegisterClicked"/>
+			<method name="EventOnRegisterClicked"/>
+			<method name="EventOnRegisterClicked"/>
+			<method name="EventOnRegisterClicked"/>
+			<method name="EventOnRegisterClicked"/>
+		</type>
+		<type fullname="HGSDK.UI.PayPasswdLoginState">
+			<method name="EventOnLoginClicked"/>
+			<method name="EventOnLoginClicked"/>
+			<method name="EventOnLoginClicked"/>
+			<method name="EventOnLoginClicked"/>
+			<method name="EventOnLoginClicked"/>
+			<method name="EventOnLoginClicked"/>
+			<method name="EventOnLoginClicked"/>
+			<method name="EventOnLoginClicked"/>
+			<method name="EventOnLoginClicked"/>
+			<method name="EventOnLoginClicked"/>
+		</type>
+		<type fullname="HGSDK.UI.PayIdentityVerifyState">
+			<method name="EventOnVerifyClicked"/>
+			<method name="EventOnVerifyClicked"/>
+			<method name="EventOnVerifyClicked"/>
+			<method name="EventOnVerifyClicked"/>
+			<method name="EventOnVerifyClicked"/>
+			<method name="EventOnVerifyClicked"/>
+			<method name="EventOnVerifyClicked"/>
+			<method name="EventOnVerifyClicked"/>
+			<method name="EventOnVerifyClicked"/>
+			<method name="EventOnVerifyClicked"/>
+		</type>
+		<type fullname="HGSDK.UI.PayCaptchaLoginState">
+			<method name="EventOnLoginClicked"/>
+			<method name="EventOnLoginClicked"/>
+			<method name="EventOnLoginClicked"/>
+			<method name="EventOnLoginClicked"/>
+			<method name="EventOnLoginClicked"/>
+			<method name="EventOnLoginClicked"/>
+			<method name="EventOnLoginClicked"/>
+			<method name="EventOnLoginClicked"/>
+			<method name="EventOnLoginClicked"/>
+			<method name="EventOnLoginClicked"/>
+		</type>
+		<type fullname="HGSDK.UI.SDKLoginCaptchaLoginState">
+			<method name="EventOnLoginClicked"/>
+			<method name="EventOnLoginClicked"/>
+			<method name="EventOnLoginClicked"/>
+			<method name="EventOnLoginClicked"/>
+			<method name="EventOnLoginClicked"/>
+			<method name="EventOnLoginClicked"/>
+			<method name="EventOnLoginClicked"/>
+			<method name="EventOnLoginClicked"/>
+			<method name="EventOnLoginClicked"/>
+			<method name="EventOnLoginClicked"/>
+		</type>
+		<type fullname="HGSDK.UI.SDKLoginIdentityVerifyState">
+			<method name="EventOnVerifyClicked"/>
+			<method name="EventOnSkipClicked"/>
+			<method name="EventOnVerifyClicked"/>
+			<method name="EventOnSkipClicked"/>
+			<method name="EventOnVerifyClicked"/>
+			<method name="EventOnSkipClicked"/>
+			<method name="EventOnVerifyClicked"/>
+			<method name="EventOnSkipClicked"/>
+			<method name="EventOnVerifyClicked"/>
+			<method name="EventOnSkipClicked"/>
+			<method name="EventOnVerifyClicked"/>
+			<method name="EventOnSkipClicked"/>
+			<method name="EventOnVerifyClicked"/>
+			<method name="EventOnSkipClicked"/>
+			<method name="EventOnVerifyClicked"/>
+			<method name="EventOnSkipClicked"/>
+			<method name="EventOnVerifyClicked"/>
+			<method name="EventOnSkipClicked"/>
+			<method name="EventOnVerifyClicked"/>
+			<method name="EventOnSkipClicked"/>
+		</type>
+		<type fullname="HGSDK.UI.SDKLoginPasswdLoginState">
+			<method name="EventOnLoginClicked"/>
+			<method name="EventOnLoginClicked"/>
+			<method name="EventOnLoginClicked"/>
+			<method name="EventOnLoginClicked"/>
+			<method name="EventOnLoginClicked"/>
+			<method name="EventOnLoginClicked"/>
+			<method name="EventOnLoginClicked"/>
+			<method name="EventOnLoginClicked"/>
+			<method name="EventOnLoginClicked"/>
+			<method name="EventOnLoginClicked"/>
+		</type>
+		<type fullname="HGSDK.UI.SDKLoginRegisterState">
+			<method name="EventOnRegisterClicked"/>
+			<method name="EventOnRegisterClicked"/>
+			<method name="EventOnRegisterClicked"/>
+			<method name="EventOnRegisterClicked"/>
+			<method name="EventOnRegisterClicked"/>
+			<method name="EventOnRegisterClicked"/>
+			<method name="EventOnRegisterClicked"/>
+			<method name="EventOnRegisterClicked"/>
+			<method name="EventOnRegisterClicked"/>
+			<method name="EventOnRegisterClicked"/>
+		</type>
+		<type fullname="HGSDK.UI.SDKCaptchaWidget">
+			<method name="EventOnSendCaptchaClicked"/>
+			<method name="EventOnSendCaptchaClicked"/>
+			<method name="EventOnSendCaptchaClicked"/>
+			<method name="EventOnSendCaptchaClicked"/>
+			<method name="EventOnSendCaptchaClicked"/>
+			<method name="EventOnSendCaptchaClicked"/>
+			<method name="EventOnSendCaptchaClicked"/>
+			<method name="EventOnSendCaptchaClicked"/>
+			<method name="EventOnSendCaptchaClicked"/>
+			<method name="EventOnSendCaptchaClicked"/>
+			<method name="EventOnSendCaptchaClicked"/>
+			<method name="EventOnSendCaptchaClicked"/>
+			<method name="EventOnSendCaptchaClicked"/>
+			<method name="EventOnSendCaptchaClicked"/>
+			<method name="EventOnSendCaptchaClicked"/>
+			<method name="EventOnSendCaptchaClicked"/>
+			<method name="EventOnSendCaptchaClicked"/>
+			<method name="EventOnSendCaptchaClicked"/>
+			<method name="EventOnSendCaptchaClicked"/>
+			<method name="EventOnSendCaptchaClicked"/>
+			<method name="EventOnSendCaptchaClicked"/>
+			<method name="EventOnSendCaptchaClicked"/>
+			<method name="EventOnSendCaptchaClicked"/>
+			<method name="EventOnSendCaptchaClicked"/>
+			<method name="EventOnSendCaptchaClicked"/>
+			<method name="EventOnSendCaptchaClicked"/>
+			<method name="EventOnSendCaptchaClicked"/>
+			<method name="EventOnSendCaptchaClicked"/>
+			<method name="EventOnSendCaptchaClicked"/>
+			<method name="EventOnSendCaptchaClicked"/>
+			<method name="EventOnSendCaptchaClicked"/>
+			<method name="EventOnSendCaptchaClicked"/>
+			<method name="EventOnSendCaptchaClicked"/>
+			<method name="EventOnSendCaptchaClicked"/>
+			<method name="EventOnSendCaptchaClicked"/>
+			<method name="EventOnSendCaptchaClicked"/>
+			<method name="EventOnSendCaptchaClicked"/>
+			<method name="EventOnSendCaptchaClicked"/>
+			<method name="EventOnSendCaptchaClicked"/>
+			<method name="EventOnSendCaptchaClicked"/>
+		</type>
+		<type fullname="Torappu.AVG.DecisionPanel">
+			<method name="OnOptionButtonPressed"/>
+			<method name="OnOptionButtonPressed"/>
+			<method name="OnOptionButtonPressed"/>
+			<method name="OnOptionButtonPressed"/>
+			<method name="OnOptionButtonPressed"/>
+			<method name="OnOptionButtonPressed"/>
+			<method name="OnOptionButtonPressed"/>
+			<method name="OnOptionButtonPressed"/>
+			<method name="OnOptionButtonPressed"/>
+			<method name="OnOptionButtonPressed"/>
+			<method name="OnOptionButtonPressed"/>
+			<method name="OnOptionButtonPressed"/>
+			<method name="OnOptionButtonPressed"/>
+			<method name="OnOptionButtonPressed"/>
+			<method name="OnOptionButtonPressed"/>
+			<method name="OnOptionButtonPressed"/>
+			<method name="OnOptionButtonPressed"/>
+			<method name="OnOptionButtonPressed"/>
+			<method name="OnOptionButtonPressed"/>
+			<method name="OnOptionButtonPressed"/>
+			<method name="OnOptionButtonPressed"/>
+			<method name="OnOptionButtonPressed"/>
+			<method name="OnOptionButtonPressed"/>
+			<method name="OnOptionButtonPressed"/>
+			<method name="OnOptionButtonPressed"/>
+			<method name="OnOptionButtonPressed"/>
+			<method name="OnOptionButtonPressed"/>
+			<method name="OnOptionButtonPressed"/>
+			<method name="OnOptionButtonPressed"/>
+			<method name="OnOptionButtonPressed"/>
+		</type>
+		<type fullname="Torappu.AVG.AVGFakeButton">
+			<method name="OnClick"/>
+			<method name="OnClick"/>
+			<method name="OnClick"/>
+			<method name="OnClick"/>
+			<method name="OnClick"/>
+			<method name="OnClick"/>
+			<method name="OnClick"/>
+			<method name="OnClick"/>
+			<method name="OnClick"/>
+			<method name="OnClick"/>
+		</type>
+		<type fullname="Torappu.UI.UIGuidebookPage">
+			<method name="OnRightArrowClicked"/>
+			<method name="OnRightArrowClicked"/>
+			<method name="OnRightArrowClicked"/>
+			<method name="OnRightArrowClicked"/>
+			<method name="OnRightArrowClicked"/>
+			<method name="OnRightArrowClicked"/>
+			<method name="OnRightArrowClicked"/>
+			<method name="OnRightArrowClicked"/>
+			<method name="OnRightArrowClicked"/>
+			<method name="OnRightArrowClicked"/>
+		</type>
+		<type fullname="HGSDK.UI.PayUpgradeMenuState">
+			<method name="EventOnRegisterClicked"/>
+			<method name="EventOnLoginClicked"/>
+			<method name="EventOnRegisterClicked"/>
+			<method name="EventOnLoginClicked"/>
+			<method name="EventOnRegisterClicked"/>
+			<method name="EventOnLoginClicked"/>
+			<method name="EventOnRegisterClicked"/>
+			<method name="EventOnLoginClicked"/>
+			<method name="EventOnRegisterClicked"/>
+			<method name="EventOnLoginClicked"/>
+			<method name="EventOnRegisterClicked"/>
+			<method name="EventOnLoginClicked"/>
+			<method name="EventOnRegisterClicked"/>
+			<method name="EventOnLoginClicked"/>
+			<method name="EventOnRegisterClicked"/>
+			<method name="EventOnLoginClicked"/>
+			<method name="EventOnRegisterClicked"/>
+			<method name="EventOnLoginClicked"/>
+			<method name="EventOnRegisterClicked"/>
+			<method name="EventOnLoginClicked"/>
+		</type>
+		<type fullname="HGSDK.UI.SDKLoginAwakenState">
+			<method name="EventOnAwakenClicked"/>
+			<method name="EventOnGuestUpgradeClicked"/>
+			<method name="EventOnAwakenClicked"/>
+			<method name="EventOnGuestUpgradeClicked"/>
+			<method name="EventOnAwakenClicked"/>
+			<method name="EventOnGuestUpgradeClicked"/>
+			<method name="EventOnAwakenClicked"/>
+			<method name="EventOnGuestUpgradeClicked"/>
+			<method name="EventOnAwakenClicked"/>
+			<method name="EventOnGuestUpgradeClicked"/>
+			<method name="EventOnAwakenClicked"/>
+			<method name="EventOnGuestUpgradeClicked"/>
+			<method name="EventOnAwakenClicked"/>
+			<method name="EventOnGuestUpgradeClicked"/>
+			<method name="EventOnAwakenClicked"/>
+			<method name="EventOnGuestUpgradeClicked"/>
+			<method name="EventOnAwakenClicked"/>
+			<method name="EventOnGuestUpgradeClicked"/>
+			<method name="EventOnAwakenClicked"/>
+			<method name="EventOnGuestUpgradeClicked"/>
+		</type>
+		<type fullname="HGSDK.UI.SDKLoginAccountMenuState">
+			<method name="EventOnRegisterClicked"/>
+			<method name="EventOnGuestLoginClicked"/>
+			<method name="EventOnAccountLoginClicked"/>
+			<method name="EventOnRegisterClicked"/>
+			<method name="EventOnGuestLoginClicked"/>
+			<method name="EventOnAccountLoginClicked"/>
+			<method name="EventOnRegisterClicked"/>
+			<method name="EventOnGuestLoginClicked"/>
+			<method name="EventOnAccountLoginClicked"/>
+			<method name="EventOnRegisterClicked"/>
+			<method name="EventOnGuestLoginClicked"/>
+			<method name="EventOnAccountLoginClicked"/>
+			<method name="EventOnRegisterClicked"/>
+			<method name="EventOnGuestLoginClicked"/>
+			<method name="EventOnAccountLoginClicked"/>
+			<method name="EventOnRegisterClicked"/>
+			<method name="EventOnGuestLoginClicked"/>
+			<method name="EventOnAccountLoginClicked"/>
+			<method name="EventOnRegisterClicked"/>
+			<method name="EventOnGuestLoginClicked"/>
+			<method name="EventOnAccountLoginClicked"/>
+			<method name="EventOnRegisterClicked"/>
+			<method name="EventOnGuestLoginClicked"/>
+			<method name="EventOnAccountLoginClicked"/>
+			<method name="EventOnRegisterClicked"/>
+			<method name="EventOnGuestLoginClicked"/>
+			<method name="EventOnAccountLoginClicked"/>
+			<method name="EventOnRegisterClicked"/>
+			<method name="EventOnGuestLoginClicked"/>
+			<method name="EventOnAccountLoginClicked"/>
+		</type>
+		<type fullname="HGSDK.UI.SDKLoginGuestUpgradeState">
+			<method name="EventOnRegisterBindingClicked"/>
+			<method name="EventOnAccountBindingClicked"/>
+			<method name="EventOnRegisterBindingClicked"/>
+			<method name="EventOnAccountBindingClicked"/>
+			<method name="EventOnRegisterBindingClicked"/>
+			<method name="EventOnAccountBindingClicked"/>
+			<method name="EventOnRegisterBindingClicked"/>
+			<method name="EventOnAccountBindingClicked"/>
+			<method name="EventOnRegisterBindingClicked"/>
+			<method name="EventOnAccountBindingClicked"/>
+			<method name="EventOnRegisterBindingClicked"/>
+			<method name="EventOnAccountBindingClicked"/>
+			<method name="EventOnRegisterBindingClicked"/>
+			<method name="EventOnAccountBindingClicked"/>
+			<method name="EventOnRegisterBindingClicked"/>
+			<method name="EventOnAccountBindingClicked"/>
+			<method name="EventOnRegisterBindingClicked"/>
+			<method name="EventOnAccountBindingClicked"/>
+			<method name="EventOnRegisterBindingClicked"/>
+			<method name="EventOnAccountBindingClicked"/>
+		</type>
+		<type fullname="HGSDK.UI.SDKPopupWebView">
+			<method name="CloseMe"/>
+			<method name="CloseMe"/>
+			<method name="CloseMe"/>
+			<method name="CloseMe"/>
+			<method name="CloseMe"/>
+			<method name="CloseMe"/>
+			<method name="CloseMe"/>
+			<method name="CloseMe"/>
+			<method name="CloseMe"/>
+			<method name="CloseMe"/>
+			<method name="CloseMe"/>
+			<method name="CloseMe"/>
+			<method name="CloseMe"/>
+			<method name="CloseMe"/>
+			<method name="CloseMe"/>
+			<method name="CloseMe"/>
+			<method name="CloseMe"/>
+			<method name="CloseMe"/>
+			<method name="CloseMe"/>
+			<method name="CloseMe"/>
+		</type>
+		<type fullname="Torappu.UI.UIItemCard">
+			<method name="EventOnItemClick"/>
+			<method name="EventOnItemClick"/>
+			<method name="EventOnItemClick"/>
+			<method name="EventOnItemClick"/>
+			<method name="EventOnItemClick"/>
+			<method name="EventOnItemClick"/>
+			<method name="EventOnItemClick"/>
+			<method name="EventOnItemClick"/>
+			<method name="EventOnItemClick"/>
+			<method name="EventOnReduceBtnClick"/>
+		</type>
+		<type fullname="Torappu.UI.UICommonTopMenuButton">
+			<method name="EventOnClicked"/>
+			<method name="EventOnClicked"/>
+			<method name="EventOnClicked"/>
+			<method name="EventOnClicked"/>
+			<method name="EventOnClicked"/>
+			<method name="EventOnClicked"/>
+			<method name="EventOnClicked"/>
+			<method name="EventOnClicked"/>
+			<method name="EventOnClicked"/>
+			<method name="EventOnClicked"/>
+			<method name="EventOnClicked"/>
+			<method name="EventOnClicked"/>
+			<method name="EventOnClicked"/>
+			<method name="EventOnClicked"/>
+			<method name="EventOnClicked"/>
+			<method name="EventOnClicked"/>
+			<method name="EventOnClicked"/>
+			<method name="EventOnClicked"/>
+			<method name="EventOnClicked"/>
+			<method name="EventOnClicked"/>
+			<method name="EventOnClicked"/>
+			<method name="EventOnClicked"/>
+			<method name="EventOnClicked"/>
+			<method name="EventOnClicked"/>
+			<method name="EventOnClicked"/>
+			<method name="EventOnClicked"/>
+			<method name="EventOnClicked"/>
+			<method name="EventOnClicked"/>
+			<method name="EventOnClicked"/>
+			<method name="EventOnClicked"/>
+			<method name="EventOnClicked"/>
+			<method name="EventOnClicked"/>
+			<method name="EventOnClicked"/>
+			<method name="EventOnClicked"/>
+			<method name="EventOnClicked"/>
+			<method name="EventOnClicked"/>
+			<method name="EventOnClicked"/>
+			<method name="EventOnClicked"/>
+			<method name="EventOnClicked"/>
+			<method name="EventOnClicked"/>
+			<method name="EventOnClicked"/>
+			<method name="EventOnClicked"/>
+			<method name="EventOnClicked"/>
+			<method name="EventOnClicked"/>
+			<method name="EventOnClicked"/>
+			<method name="EventOnClicked"/>
+			<method name="EventOnClicked"/>
+			<method name="EventOnClicked"/>
+			<method name="EventOnClicked"/>
+			<method name="EventOnClicked"/>
+			<method name="EventOnClicked"/>
+			<method name="EventOnClicked"/>
+			<method name="EventOnClicked"/>
+			<method name="EventOnClicked"/>
+			<method name="EventOnClicked"/>
+			<method name="EventOnClicked"/>
+			<method name="EventOnClicked"/>
+			<method name="EventOnClicked"/>
+			<method name="EventOnClicked"/>
+			<method name="EventOnClicked"/>
+			<method name="EventOnClicked"/>
+			<method name="EventOnClicked"/>
+			<method name="EventOnClicked"/>
+			<method name="EventOnClicked"/>
+			<method name="EventOnClicked"/>
+			<method name="EventOnClicked"/>
+			<method name="EventOnClicked"/>
+			<method name="EventOnClicked"/>
+			<method name="EventOnClicked"/>
+			<method name="EventOnClicked"/>
+			<method name="EventOnClicked"/>
+			<method name="EventOnClicked"/>
+			<method name="EventOnClicked"/>
+			<method name="EventOnClicked"/>
+			<method name="EventOnClicked"/>
+			<method name="EventOnClicked"/>
+			<method name="EventOnClicked"/>
+			<method name="EventOnClicked"/>
+			<method name="EventOnClicked"/>
+			<method name="EventOnClicked"/>
+			<method name="EventOnClicked"/>
+			<method name="EventOnClicked"/>
+			<method name="EventOnClicked"/>
+			<method name="EventOnClicked"/>
+			<method name="EventOnClicked"/>
+			<method name="EventOnClicked"/>
+			<method name="EventOnClicked"/>
+			<method name="EventOnClicked"/>
+			<method name="EventOnClicked"/>
+			<method name="EventOnClicked"/>
+			<method name="EventOnClicked"/>
+			<method name="EventOnClicked"/>
+			<method name="EventOnClicked"/>
+			<method name="EventOnClicked"/>
+			<method name="EventOnClicked"/>
+			<method name="EventOnClicked"/>
+			<method name="EventOnClicked"/>
+			<method name="EventOnClicked"/>
+			<method name="EventOnClicked"/>
+		</type>
+		<type fullname="Torappu.UI.DevTester.UIDebugPanel">
+			<method name="EventOnEntryClick"/>
+			<method name="EventOnBkgClick"/>
+			<method name="EventOnGetCharClick"/>
+			<method name="EventOnDisableGuideAvg"/>
+			<method name="EventOnUnlockAllStages"/>
+			<method name="EventOnGoToTestBattle"/>
+			<method name="EventOnGainAllItems"/>
+			<method name="EventOnAddAp"/>
+			<method name="EventOnDisableDebugInfo"/>
+			<method name="EventOnGetAllChars"/>
+			<method name="EventOnUpdateCheckin"/>
+			<method name="EventOnGainAllFurnitures"/>
+			<method name="EventOnGetResourceClick"/>
+			<method name="EventOnNetworkingSettings"/>
+			<method name="EventOnEntryClick"/>
+			<method name="EventOnBkgClick"/>
+			<method name="EventOnGetCharClick"/>
+			<method name="EventOnDisableGuideAvg"/>
+			<method name="EventOnUnlockAllStages"/>
+			<method name="EventOnGoToTestBattle"/>
+			<method name="EventOnGainAllItems"/>
+			<method name="EventOnAddAp"/>
+			<method name="EventOnDisableDebugInfo"/>
+			<method name="EventOnGetAllChars"/>
+			<method name="EventOnUpdateCheckin"/>
+			<method name="EventOnGainAllFurnitures"/>
+			<method name="EventOnGetResourceClick"/>
+			<method name="EventOnNetworkingSettings"/>
+			<method name="EventOnEntryClick"/>
+			<method name="EventOnBkgClick"/>
+			<method name="EventOnGetCharClick"/>
+			<method name="EventOnDisableGuideAvg"/>
+			<method name="EventOnUnlockAllStages"/>
+			<method name="EventOnGoToTestBattle"/>
+			<method name="EventOnGainAllItems"/>
+			<method name="EventOnAddAp"/>
+			<method name="EventOnDisableDebugInfo"/>
+			<method name="EventOnGetAllChars"/>
+			<method name="EventOnUpdateCheckin"/>
+			<method name="EventOnGainAllFurnitures"/>
+			<method name="EventOnGetResourceClick"/>
+			<method name="EventOnNetworkingSettings"/>
+			<method name="EventOnEntryClick"/>
+			<method name="EventOnBkgClick"/>
+			<method name="EventOnGetCharClick"/>
+			<method name="EventOnDisableGuideAvg"/>
+			<method name="EventOnUnlockAllStages"/>
+			<method name="EventOnGoToTestBattle"/>
+			<method name="EventOnGainAllItems"/>
+			<method name="EventOnAddAp"/>
+			<method name="EventOnDisableDebugInfo"/>
+			<method name="EventOnGetAllChars"/>
+			<method name="EventOnUpdateCheckin"/>
+			<method name="EventOnGainAllFurnitures"/>
+			<method name="EventOnGetResourceClick"/>
+			<method name="EventOnNetworkingSettings"/>
+			<method name="EventOnEntryClick"/>
+			<method name="EventOnBkgClick"/>
+			<method name="EventOnGetCharClick"/>
+			<method name="EventOnDisableGuideAvg"/>
+			<method name="EventOnUnlockAllStages"/>
+			<method name="EventOnGoToTestBattle"/>
+			<method name="EventOnGainAllItems"/>
+			<method name="EventOnAddAp"/>
+			<method name="EventOnDisableDebugInfo"/>
+			<method name="EventOnGetAllChars"/>
+			<method name="EventOnUpdateCheckin"/>
+			<method name="EventOnGainAllFurnitures"/>
+			<method name="EventOnGetResourceClick"/>
+			<method name="EventOnNetworkingSettings"/>
+			<method name="EventOnEntryClick"/>
+			<method name="EventOnBkgClick"/>
+			<method name="EventOnGetCharClick"/>
+			<method name="EventOnDisableGuideAvg"/>
+			<method name="EventOnUnlockAllStages"/>
+			<method name="EventOnGoToTestBattle"/>
+			<method name="EventOnGainAllItems"/>
+			<method name="EventOnAddAp"/>
+			<method name="EventOnDisableDebugInfo"/>
+			<method name="EventOnGetAllChars"/>
+			<method name="EventOnUpdateCheckin"/>
+			<method name="EventOnGainAllFurnitures"/>
+			<method name="EventOnGetResourceClick"/>
+			<method name="EventOnNetworkingSettings"/>
+		</type>
+		<type fullname="Torappu.UI.CommonTopMenu">
+			<method name="EventOnBlankClicked"/>
+			<method name="EventOnBtnBack"/>
+			<method name="EventOnBtnHome"/>
+			<method name="EventOnBlankClicked"/>
+			<method name="EventOnBtnBack"/>
+			<method name="EventOnBtnHome"/>
+			<method name="EventOnBlankClicked"/>
+			<method name="EventOnBtnBack"/>
+			<method name="EventOnBtnHome"/>
+			<method name="EventOnBlankClicked"/>
+			<method name="EventOnBtnBack"/>
+			<method name="EventOnBtnHome"/>
+			<method name="EventOnBtnHome"/>
+			<method name="EventOnBtnBack"/>
+			<method name="EventOnBlankClicked"/>
+			<method name="EventOnBlankClicked"/>
+			<method name="EventOnBtnBack"/>
+			<method name="EventOnBtnHome"/>
+			<method name="EventOnBlankClicked"/>
+			<method name="EventOnBtnBack"/>
+			<method name="EventOnBtnHome"/>
+			<method name="EventOnBlankClicked"/>
+			<method name="EventOnBtnBack"/>
+			<method name="EventOnBtnHome"/>
+			<method name="EventOnBlankClicked"/>
+			<method name="EventOnBtnBack"/>
+			<method name="EventOnBtnHome"/>
+		</type>
+		<type fullname="Torappu.UI.DevTester.UIDebugNetworkSetttings">
+			<method name="EventOnSaveClicked"/>
+			<method name="EventOnCancelClicked"/>
+			<method name="EventOnSaveClicked"/>
+			<method name="EventOnCancelClicked"/>
+			<method name="EventOnSaveClicked"/>
+			<method name="EventOnCancelClicked"/>
+			<method name="EventOnSaveClicked"/>
+			<method name="EventOnCancelClicked"/>
+			<method name="EventOnSaveClicked"/>
+			<method name="EventOnCancelClicked"/>
+			<method name="EventOnSaveClicked"/>
+			<method name="EventOnCancelClicked"/>
+		</type>
+		<type fullname="Torappu.UI.Login.LoginViewController">
+			<method name="EventOnLoginFinished"/>
+		</type>
+		<type fullname="Torappu.UI.Login.LoginNamingState">
+			<method name="OnConfirmClicked"/>
+		</type>
+		<type fullname="Torappu.UI.Login.LoginServiceLicenseView">
+			<method name="EventOnLicenseToggleClicked"/>
+			<method name="EventOnNextBtnClicked"/>
+		</type>
+		<type fullname="Torappu.UI.UIInputTextLimit">
+			<method name="OnValueChanged"/>
+			<method name="OnValueChanged"/>
+			<method name="OnValueChanged"/>
+			<method name="OnValueChanged"/>
+			<method name="OnValueChanged"/>
+		</type>
+		<type fullname="Torappu.UI.Login.LoginPreAnnounceView">
+			<method name="ClosePanel"/>
+		</type>
+		<type fullname="Torappu.UI.Stage.StagePage">
+			<method name="EventOnStageButtonClick"/>
+			<method name="EventOnMapLoadError"/>
+			<method name="EventOnMapLoaded"/>
+			<method name="EventOnStageButtonClick"/>
+			<method name="EventOnMapLoadError"/>
+			<method name="EventOnMapLoaded"/>
+			<method name="EventOnCampaignBreakRewardConfirmed"/>
+		</type>
+		<type fullname="Torappu.UI.Stage.StageZoneState">
+			<method name="EventOnSwitchMainline"/>
+		</type>
+		<type fullname="Torappu.UI.Stage.StageZoneTabView">
+			<method name="EventOnTabClicked"/>
+			<method name="EventOnTabClicked"/>
+			<method name="EventOnTabClicked"/>
+			<method name="EventOnTabClicked"/>
+			<method name="EventOnTabClicked"/>
+			<method name="EventOnTabClicked"/>
+		</type>
+		<type fullname="Torappu.UI.State">
+			<method name="DismissSelf"/>
+			<method name="DismissSelf"/>
+			<method name="DismissSelf"/>
+			<method name="DismissSelf"/>
+			<method name="DismissSelf"/>
+			<method name="DismissSelf"/>
+			<method name="DismissSelf"/>
+			<method name="DismissSelf"/>
+			<method name="DismissSelf"/>
+			<method name="DismissSelf"/>
+			<method name="DismissSelf"/>
+			<method name="DismissSelf"/>
+			<method name="DismissSelf"/>
+			<method name="DismissSelf"/>
+			<method name="DismissSelf"/>
+			<method name="DismissSelf"/>
+			<method name="DismissSelf"/>
+			<method name="DismissSelf"/>
+			<method name="DismissSelf"/>
+			<method name="DismissSelf"/>
+			<method name="DismissSelf"/>
+			<method name="DismissSelf"/>
+			<method name="DismissSelf"/>
+			<method name="DismissSelf"/>
+			<method name="DismissSelf"/>
+			<method name="DismissSelf"/>
+			<method name="DismissSelf"/>
+			<method name="DismissSelf"/>
+			<method name="DismissSelf"/>
+			<method name="DismissSelf"/>
+			<method name="DismissSelf"/>
+			<method name="DismissSelf"/>
+			<method name="DismissSelf"/>
+			<method name="DismissSelf"/>
+			<method name="DismissSelf"/>
+			<method name="DismissSelf"/>
+			<method name="DismissSelf"/>
+			<method name="DismissSelf"/>
+			<method name="DismissSelf"/>
+			<method name="DismissSelf"/>
+			<method name="DismissSelf"/>
+			<method name="DismissSelf"/>
+			<method name="DismissSelf"/>
+			<method name="DismissSelf"/>
+			<method name="DismissSelf"/>
+			<method name="DismissSelf"/>
+			<method name="DismissSelf"/>
+			<method name="DismissSelf"/>
+			<method name="DismissSelf"/>
+			<method name="DismissSelf"/>
+		</type>
+		<type fullname="Torappu.UI.Stage.StagePreviewConfigController">
+			<method name="OnAutoBattleLocked"/>
+			<method name="OnAutoBattleLocked"/>
+			<method name="OnAutoBattleLocked"/>
+		</type>
+		<type fullname="Torappu.UI.Stage.StagePreviewState">
+			<method name="OnReplayStoryOpenClick"/>
+			<method name="OnReplayStoryOpenClick"/>
+			<method name="OnReplayStoryOpenClick"/>
+			<method name="OnAutoBattleSwitchClick"/>
+			<method name="OnAutoBattleSwitchClick"/>
+			<method name="OnAutoBattleSwitchClick"/>
+			<method name="OnStartPractiseClick"/>
+			<method name="OnStartBattleClick"/>
+			<method name="OnStartPractiseClick"/>
+			<method name="OnStartBattleClick"/>
+			<method name="OnBeHard"/>
+			<method name="OnStartPractiseClick"/>
+			<method name="OnLockedHardBattleClick"/>
+			<method name="OnHardBattleClick"/>
+			<method name="OnLockedHardBattleClick"/>
+			<method name="OnBeNormal"/>
+			<method name="OnBeHard"/>
+			<method name="OnOpenEnemyClick"/>
+			<method name="OnOpenRewardClick"/>
+			<method name="OnOpenRewardClick"/>
+			<method name="OnOpenEnemyClick"/>
+			<method name="OnOpenRewardClick"/>
+			<method name="OnOpenEnemyClick"/>
+			<method name="OnReplayStoryTrigClick"/>
+			<method name="OnLockedHardBattleClick"/>
+			<method name="OnReplayStoryTrigClick"/>
+			<method name="OnReplayStoryTrigClick"/>
+			<method name="OnReplayStoryTrigClick"/>
+		</type>
+		<type fullname="Torappu.UI.Stage.Campaign.StagePreviewCampaignBreakDetailPanel">
+			<method name="Hide"/>
+		</type>
+		<type fullname="Torappu.UI.Stage.StageMainZoneControllView">
+			<method name="OnRight"/>
+			<method name="OnLeft"/>
+		</type>
+		<type fullname="Torappu.UI.UIGuidebookTrigger">
+			<method name="OnClicked"/>
+			<method name="OnClicked"/>
+			<method name="OnClicked"/>
+			<method name="OnClicked"/>
+			<method name="OnClicked"/>
+			<method name="OnClicked"/>
+			<method name="OnClicked"/>
+			<method name="OnClicked"/>
+			<method name="OnClicked"/>
+			<method name="OnClicked"/>
+			<method name="OnClicked"/>
+			<method name="OnClicked"/>
+			<method name="OnClicked"/>
+			<method name="OnClicked"/>
+			<method name="OnClicked"/>
+			<method name="OnClicked"/>
+			<method name="OnClicked"/>
+			<method name="OnClicked"/>
+			<method name="OnClicked"/>
+			<method name="OnClicked"/>
+			<method name="OnClicked"/>
+			<method name="OnClicked"/>
+			<method name="OnClicked"/>
+			<method name="OnClicked"/>
+			<method name="OnClicked"/>
+			<method name="OnClicked"/>
+		</type>
+		<type fullname="Torappu.UI.Stage.Campaign.StagePreviewInfoCampaignPanel">
+			<method name="OnCampaignBreakDetailsClick"/>
+		</type>
+		<type fullname="Torappu.UI.Stage.StagePreviewInfoBasicPanel">
+			<method name="CloseTips"/>
+			<method name="OpenMapTips"/>
+			<method name="OpenMapTips"/>
+			<method name="OpenMapTips"/>
+		</type>
+		<type fullname="Torappu.UI.Stage.StageZoneActivityTabView">
+			<method name="EventOnLockedClicked"/>
+		</type>
+		<type fullname="Torappu.UI.Home.HomeMainState">
+			<method name="EventOnBuyApFinish"/>
+			<method name="EventOnExchangeFinish"/>
+			<method name="LoadTargetText"/>
+			<method name="EventOnBuildingClick"/>
+			<method name="EventOnShopClick"/>
+			<method name="EventOnHandbookClick"/>
+			<method name="EventOnFriendClick"/>
+			<method name="EventOnMissionClick"/>
+			<method name="EventOnClickActivity"/>
+			<method name="EventOnOpenSeverClick"/>
+			<method name="ExistIllustText"/>
+			<method name="EventOnCharacterRepoClick"/>
+			<method name="EventOnItemRepoClick"/>
+			<method name="EventOnMailClick"/>
+			<method name="EventOnCheckInClick"/>
+			<method name="EventOnAnouncementClick"/>
+			<method name="EventOnSquadClick"/>
+			<method name="EventOnStageClick"/>
+			<method name="EventOnHomeIllustClick"/>
+			<method name="HideIllustText"/>
+			<method name="EventOnSettingClick"/>
+			<method name="EventOnNormalRecruitClick"/>
+			<method name="EventOnAdvancedRecruitClick"/>
+			<method name="EventOnAddDiamondClicked"/>
+			<method name="EventOnExchangeDiamondClick"/>
+			<method name="EventOnBuyApClick"/>
+		</type>
+		<type fullname="Torappu.UI.Stage.StageBuyApView">
+			<method name="Dismiss"/>
+			<method name="SendBuyApService"/>
+			<method name="Dismiss"/>
+		</type>
+		<type fullname="Torappu.UI.Home.HomeCheckInState">
+			<method name="BtnOnSendCheckIn"/>
+			<method name="BtnOnSendCheckIn"/>
+		</type>
+		<type fullname="Torappu.UI.Home.HomeMailState">
+			<method name="SendListMailBoxService"/>
+			<method name="EventOnBtnDebugClick"/>
+			<method name="EventOnMailClick"/>
+			<method name="EventOnDetailClick"/>
+			<method name="EventOnRemoveAllClick"/>
+			<method name="EventOnBtnBackClick"/>
+			<method name="EventOnReceiveAllClick"/>
+		</type>
+		<type fullname="Torappu.UI.Home.HomeAPFloatView">
+			<method name="EventOnCancelBuyClick"/>
+			<method name="EventOnConfirmBuyClick"/>
+			<method name="EventOnCancelBuyClick"/>
+		</type>
+		<type fullname="Torappu.UI.Home.HomeDiamondChangeView">
+			<method name="Dismiss"/>
+			<method name="SendDiamondExchangeService"/>
+			<method name="Dismiss"/>
+			<method name="MinusToOne"/>
+			<method name="Add"/>
+			<method name="AddToMax"/>
+			<method name="Minus"/>
+			<method name="Dismiss"/>
+		</type>
+		<type fullname="Torappu.UI.Home.ActivityTopBarHolder">
+			<method name="Click"/>
+			<method name="EventOnLockedClicked"/>
+		</type>
+		<type fullname="Torappu.UI.Home.HomeActivityOnBattleView">
+			<method name="EventOnIconClicked"/>
+			<method name="EventOnLockedClicked"/>
+		</type>
+		<type fullname="Torappu.UI.ScrollRectSoftMask">
+			<method name="OnDrag"/>
+			<method name="OnDrag"/>
+			<method name="OnDrag"/>
+			<method name="OnDrag"/>
+			<method name="OnDrag"/>
+			<method name="OnDrag"/>
+			<method name="OnDrag"/>
+			<method name="OnDrag"/>
+			<method name="OnDrag"/>
+			<method name="OnDrag"/>
+			<method name="OnDrag"/>
+			<method name="OnDrag"/>
+			<method name="OnDrag"/>
+			<method name="OnDrag"/>
+		</type>
+		<type fullname="Torappu.UI.Stage.StageZoneSelectItem">
+			<method name="EventOnZoneClick"/>
+			<method name="EventOnZoneClick"/>
+		</type>
+		<type fullname="Torappu.UI.Home.HomeSignInObject">
+			<method name="ChangeSelect"/>
+		</type>
+		<type fullname="Torappu.UI.UIItemDescFloat">
+			<method name="EventOnBlankClick"/>
+			<method name="EventOnBlankClick"/>
+			<method name="EventOnBlankClick"/>
+			<method name="EventOnBlankClick"/>
+			<method name="EventOnBlankClick"/>
+		</type>
+		<type fullname="Torappu.UI.UIItemDescFloatStageDropDetail">
+			<method name="EventOnGoToButtonClicked"/>
+			<method name="EventOnGoToButtonClicked"/>
+			<method name="EventOnGoToButtonClicked"/>
+			<method name="EventOnGoToButtonClicked"/>
+			<method name="EventOnGoToButtonClicked"/>
+		</type>
+		<type fullname="Torappu.UI.UIItemDescFloatBuildingProduct">
+			<method name="EventOnGotoBtnClicked"/>
+			<method name="EventOnLockBtnClicked"/>
+			<method name="EventOnGotoBtnClicked"/>
+			<method name="EventOnLockBtnClicked"/>
+			<method name="EventOnGotoBtnClicked"/>
+			<method name="EventOnLockBtnClicked"/>
+			<method name="EventOnGotoBtnClicked"/>
+			<method name="EventOnLockBtnClicked"/>
+			<method name="EventOnGotoBtnClicked"/>
+			<method name="EventOnLockBtnClicked"/>
+		</type>
+		<type fullname="Torappu.UI.Home.HomeAnnounceState">
+			<method name="OnSelectActivityGroup"/>
+			<method name="OnSelectSystemGroup"/>
+			<method name="EventOnBtnBackClick"/>
+		</type>
+		<type fullname="Torappu.UI.Home.Activity.HomeOpenServerState">
+			<method name="OnTotalCheckClick"/>
+			<method name="OnMissionClick"/>
+			<method name="SendGetFinal"/>
+			<method name="OnChainLoginClick"/>
+		</type>
+		<type fullname="Torappu.UI.Home.HomeCheckInRewardsListView">
+			<method name="OnDrag"/>
+		</type>
+		<type fullname="Torappu.UI.Home.HomeMailDetailState">
+			<method name="EventOnMailClick"/>
+		</type>
+		<type fullname="Torappu.UI.Stage.StagePreviewReplayView">
+			<method name="FadeOut"/>
+		</type>
+		<type fullname="Torappu.UI.Stage.Campaign.StagePreviewCampaignBreakDetailWidget">
+			<method name="OnConfirmButtonClicked"/>
+		</type>
+		<type fullname="Torappu.UI.Home.HomeActivityView">
+			<method name="EventOnBannerClick"/>
+		</type>
+		<type fullname="Torappu.UI.Home.HomeAnnounceTab">
+			<method name="AnnounceSelectClick"/>
+		</type>
+		<type fullname="Torappu.UI.EnemyHandBook.EnemyHandBookScrollView">
+			<method name="SetBoss"/>
+			<method name="SetAll"/>
+			<method name="SetBoss"/>
+			<method name="SetAll"/>
+		</type>
+		<type fullname="Torappu.UI.Home.HomeMailItemView">
+			<method name="EventOnDetailClick"/>
+			<method name="EventOnMailClick"/>
+		</type>
+		<type fullname="Torappu.UI.Setting.SettingState">
+			<method name="EventOnBtnBackClick"/>
+			<method name="PlayerQuit"/>
+		</type>
+		<type fullname="Torappu.UI.TabPanel">
+			<method name="OnTabView"/>
+			<method name="OnTabView"/>
+			<method name="OnTabView"/>
+		</type>
+		<type fullname="Torappu.UI.EnemyHandBook.EnemyHandBookItemView">
+			<method name="OnClick"/>
+			<method name="OnClick"/>
+		</type>
+		<type fullname="Torappu.UI.Home.Activity.OpenServerTotalCheckInItemView">
+			<method name="OnAnimator"/>
+		</type>
+		<type fullname="Torappu.UI.Home.Activity.OpenServerMissionItemView">
+			<method name="OnAnimatorStart"/>
+		</type>
+		<type fullname="Torappu.UI.Home.Activity.OpenServerChainLoginItemView">
+			<method name="OnAnimator"/>
+		</type>
+		<type fullname="Torappu.UI.UIPayCostCheckContent">
+			<method name="EventOnCancelClicked"/>
+			<method name="EventOnConfirmClicked"/>
+			<method name="EventOnCancelClicked"/>
+			<method name="EventOnConfirmClicked"/>
+			<method name="EventOnCancelClicked"/>
+			<method name="EventOnConfirmClicked"/>
+			<method name="EventOnCancelClicked"/>
+			<method name="EventOnConfirmClicked"/>
+		</type>
+		<type fullname="Torappu.UI.BattleFinish.BattleFinishHomeState">
+			<method name="EventOnPageClicked"/>
+			<method name="EventOnConfirmAllowAutoBattle"/>
+			<method name="HideLvlUpState"/>
+			<method name="EventOnConfirmSaveBattleLog"/>
+			<method name="SendFriendRequest"/>
+			<method name="EventOnItemDescCloseClicked"/>
+			<method name="HideFriendState"/>
+			<method name="EventOnCancelSaveBattleLog"/>
+		</type>
+		<type fullname="Torappu.UI.BattleFinish.Campaign.CampaignSaveBattleLogViewController">
+			<method name="OnConfirmBtnClicked"/>
+		</type>
+		<type fullname="Torappu.UI.BattleFinish.Campaign.CampaignDisplayBattleLogViewController">
+			<method name="OnConfirmBtnClicked"/>
+		</type>
+		<type fullname="Torappu.UI.DevTester.CharEditorEditView">
+			<method name="EventOnEvolvePhasePlus"/>
+			<method name="EventOnEvolvePhaseMinus"/>
+			<method name="EventOnConfirm"/>
+			<method name="EventOnCancel"/>
+			<method name="EventOnLevelEndEdit"/>
+			<method name="EventOnLevelProcessChange"/>
+		</type>
+		<type fullname="Torappu.UI.DevTester.CharEditorViewController">
+			<method name="EventOnCardClick"/>
+		</type>
+		<type fullname="Torappu.UI.DevTester.ItemEditorController">
+			<method name="EventOnAddMoney"/>
+			<method name="EventOnAddEvolveItem"/>
+		</type>
+		<type fullname="Torappu.UI.UICharacterCardPanel">
+			<method name="OnCardClick"/>
+			<method name="OnCardClick"/>
+			<method name="OnCardClick"/>
+		</type>
+		<type fullname="Torappu.Building.BP.BlueprintMode">
+			<method name="EventOnHilightedMaskClicked"/>
+		</type>
+		<type fullname="Torappu.Building.Vault.UI.VCharFavorIcon">
+			<method name="OnClick"/>
+			<method name="OnClick"/>
+		</type>
+		<type fullname="Torappu.Building.UI.Float.BuildingFloatPage">
+			<method name="OnStationManageClicked"/>
+			<method name="OnOperationModeSwitchClicked"/>
+		</type>
+		<type fullname="Torappu.Building.UI.UIArchitectureBuildView">
+			<method name="OnLeftButtonPressed"/>
+			<method name="OnRightButtonPressed"/>
+		</type>
+		<type fullname="Torappu.Building.UI.UIArchitectureRoomDetailView">
+			<method name="OnTeardownButtonPressed"/>
+			<method name="OnLevelupButtonPressed"/>
+			<method name="OnBGButtonPressed"/>
+		</type>
+		<type fullname="Torappu.Building.UI.Float.BuildingFloatVisitState">
+			<method name="EventOnVisitNextClicked"/>
+			<method name="OnSendClueButtonPressed"/>
+		</type>
+		<type fullname="Torappu.Building.UI.Float.BuildingFloatMeetingState">
+			<method name="EventOnCloseTips"/>
+			<method name="EventOnBtnFriendClicked"/>
+		</type>
+		<type fullname="Torappu.Building.UI.Float.BuildingFloatVaultInfoState">
+			<method name="EventOnStationInfoClicked"/>
+			<method name="EventOnRoomInfoClicked"/>
+			<method name="EventOnStationInfoClicked"/>
+			<method name="EventOnRoomInfoClicked"/>
+			<method name="EventOnRoomInfoClicked"/>
+			<method name="EventOnStationInfoClicked"/>
+			<method name="EventOnRoomInfoClicked"/>
+			<method name="EventOnStationInfoClicked"/>
+			<method name="EventOnRoomInfoClicked"/>
+			<method name="EventOnRoomInfoClicked"/>
+			<method name="EventOnStationInfoClicked"/>
+			<method name="EventOnStationInfoClicked"/>
+			<method name="EventOnStationInfoClicked"/>
+			<method name="EventOnRoomInfoClicked"/>
+			<method name="EventOnStationInfoClicked"/>
+			<method name="EventOnStationInfoClicked"/>
+			<method name="EventOnRoomInfoClicked"/>
+			<method name="EventOnRoomInfoClicked"/>
+		</type>
+		<type fullname="Torappu.Building.UI.Float.BuildingFloatManufactState">
+			<method name="EventOnManufactClick"/>
+		</type>
+		<type fullname="Torappu.Building.UI.Float.BuildingFloatTrainingState">
+			<method name="EventOnTrainingClick"/>
+		</type>
+		<type fullname="Torappu.Building.UI.Float.BuildingFloatTradingView">
+			<method name="EventOnOpenPage"/>
+		</type>
+		<type fullname="Torappu.Building.UI.UIArchitectureBuildRoomPanel">
+			<method name="OnDescBGPressed"/>
+			<method name="OnDescButtonPressed"/>
+		</type>
+		<type fullname="Torappu.Building.DIY.UI.DIYShopBuyPanel">
+			<method name="OnBuyButtonPressed"/>
+			<method name="OnCancelButtonPressed"/>
+			<method name="OnCashSwitchPressed"/>
+			<method name="OnFurnitureCoinSwitchPressed"/>
+			<method name="OnBuyButtonPressed"/>
+			<method name="OnCancelButtonPressed"/>
+			<method name="OnCashSwitchPressed"/>
+			<method name="OnFurnitureCoinSwitchPressed"/>
+		</type>
+		<type fullname="Torappu.Building.UI.Float.BuildingFloatVaultDormState">
+			<method name="EventOnDIYClick"/>
+			<method name="EventOnDIYShopClick"/>
+		</type>
+		<type fullname="Torappu.Building.UI.Float.BuildingFloatWorkshopState">
+			<method name="EventOnWorkshopClick"/>
+		</type>
+		<type fullname="Torappu.Building.UI.UIArchitectureBaseView`1">
+			<method name="OnCancelPressed"/>
+			<method name="OnCancelPressed"/>
+			<method name="OnConfirmPressed"/>
+			<method name="OnConfirmPressed"/>
+			<method name="OnConfirmPressed"/>
+			<method name="OnCancelPressed"/>
+			<method name="OnConfirmPressed"/>
+			<method name="OnCancelPressed"/>
+			<method name="OnCancelPressed"/>
+		</type>
+		<type fullname="Torappu.Building.UI.Meeting.MeetingFloatStateCornerView">
+			<method name="OnBGButtonPressed"/>
+		</type>
+		<type fullname="Torappu.Building.UI.Float.BuildingFloatHireState">
+			<method name="EventOnHireSelect"/>
+		</type>
+		<type fullname="Torappu.Building.UI.BuildingUIFloatStationView">
+			<method name="EventOnBlankClicked"/>
+			<method name="EventOnClearStationClicked"/>
+		</type>
+		<type fullname="Torappu.Building.DIY.UI.DIYShopPanel">
+			<method name="OnBackgroundPressed"/>
+			<method name="OnFilterButtonPressed"/>
+			<method name="OnGroundButtonPresed"/>
+			<method name="OnThemeButtonPressed"/>
+			<method name="OnWallButtonPresed"/>
+			<method name="OnCeilingButtonPresed"/>
+			<method name="OnBackgroundPressed"/>
+			<method name="OnFilterButtonPressed"/>
+			<method name="OnGroundButtonPresed"/>
+			<method name="OnThemeButtonPressed"/>
+			<method name="OnWallButtonPresed"/>
+			<method name="OnCeilingButtonPresed"/>
+		</type>
+		<type fullname="Torappu.Building.UI.Float.BuildingFloatToDoNotifyState">
+			<method name="EventOnTabEmerClicked"/>
+			<method name="EventOnTabNormalClicked"/>
+		</type>
+		<type fullname="Torappu.Building.UI.Float.BuildingFloatVaultControlState">
+			<method name="EventOnBuildingAssistClicked"/>
+		</type>
+		<type fullname="Torappu.Building.UI.Float.BuildingFloatVaultState">
+			<method name="EventOnHideUIClicked"/>
+		</type>
+		<type fullname="Torappu.Building.UI.BuildingUIFloatRoomDetailView">
+			<method name="EventOnBlankClicked"/>
+		</type>
+		<type fullname="Torappu.Building.UI.ToDoNotify.BuildingToDoNotifyItemView">
+			<method name="EventOnClicked"/>
+		</type>
+		<type fullname="Torappu.Building.DIY.UI.DIYFilterButton">
+			<method name="OnButtonPressed"/>
+			<method name="OnButtonPressed"/>
+			<method name="OnButtonPressed"/>
+			<method name="OnButtonPressed"/>
+			<method name="OnButtonPressed"/>
+			<method name="OnButtonPressed"/>
+			<method name="OnButtonPressed"/>
+			<method name="OnButtonPressed"/>
+			<method name="OnButtonPressed"/>
+			<method name="OnButtonPressed"/>
+			<method name="OnButtonPressed"/>
+			<method name="OnButtonPressed"/>
+			<method name="OnButtonPressed"/>
+			<method name="OnButtonPressed"/>
+			<method name="OnButtonPressed"/>
+		</type>
+		<type fullname="Torappu.Building.DIY.UI.DIYSortButton">
+			<method name="OnButtonPressed"/>
+			<method name="OnButtonPressed"/>
+			<method name="OnButtonPressed"/>
+			<method name="OnButtonPressed"/>
+			<method name="OnButtonPressed"/>
+			<method name="OnButtonPressed"/>
+			<method name="OnButtonPressed"/>
+			<method name="OnButtonPressed"/>
+			<method name="OnButtonPressed"/>
+			<method name="OnButtonPressed"/>
+			<method name="OnButtonPressed"/>
+		</type>
+		<type fullname="Torappu.Building.DIY.UI.DIYSortPanel">
+			<method name="OnCancelButtonPressed"/>
+			<method name="OnCancelButtonPressed"/>
+			<method name="OnOkButtonPressed"/>
+			<method name="OnCancelButtonPressed"/>
+			<method name="OnCancelButtonPressed"/>
+			<method name="OnOkButtonPressed"/>
+			<method name="OnCancelButtonPressed"/>
+			<method name="OnCancelButtonPressed"/>
+			<method name="OnOkButtonPressed"/>
+		</type>
+		<type fullname="Torappu.Building.DIY.UI.FilterFurnitureItemView">
+			<method name="OnBackgroundButtonPressed"/>
+			<method name="OnBackgroundButtonPressed"/>
+			<method name="OnBackgroundButtonPressed"/>
+			<method name="OnBackgroundButtonPressed"/>
+		</type>
+		<type fullname="Torappu.Building.DIY.UI.FurnitureItemView">
+			<method name="OnButtonPressed"/>
+			<method name="OnInfoButtonPressed"/>
+			<method name="OnRenameButtonPressed"/>
+			<method name="OnButtonPressed"/>
+			<method name="OnInfoButtonPressed"/>
+			<method name="OnRenameButtonPressed"/>
+			<method name="OnButtonPressed"/>
+			<method name="OnRenameButtonPressed"/>
+			<method name="OnButtonPressed"/>
+			<method name="OnInfoButtonPressed"/>
+			<method name="OnRenameButtonPressed"/>
+			<method name="OnButtonPressed"/>
+			<method name="OnInfoButtonPressed"/>
+			<method name="OnRenameButtonPressed"/>
+			<method name="OnButtonPressed"/>
+			<method name="OnRenameButtonPressed"/>
+			<method name="OnButtonPressed"/>
+			<method name="OnInfoButtonPressed"/>
+			<method name="OnInfoButtonPressed"/>
+			<method name="OnRenameButtonPressed"/>
+			<method name="OnButtonPressed"/>
+			<method name="OnInfoButtonPressed"/>
+			<method name="OnInfoButtonPressed"/>
+			<method name="OnRenameButtonPressed"/>
+		</type>
+		<type fullname="Torappu.Building.UI.BuildingUIFloatStationItem">
+			<method name="EventOnPanelClicked"/>
+			<method name="EventOnRemoveBtnClicked"/>
+		</type>
+		<type fullname="Torappu.Building.DIY.UI.DIYShopBuyItemLine">
+			<method name="OnMaxButtonPressed"/>
+			<method name="OnMinButtonPressed"/>
+			<method name="OnAddButtonPressed"/>
+			<method name="OnMinusButtonPressed"/>
+			<method name="OnMaxButtonPressed"/>
+			<method name="OnMinButtonPressed"/>
+			<method name="OnAddButtonPressed"/>
+			<method name="OnMinusButtonPressed"/>
+		</type>
+		<type fullname="Torappu.Building.UI.BuildingCharAvatar">
+			<method name="EventOnAvatarClicked"/>
+			<method name="EventOnAvatarClicked"/>
+		</type>
+		<type fullname="Torappu.Building.UI.BuildingUIResMenu">
+			<method name="EventOnLaborDetailClicked"/>
+			<method name="EventOnLaborDetailClicked"/>
+		</type>
+		<type fullname="Torappu.Building.UI.Train.BuildingTrainingLevelUpSuccessView">
+			<method name="ClosePanel"/>
+			<method name="ClosePanel"/>
+			<method name="ClosePanel"/>
+		</type>
+		<type fullname="Torappu.Building.UI.BuildingLaborDetailView">
+			<method name="EventOnBuyLaborClicked"/>
+			<method name="EventOnBuyLaborClicked"/>
+		</type>
+		<type fullname="Torappu.UI.Friend.FriendListItem">
+			<method name="OnSetAlias"/>
+			<method name="OnDeleteFriend"/>
+			<method name="OnCloseDetail"/>
+			<method name="OnOpenShow"/>
+			<method name="OnOpenShow"/>
+			<method name="OnCloseDetail"/>
+			<method name="OnDeleteFriend"/>
+			<method name="OnSetAlias"/>
+			<method name="OnCloseDetail"/>
+			<method name="OnDetailClick"/>
+			<method name="OnNameCardClick"/>
+			<method name="OpenBuilding"/>
+			<method name="OnSetAlias"/>
+			<method name="OnDeleteFriend"/>
+			<method name="OnCloseDetail"/>
+			<method name="OnOpenShow"/>
+			<method name="OnOpenShow"/>
+			<method name="OnCloseDetail"/>
+			<method name="OnDeleteFriend"/>
+			<method name="OnSetAlias"/>
+			<method name="OnCloseDetail"/>
+			<method name="OnDetailClick"/>
+			<method name="OnNameCardClick"/>
+			<method name="OpenBuilding"/>
+		</type>
+		<type fullname="Torappu.UI.CharacterRepo.CharacterRepoPage">
+			<method name="EventOnCharacterCardClick"/>
+			<method name="EventOnFilterClick"/>
+			<method name="EventOnSortTypeClick"/>
+		</type>
+		<type fullname="Torappu.UI.AutoHideComponent">
+			<method name="NotifyInteract"/>
+		</type>
+		<type fullname="Torappu.UI.Recruit.RecruitSlideState">
+			<method name="EventOnFastFinishClick"/>
+			<method name="EventOnInterruptBuildClick"/>
+			<method name="EventOnStartBuildClick"/>
+			<method name="EventOnBuildingTimeUp"/>
+			<method name="EventOnFinishBuildClick"/>
+			<method name="EventOnBuySlot"/>
+			<method name="OnBuyFastFinish"/>
+			<method name="OnBuyFastDiamondShardFinish"/>
+			<method name="OnConfirmFastFinish"/>
+			<method name="EventOnGachaBtnClick"/>
+			<method name="EventOnTenGachaBtnClick"/>
+		</type>
+		<type fullname="Torappu.UI.Shop.ShopStateItemContainer">
+			<method name="OnClick"/>
+			<method name="OnClick"/>
+			<method name="OnClick"/>
+			<method name="OnClick"/>
+			<method name="OnClick"/>
+			<method name="OnClick"/>
+			<method name="OnClick"/>
+			<method name="OnClick"/>
+			<method name="OnClick"/>
+			<method name="OnClick"/>
+			<method name="OnClick"/>
+			<method name="OnClick"/>
+			<method name="OnClick"/>
+			<method name="OnClick"/>
+		</type>
+		<type fullname="Torappu.UI.Friend.FriendStateControl">
+			<method name="ToFriendSearch"/>
+			<method name="ToNameCard"/>
+			<method name="ToFriendAssistList"/>
+			<method name="ToFriendRequestList"/>
+			<method name="ToFriendList"/>
+			<method name="ToFriendSearch"/>
+			<method name="ToNameCard"/>
+			<method name="ToFriendAssistList"/>
+			<method name="ToFriendRequestList"/>
+			<method name="ToFriendList"/>
+		</type>
+		<type fullname="Torappu.UI.UIGainItemFloatPanel">
+			<method name="EventOnBlankClicked"/>
+			<method name="EventOnMaskClicked"/>
+			<method name="EventOnConfirmClicked"/>
+			<method name="EventOnBlankClicked"/>
+			<method name="EventOnMaskClicked"/>
+			<method name="EventOnConfirmClicked"/>
+		</type>
+		<type fullname="Torappu.UI.Friend.FriendListStateBean">
+			<method name="ApplyAssistData"/>
+			<method name="ApplyAssistData"/>
+		</type>
+		<type fullname="Torappu.UI.Shop.ShopStateItemButton">
+			<method name="OnClick"/>
+			<method name="OnClick"/>
+			<method name="OnClick"/>
+			<method name="OnClick"/>
+			<method name="OnClick"/>
+			<method name="OnClick"/>
+			<method name="OnClick"/>
+			<method name="OnClick"/>
+			<method name="OnClick"/>
+			<method name="OnClick"/>
+			<method name="OnClick"/>
+			<method name="OnClick"/>
+			<method name="OnClick"/>
+			<method name="OnClick"/>
+		</type>
+		<type fullname="Torappu.UI.Shop.ShopSkinState">
+			<method name="OnClick"/>
+			<method name="OnClick"/>
+		</type>
+		<type fullname="Torappu.UI.CharSelect.UICharacterSelectState">
+			<method name="EventOnSortFilterBtnClick"/>
+			<method name="EventOnSortTypeGroupClick"/>
+			<method name="EventOnCardSelect"/>
+			<method name="EventOnSkillSelect"/>
+			<method name="ShowCharacterInfo"/>
+			<method name="EventOnCancelBtnClick"/>
+			<method name="EventOnClearSquadBtnClick"/>
+			<method name="EventOnConfirmBtnClick"/>
+			<method name="EventOnSortFilterBtnClick"/>
+			<method name="EventOnSortTypeGroupClick"/>
+			<method name="EventOnCardSelect"/>
+			<method name="EventOnSkillSelect"/>
+			<method name="ShowCharacterInfo"/>
+			<method name="EventOnCancelBtnClick"/>
+			<method name="EventOnClearSquadBtnClick"/>
+			<method name="EventOnConfirmBtnClick"/>
+		</type>
+		<type fullname="Torappu.UI.Mission.StartMissionTaskStart">
+			<method name="ApplyMission"/>
+		</type>
+		<type fullname="Torappu.UI.Mission.StartMissionSimpleView">
+			<method name="OnMissionGroupButtonPressed"/>
+		</type>
+		<type fullname="Torappu.UI.Recruit.RecruitGachaView">
+			<method name="ToRightPage"/>
+			<method name="ToLeftPage"/>
+		</type>
+		<type fullname="Torappu.UI.Recruit.RecruitTenGachaResultState">
+			<method name="ParseDismiss"/>
+		</type>
+		<type fullname="Torappu.UI.Recruit.RecruitBuildConfigState">
+			<method name="EventOnUnSpreadDetail"/>
+			<method name="EventOnTagClick"/>
+			<method name="EventOnSpreadDetail"/>
+			<method name="EventOnUnSpreadDetail"/>
+			<method name="EventOnRefreshClick"/>
+			<method name="EventOnRefreshClick"/>
+			<method name="EventOnRefreshClick"/>
+			<method name="EventOnRefreshClick"/>
+			<method name="EventOnCancelClick"/>
+			<method name="EventOnDownMinuteClick"/>
+			<method name="EventOnUpHourClick"/>
+			<method name="EventOnDownHourClick"/>
+			<method name="EventOnConfirmClick"/>
+			<method name="EventOnUpMinuteClick"/>
+		</type>
+		<type fullname="Torappu.UI.Skin.SkinSelectState">
+			<method name="ChangeSelectState"/>
+			<method name="EventOnSkinBuyState"/>
+			<method name="ChangeSelectState"/>
+			<method name="EventOnSkinBuyState"/>
+		</type>
+		<type fullname="Torappu.UI.Shop.ShopQCConvertState">
+			<method name="SendConvert"/>
+			<method name="SendConvert"/>
+		</type>
+		<type fullname="Torappu.UI.Shop.ShopQCState">
+			<method name="ApplyDetailState"/>
+			<method name="ApplyDetailState"/>
+			<method name="ApplyDetailState"/>
+			<method name="OpenConverter"/>
+			<method name="ApplyDetailState"/>
+			<method name="ApplyDetailState"/>
+			<method name="ApplyDetailState"/>
+			<method name="OpenConverter"/>
+		</type>
+		<type fullname="Torappu.UI.HandBook.HandBookMapState">
+			<method name="EventOnBtnCheckClick"/>
+			<method name="OnEnemyHandBookClick"/>
+			<method name="EventOpenMission"/>
+			<method name="EventOnBtnCheckClick"/>
+		</type>
+		<type fullname="Torappu.UI.Mission.MainMissionTask">
+			<method name="OnFinish"/>
+			<method name="OnFinish"/>
+		</type>
+		<type fullname="Torappu.UI.Shop.SkinShopPerItemView">
+			<method name="OnClick"/>
+			<method name="OnClick"/>
+		</type>
+		<type fullname="Torappu.UI.Mission.MissionBookTagTab">
+			<method name="OnClick"/>
+		</type>
+		<type fullname="Torappu.UI.Friend.FriendAssistTab">
+			<method name="OnClick"/>
+			<method name="OnClick"/>
+			<method name="OnClick"/>
+			<method name="OnSkillButton"/>
+			<method name="OnSkillButton"/>
+			<method name="OnSkillButton"/>
+			<method name="OnSkillButton"/>
+			<method name="OnSkillButton"/>
+			<method name="OnSkillButton"/>
+			<method name="OnSkillButton"/>
+			<method name="OnSkillButton"/>
+			<method name="OnSkillButton"/>
+			<method name="OnClick"/>
+			<method name="OnClick"/>
+			<method name="OnClick"/>
+			<method name="OnClick"/>
+			<method name="OnClick"/>
+			<method name="OnClick"/>
+			<method name="OnSkillButton"/>
+			<method name="OnSkillButton"/>
+			<method name="OnSkillButton"/>
+			<method name="OnSkillButton"/>
+			<method name="OnSkillButton"/>
+			<method name="OnSkillButton"/>
+			<method name="OnSkillButton"/>
+			<method name="OnSkillButton"/>
+			<method name="OnSkillButton"/>
+			<method name="OnClick"/>
+			<method name="OnClick"/>
+			<method name="OnClick"/>
+		</type>
+		<type fullname="Torappu.UI.Friend.FriendSearchState">
+			<method name="RemoveTop"/>
+			<method name="RemoveTop"/>
+		</type>
+		<type fullname="Torappu.UI.Friend.FriendShowCharacterState">
+			<method name="BackToState"/>
+			<method name="BackToState"/>
+		</type>
+		<type fullname="Torappu.UI.Friend.NameCardSingleton">
+			<method name="CloseButtonFadeIn"/>
+			<method name="CloseNameCard"/>
+			<method name="CloseButtonFadeIn"/>
+			<method name="CloseNameCard"/>
+		</type>
+		<type fullname="Torappu.UI.Shop.ShopGPCommonItemView">
+			<method name="OnClick"/>
+			<method name="OnClick"/>
+		</type>
+		<type fullname="Torappu.UI.Friend.NameCardView">
+			<method name="OnClick"/>
+			<method name="EndEdit"/>
+			<method name="OnClick"/>
+			<method name="EndEdit"/>
+		</type>
+		<type fullname="Torappu.UI.Shop.ShopFurnitureItemView">
+			<method name="OnClick"/>
+			<method name="OnClick"/>
+		</type>
+		<type fullname="Torappu.UI.Shop.ShopGPMonthlySubItem">
+			<method name="OnClick"/>
+			<method name="OnClick"/>
+		</type>
+		<type fullname="Torappu.UI.CharacterInfo.CharacterInfoTalentContentGroup">
+			<method name="ClosePanel"/>
+		</type>
+		<type fullname="Torappu.UI.UIPage">
+			<method name="ClosePage"/>
+			<method name="ClosePage"/>
+			<method name="ClosePage"/>
+			<method name="ClosePage"/>
+		</type>
+		<type fullname="Torappu.UI.Skin.SkinBuyState">
+			<method name="SendBuyState"/>
+			<method name="SendBuyState"/>
+		</type>
+		<type fullname="Torappu.UI.Shop.ShopRecommendTabButton">
+			<method name="OnClick"/>
+			<method name="OnClick"/>
+		</type>
+		<type fullname="Torappu.UI.Shop.ShopSocialState">
+			<method name="SendGetSocialRequest"/>
+			<method name="OpenSocialDetail"/>
+			<method name="SendGetSocialRequest"/>
+			<method name="OpenSocialDetail"/>
+		</type>
+		<type fullname="Torappu.UI.Shop.ShopKeeperPanel">
+			<method name="OnThisPanelClicked"/>
+			<method name="OnThisPanelClicked"/>
+		</type>
+		<type fullname="Torappu.UI.Friend.FriendListSearchItem">
+			<method name="AlreadyFriend"/>
+			<method name="AddFriend"/>
+			<method name="AlreadySend"/>
+			<method name="AlreadyFriend"/>
+			<method name="AddFriend"/>
+			<method name="AlreadySend"/>
+		</type>
+		<type fullname="Torappu.Building.UI.Train.BuildingTrainingConfirmState">
+			<method name="EventOnExitSelectSkill"/>
+			<method name="OnUpgradeConfirmClick"/>
+			<method name="EventOnExitSelectSkill"/>
+			<method name="OnUpgradeConfirmClick"/>
+		</type>
+		<type fullname="Torappu.UI.Shop.ShopSocialItemObject">
+			<method name="OnClick"/>
+			<method name="OnClick"/>
+		</type>
+		<type fullname="Torappu.UI.UICharacterSortFilterState">
+			<method name="OnBackgroundClicked"/>
+			<method name="OnCancelClicked"/>
+			<method name="OnConfirmClicked"/>
+			<method name="OnBackgroundClicked"/>
+			<method name="OnCancelClicked"/>
+			<method name="OnConfirmClicked"/>
+		</type>
+		<type fullname="Torappu.UI.Friend.FriendAliasView">
+			<method name="OnCancel"/>
+			<method name="OnCancel"/>
+			<method name="OnClick"/>
+			<method name="OnCancel"/>
+			<method name="OnCancel"/>
+			<method name="OnClick"/>
+		</type>
+		<type fullname="Torappu.UI.Friend.NameCardState">
+			<method name="OpenLarge"/>
+			<method name="OpenLarge"/>
+		</type>
+		<type fullname="Torappu.UI.Friend.FriendSearchView">
+			<method name="OnSearchRequest"/>
+			<method name="OnSearchRequest"/>
+		</type>
+		<type fullname="Torappu.UI.Squad.SquadFriendAssistState">
+			<method name="EventOnApplyAssist"/>
+			<method name="RefreshSquadAssist"/>
+		</type>
+		<type fullname="Torappu.UI.Skin.SkinSelectScrollItemView">
+			<method name="OnClick"/>
+			<method name="OnClick"/>
+		</type>
+		<type fullname="Torappu.UI.ItemRepo.ItemRepoHomeState">
+			<method name="EventOnItemCardClick"/>
+		</type>
+		<type fullname="Torappu.UI.CharacterInfo.CharacterInfoHomeState">
+			<method name="OnMouseDrag"/>
+			<method name="OnRelease"/>
+			<method name="OnHandBookInfo"/>
+			<method name="OnIllustClicked"/>
+		</type>
+		<type fullname="Torappu.UI.CharacterInfo.CharacterSlideControl">
+			<method name="OnMouseDown"/>
+			<method name="OnMouseUp"/>
+		</type>
+		<type fullname="Torappu.UI.CharacterInfo.CharacterInfoPotentialLvlUpState">
+			<method name="OnUpgradeConfirmClick"/>
+			<method name="RemoveTop"/>
+			<method name="RemoveTop"/>
+		</type>
+		<type fullname="Torappu.UI.CharacterInfo.CharacterProfessionDetailPanel">
+			<method name="ClosePage"/>
+		</type>
+		<type fullname="Torappu.UI.CharacterInfo.CharacterInfoSkillSpecializedState">
+			<method name="OpenBuildingLevel"/>
+			<method name="EventOnSkillToggleClick"/>
+			<method name="EventOnLvlUp"/>
+			<method name="EventOnLvlUp"/>
+			<method name="EventOnLvlUp"/>
+		</type>
+		<type fullname="Torappu.UI.Recruit.RecruitBuildFastBuyView">
+			<method name="Dismiss"/>
+			<method name="OnClick"/>
+		</type>
+		<type fullname="Torappu.UI.Recruit.RecruitGachaConfirmView">
+			<method name="OnClick"/>
+			<method name="Dismiss"/>
+		</type>
+		<type fullname="Torappu.UI.Recruit.RecruitBuyDiamondShardView">
+			<method name="Dismiss"/>
+			<method name="SendDiamondExchangeService"/>
+		</type>
+		<type fullname="Torappu.UI.Recruit.RecruitBuildUseView">
+			<method name="Dismiss"/>
+			<method name="OnClick"/>
+		</type>
+		<type fullname="Torappu.UI.Shop.ShopDetailFurnView">
+			<method name="TurnCoinDiam"/>
+			<method name="OnClick"/>
+			<method name="TurnCoinFurn"/>
+			<method name="MinusOne"/>
+			<method name="AddToMax"/>
+			<method name="MinusToOne"/>
+			<method name="AddOne"/>
+			<method name="TurnCoinDiam"/>
+			<method name="OnClick"/>
+			<method name="TurnCoinFurn"/>
+			<method name="MinusOne"/>
+			<method name="AddToMax"/>
+			<method name="MinusToOne"/>
+			<method name="AddOne"/>
+		</type>
+		<type fullname="Torappu.UI.Shop.ShopDetailMonthlySubView">
+			<method name="OnClick"/>
+			<method name="OnClick"/>
+		</type>
+		<type fullname="Torappu.UI.Shop.SkinShopListView">
+			<method name="AllClick"/>
+			<method name="UnavailClick"/>
+			<method name="AvailClick"/>
+			<method name="AllClick"/>
+			<method name="UnavailClick"/>
+			<method name="AvailClick"/>
+		</type>
+		<type fullname="Torappu.UI.Shop.ShopDetailComplexView">
+			<method name="OnClick"/>
+			<method name="MinusOne"/>
+			<method name="AddOne"/>
+			<method name="AddToMax"/>
+			<method name="MinusToOne"/>
+			<method name="OnClick"/>
+			<method name="MinusOne"/>
+			<method name="AddOne"/>
+			<method name="AddToMax"/>
+			<method name="MinusToOne"/>
+		</type>
+		<type fullname="Torappu.UI.Shop.ShopDetailCommonView">
+			<method name="OnClick"/>
+			<method name="OnClick"/>
+			<method name="OnClick"/>
+			<method name="OnClick"/>
+			<method name="OnClick"/>
+			<method name="OnClick"/>
+			<method name="OnClick"/>
+			<method name="OnClick"/>
+		</type>
+		<type fullname="Torappu.UI.HandBook.HandBookScrollView">
+			<method name="CancelClick"/>
+			<method name="CancelClick"/>
+		</type>
+		<type fullname="Torappu.UI.Shop.QCNormalGoodItem">
+			<method name="OnClick"/>
+			<method name="OnClick"/>
+			<method name="OnClick"/>
+			<method name="OnClick"/>
+		</type>
+		<type fullname="Torappu.UI.Friend.FriendListRequestItem">
+			<method name="RefuseFriend"/>
+			<method name="AddFriend"/>
+			<method name="RefuseFriend"/>
+			<method name="AddFriend"/>
+		</type>
+		<type fullname="Torappu.UI.HomeIllustrate.HomeIllustrateViewState">
+			<method name="OnEventToView"/>
+			<method name="OnEventToSelect"/>
+		</type>
+		<type fullname="Torappu.UI.ThreeStateToggle">
+			<method name="Toggle"/>
+			<method name="Toggle"/>
+			<method name="Toggle"/>
+			<method name="Toggle"/>
+			<method name="Toggle"/>
+			<method name="Toggle"/>
+			<method name="Toggle"/>
+			<method name="Toggle"/>
+			<method name="Toggle"/>
+			<method name="Toggle"/>
+			<method name="Toggle"/>
+			<method name="Toggle"/>
+			<method name="Toggle"/>
+			<method name="Toggle"/>
+			<method name="Toggle"/>
+			<method name="Toggle"/>
+			<method name="Toggle"/>
+			<method name="Toggle"/>
+			<method name="Toggle"/>
+			<method name="Toggle"/>
+			<method name="Toggle"/>
+			<method name="Toggle"/>
+			<method name="Toggle"/>
+			<method name="Toggle"/>
+			<method name="Toggle"/>
+			<method name="Toggle"/>
+		</type>
+		<type fullname="Torappu.UI.TwoStateToggle">
+			<method name="Toggle"/>
+			<method name="Toggle"/>
+			<method name="Toggle"/>
+			<method name="Toggle"/>
+			<method name="Toggle"/>
+			<method name="Toggle"/>
+			<method name="Toggle"/>
+			<method name="Toggle"/>
+			<method name="Toggle"/>
+			<method name="Toggle"/>
+			<method name="Toggle"/>
+			<method name="Toggle"/>
+			<method name="Toggle"/>
+			<method name="Toggle"/>
+			<method name="Toggle"/>
+			<method name="Toggle"/>
+		</type>
+		<type fullname="Torappu.UI.Recruit.RecruitBuildSlotView">
+			<method name="OnFinishBuild"/>
+			<method name="OnStartRecruit"/>
+			<method name="OnBuySlot"/>
+			<method name="OnStopRecruit"/>
+			<method name="OnFashFinish"/>
+		</type>
+		<type fullname="Torappu.UI.Squad.SquadCardView">
+			<method name="EventOnClick"/>
+			<method name="EventOnClick"/>
+			<method name="EventOnClick"/>
+			<method name="EventOnClick"/>
+			<method name="EventOnClick"/>
+			<method name="EventOnClick"/>
+			<method name="EventOnClick"/>
+			<method name="EventOnClick"/>
+			<method name="EventOnClick"/>
+			<method name="EventOnClick"/>
+			<method name="EventOnClick"/>
+			<method name="EventOnClick"/>
+		</type>
+		<type fullname="Torappu.UI.Squad.SquadHomeState">
+			<method name="EventOnStartBattleClick"/>
+			<method name="EventOnSquadLeftClick"/>
+			<method name="EventOnSingleFormatClick"/>
+			<method name="EventOnSquadLeftClick"/>
+			<method name="GetSquadAssist"/>
+			<method name="CleanAssist"/>
+			<method name="EventOnSquadTabClick"/>
+			<method name="EventOnRenameClick"/>
+			<method name="EventOnSquadTabClick"/>
+			<method name="EventOnRenameClick"/>
+			<method name="EventOnSquadTabClick"/>
+			<method name="EventOnRenameClick"/>
+			<method name="EventOnSquadTabClick"/>
+			<method name="EventOnRenameClick"/>
+			<method name="EventOnClearBtnClick"/>
+			<method name="EventOnMultiFormatClick"/>
+		</type>
+		<type fullname="Torappu.UI.Squad.SquadPromptExcludeCharState">
+			<method name="EventOnCancel"/>
+			<method name="EventOnConfirm"/>
+		</type>
+		<type fullname="Torappu.UI.Squad.SquadRenameState">
+			<method name="BackToState"/>
+			<method name="SaveSquadName"/>
+			<method name="BackToState"/>
+		</type>
+		<type fullname="Torappu.UI.CharacterInfo.CharacterInfoSkillAllLevelUpState">
+			<method name="OnUpgradeConfirmClick"/>
+			<method name="OnStateChange"/>
+			<method name="OnStateChange"/>
+		</type>
+		<type fullname="Torappu.UI.CharacterInfo.CharacterInfoSelectSkillState">
+			<method name="EventOnSkillToggleClick"/>
+			<method name="EventOnLvlUp"/>
+		</type>
+		<type fullname="Torappu.UI.CharacterInfo.CharacterInfoEvolveState">
+			<method name="OnBackClick"/>
+			<method name="OnUpgradeCancelClick"/>
+			<method name="OnDetailClick"/>
+			<method name="OnUpgradeConfirmClick"/>
+		</type>
+		<type fullname="Torappu.UI.CharacterInfo.CharacterInfoPotentialLevelUpView">
+			<method name="OnSelect"/>
+			<method name="OnClick"/>
+			<method name="OnSelect"/>
+		</type>
+		<type fullname="Torappu.UI.CharacterInfo.CharacterInfoPotentialState">
+			<method name="ToLvlUp"/>
+		</type>
+		<type fullname="Torappu.UI.CharacterInfo.CharacterInfoUplevelState">
+			<method name="EventOnCancelClick"/>
+			<method name="EventOnItemClick"/>
+			<method name="EventOnItemReduceClick"/>
+			<method name="EventOnConfirmClick"/>
+			<method name="EventOnCancelClick"/>
+			<method name="EventOnClearClick"/>
+		</type>
+		<type fullname="Torappu.UI.CharacterShow.CharacterShowView">
+			<method name="OnBtnExit"/>
+		</type>
+		<type fullname="Torappu.UI.Recruit.RecruitBuildConfigTagView">
+			<method name="EventOnTagClick"/>
+			<method name="EventOnTagClick"/>
+			<method name="EventOnTagClick"/>
+			<method name="EventOnTagClick"/>
+			<method name="EventOnTagClick"/>
+			<method name="EventOnTagClick"/>
+		</type>
+		<type fullname="Torappu.UI.Shop.ShopDetailDataCache">
+			<method name="ApplyCreditUnlockState"/>
+			<method name="ApplyCreditUnlockState"/>
+		</type>
+		<type fullname="Torappu.UI.Shop.QCShopLowView">
+			<method name="ApplyCurrentGroup"/>
+			<method name="ApplyCurrentGroup"/>
+			<method name="ApplyCurrentGroup"/>
+			<method name="ApplyCurrentGroup"/>
+			<method name="ApplyCurrentGroup"/>
+			<method name="ApplyCurrentGroup"/>
+		</type>
+		<type fullname="Torappu.UI.Shop.QCShopControllerObj">
+			<method name="OnClick"/>
+			<method name="OnClick"/>
+			<method name="OnClick"/>
+			<method name="OnClick"/>
+			<method name="OnClick"/>
+			<method name="OnClick"/>
+		</type>
+		<type fullname="Torappu.UI.Shop.ShopDetailCharView">
+			<method name="OpenCharacterShow"/>
+			<method name="OpenCharacterShow"/>
+		</type>
+		<type fullname="Torappu.Building.UI.StationSelect.BuildingStationSelectBuffUnlockFloat">
+			<method name="EventOnBlankClicked"/>
+			<method name="EventOnBlankClicked"/>
+		</type>
+		<type fullname="Torappu.Building.UI.BuildingStationSelectState">
+			<method name="EventOnFilterClicked"/>
+			<method name="EventOnConfirmClicked"/>
+			<method name="EventOnClearClicked"/>
+			<method name="EventOnFilterClicked"/>
+			<method name="EventOnConfirmClicked"/>
+			<method name="EventOnClearClicked"/>
+		</type>
+		<type fullname="Torappu.Building.UI.Train.BuildingTrainingState">
+			<method name="EventOnTrainer"/>
+			<method name="EventOnOpenSelectPage"/>
+			<method name="EventOnLvlUp"/>
+			<method name="EventOnLvlUp"/>
+			<method name="EventOnLvlUp"/>
+			<method name="EventOnTrainer"/>
+			<method name="EventOnOpenSelectPage"/>
+			<method name="EventOnLvlUp"/>
+			<method name="EventOnLvlUp"/>
+			<method name="EventOnLvlUp"/>
+		</type>
+		<type fullname="Torappu.UI.HandBook.HandBookMissionGroup">
+			<method name="OnClick"/>
+		</type>
+		<type fullname="Torappu.UI.HandBook.HandBookInfoState">
+			<method name="EventOnButtonCharacterInfo"/>
+			<method name="EventOnBackToSlider"/>
+			<method name="OnSpreadIllustrationClicked"/>
+		</type>
+		<type fullname="Torappu.UI.Skin.SkinSelectDetailView">
+			<method name="OnReleaseClick"/>
+			<method name="OnClick"/>
+			<method name="OnReleaseClick"/>
+			<method name="OnClick"/>
+		</type>
+		<type fullname="Torappu.UI.Mission.DailyMissionTask">
+			<method name="OnOpenDetailClick"/>
+			<method name="ApplyReward"/>
+			<method name="ApplyReward"/>
+		</type>
+		<type fullname="Torappu.UI.HomeIllustrate.HomeIllustrateListItem">
+			<method name="OnClick"/>
+		</type>
+		<type fullname="Torappu.UI.CharSelect.CharSelectSkillView">
+			<method name="OnSkillClicked"/>
+			<method name="OnSkillClicked"/>
+		</type>
+		<type fullname="Torappu.Building.UI.BuildingUISortItem`1">
+			<method name="EventOnToggleClicked"/>
+			<method name="EventOnToggleClicked"/>
+			<method name="EventOnToggleClicked"/>
+			<method name="EventOnToggleClicked"/>
+			<method name="EventOnToggleClicked"/>
+			<method name="EventOnToggleClicked"/>
+			<method name="EventOnToggleClicked"/>
+			<method name="EventOnToggleClicked"/>
+			<method name="EventOnToggleClicked"/>
+			<method name="EventOnToggleClicked"/>
+			<method name="EventOnToggleClicked"/>
+			<method name="EventOnToggleClicked"/>
+			<method name="EventOnToggleClicked"/>
+			<method name="EventOnToggleClicked"/>
+		</type>
+		<type fullname="Torappu.Building.UI.StationSelect.BuildingStationSelectSortFilterState">
+			<method name="EventOnConfirmClicked"/>
+			<method name="EventOnCancelClicked"/>
+			<method name="EventOnConfirmClicked"/>
+			<method name="EventOnCancelClicked"/>
+		</type>
+		<type fullname="Torappu.Building.UI.BuildingUIFilterItem`1">
+			<method name="EventOnToggleClicked"/>
+			<method name="EventOnToggleClicked"/>
+			<method name="EventOnToggleClicked"/>
+			<method name="EventOnToggleClicked"/>
+			<method name="EventOnToggleClicked"/>
+			<method name="EventOnToggleClicked"/>
+			<method name="EventOnToggleClicked"/>
+			<method name="EventOnToggleClicked"/>
+			<method name="EventOnToggleClicked"/>
+			<method name="EventOnToggleClicked"/>
+			<method name="EventOnToggleClicked"/>
+			<method name="EventOnToggleClicked"/>
+			<method name="EventOnToggleClicked"/>
+			<method name="EventOnToggleClicked"/>
+			<method name="EventOnToggleClicked"/>
+			<method name="EventOnToggleClicked"/>
+			<method name="EventOnToggleClicked"/>
+			<method name="EventOnToggleClicked"/>
+			<method name="EventOnToggleClicked"/>
+			<method name="EventOnToggleClicked"/>
+			<method name="EventOnToggleClicked"/>
+			<method name="EventOnToggleClicked"/>
+			<method name="EventOnToggleClicked"/>
+			<method name="EventOnToggleClicked"/>
+			<method name="EventOnToggleClicked"/>
+			<method name="EventOnToggleClicked"/>
+		</type>
+		<type fullname="Torappu.UI.CharacterInfo.CharacterDetailView">
+			<method name="BtnOnSkillSelect"/>
+			<method name="BtnOnUpLvl"/>
+			<method name="BtnOnPotential"/>
+			<method name="BtnOnEvolve"/>
+			<method name="OnProfessionDetail"/>
+			<method name="BtnOnTalent"/>
+		</type>
+		<type fullname="Torappu.UI.CharacterInfo.CharacterInfoAttributeViewController">
+			<method name="OnStateChange"/>
+			<method name="OnFavorShow"/>
+			<method name="OnFavorDisable"/>
+			<method name="OnStateChange"/>
+		</type>
+		<type fullname="Torappu.Building.UI.Train.BuildingTrainingSkillItem">
+			<method name="BtnOnSpread"/>
+			<method name="BtnOnOtherSkillUpgrading"/>
+			<method name="BtnOnSpread"/>
+			<method name="BtnOnUnSpread"/>
+			<method name="BtnOnOtherSkillUpgrading"/>
+			<method name="BtnOnUnSpread"/>
+			<method name="BtnOnUnSpread"/>
+			<method name="BtnOnOtherSkillUpgrading"/>
+			<method name="BtnOnOtherSkillUpgrading"/>
+			<method name="BtnOnOtherSkillUpgrading"/>
+			<method name="BtnOnSpread"/>
+			<method name="BtnOnOtherSkillUpgrading"/>
+			<method name="BtnOnSpread"/>
+			<method name="BtnOnOtherSkillUpgrading"/>
+			<method name="BtnOnSpread"/>
+			<method name="BtnOnUnSpread"/>
+			<method name="BtnOnOtherSkillUpgrading"/>
+			<method name="BtnOnUnSpread"/>
+			<method name="BtnOnUnSpread"/>
+			<method name="BtnOnOtherSkillUpgrading"/>
+			<method name="BtnOnOtherSkillUpgrading"/>
+			<method name="BtnOnOtherSkillUpgrading"/>
+			<method name="BtnOnSpread"/>
+			<method name="BtnOnOtherSkillUpgrading"/>
+		</type>
+		<type fullname="Torappu.UI.CharacterInfo.CharacterInfoSelectSkillView">
+			<method name="EventOnToggleButtonClick"/>
+			<method name="EventOnToggleButtonClick"/>
+			<method name="EventOnToggleButtonClick"/>
+			<method name="EventOnToggleButtonClick"/>
+			<method name="EventOnToggleButtonClick"/>
+			<method name="EventOnToggleButtonClick"/>
+			<method name="EventOnToggleButtonClick"/>
+			<method name="EventOnToggleButtonClick"/>
+			<method name="EventOnToggleButtonClick"/>
+			<method name="EventOnToggleButtonClick"/>
+			<method name="EventOnToggleButtonClick"/>
+			<method name="EventOnToggleButtonClick"/>
+		</type>
+		<type fullname="Torappu.UI.UICharacterSortTypeGroup">
+			<method name="EventOnBtnFilterClick"/>
+			<method name="EventOnBtnFilterClick"/>
+		</type>
+		<type fullname="Torappu.UI.HandBook.HandBookInfoView">
+			<method name="OnEventCancelButton"/>
+		</type>
+		<type fullname="Torappu.UI.HandBook.HandBookCardView">
+			<method name="OnClicked"/>
+		</type>
+		<type fullname="Torappu.UI.Shop.CashShopItemObject">
+			<method name="EventOnClicked"/>
+			<method name="EventOnClicked"/>
+		</type>
+		<type fullname="Torappu.UI.HandBook.HandBookButtonTab">
+			<method name="onClick"/>
+			<method name="onClick"/>
+		</type>
+		<type fullname="Torappu.UI.HandBook.HandBookInfoAudioView">
+			<method name="ShowText"/>
+			<method name="PlayAudioClick"/>
+			<method name="PlayAudioClick"/>
+			<method name="OnStopClick"/>
+		</type>
+		<type fullname="Torappu.UI.Squad.SquadTabView">
+			<method name="EventOnTabClick"/>
+			<method name="EventOnTabClick"/>
+			<method name="EventOnTabClick"/>
+			<method name="EventOnTabClick"/>
+			<method name="EventOnReNameClick"/>
+			<method name="EventOnReNameClick"/>
+			<method name="EventOnReNameClick"/>
+			<method name="EventOnReNameClick"/>
+		</type>
+		<type fullname="Torappu.Building.UI.BuildingBuffDescView">
+			<method name="EventOnNextLevelClicked"/>
+			<method name="EventOnNextLevelClicked"/>
+		</type>
+		<type fullname="Torappu.Building.UI.StationSelect.BuildingStationSelectCharCard">
+			<method name="EventOnCardClicked"/>
+			<method name="EventOnCardClicked"/>
+		</type>
+		<type fullname="Torappu.UI.Squad.SquadListItem">
+			<method name="OnClick"/>
+		</type>
+		<type fullname="Torappu.UI.Squad.SquadFriendObject">
+			<method name="OnApplyFriend"/>
+		</type>
+		<type fullname="Torappu.UI.CharacterInfo.CharacterInfoUpLevelItemCard">
+			<method name="EventOnReduceBtnClick"/>
+		</type>
+		<type fullname="Torappu.Building.UI.DIYPage">
+			<method name="OnSaveButtonPressed"/>
+			<method name="OnResetButtonPressed"/>
+			<method name="OnSortButtonPressed"/>
+			<method name="OnListViewBackButtonPressed"/>
+			<method name="OnListViewNextButtonPressed"/>
+			<method name="OnManifestBGPressed"/>
+			<method name="OnCameraLockPressed"/>
+			<method name="OnWallButtonPressed"/>
+			<method name="OnThemeButtonPressed"/>
+			<method name="OnCeilingButtonPressed"/>
+			<method name="OnFloorButtonPressed"/>
+			<method name="OnLeftSidePresetButtonPressed"/>
+			<method name="OnComfortPressed"/>
+			<method name="OnThemePressed"/>
+			<method name="OnShopPressed"/>
+			<method name="OnClearButtonPressed"/>
+		</type>
+		<type fullname="Torappu.Building.DIY.UI.DIYPresetPanel">
+			<method name="OnLoadButtonPressed"/>
+			<method name="OnSaveButtonPressed"/>
+			<method name="OnBackgroundPressed"/>
+		</type>
+		<type fullname="Torappu.Building.DIY.UI.DIYFurnitureDetailPanel">
+			<method name="OnCloseButtonPressed"/>
+			<method name="OnCloseButtonPressed"/>
+		</type>
+		<type fullname="Torappu.Building.UI.Float.BuildingEmptyPage">
+			<method name="EventOnBlankClicked"/>
+		</type>
+		<type fullname="Torappu.Building.UI.Workshop.BuildingWorkshopHomeState">
+			<method name="OnConfirmButtonPressed"/>
+			<method name="OnProtectSwitchButtonPressed"/>
+			<method name="OnFormulaButtonPressed"/>
+			<method name="OnCharacterButtonPressed"/>
+			<method name="OnMinButtonPressed"/>
+			<method name="OnMinusButtonPressed"/>
+			<method name="OnMaxButtonPressed"/>
+			<method name="OnAddButtonPressed"/>
+		</type>
+		<type fullname="Torappu.Building.DIY.UI.DIYPresetRenamePanel">
+			<method name="OnCancelButtonPressed"/>
+			<method name="OnOKButtonPressed"/>
+		</type>
+		<type fullname="Torappu.Building.DIY.UI.DIYThemePanel">
+			<method name="OnBackgroundPressed"/>
+			<method name="OnOneClickSetupButtonPressed"/>
+		</type>
+		<type fullname="Torappu.Building.UI.Assist.AssistAssistantView">
+			<method name="OnClick"/>
+			<method name="OnClick"/>
+		</type>
+		<type fullname="Torappu.Building.UI.Meeting.MeetingClueReceiveView">
+			<method name="OnRuleHintPressed"/>
+			<method name="OnReceiveAllPressed"/>
+			<method name="OnInfoButtonPressed"/>
+		</type>
+		<type fullname="Torappu.Building.UI.Meeting.BuildingMeetingHomeState">
+			<method name="OnBackgroundPressed"/>
+			<method name="OnUnlockButtonPressed"/>
+			<method name="OnStationCharacterButton0Pressed"/>
+			<method name="OnRecvButtonPressed"/>
+			<method name="OnDetailButtonPressed"/>
+			<method name="OnSendButtonPressed"/>
+			<method name="OnStationCharacterButton1Pressed"/>
+			<method name="OnProductButtonPressed"/>
+		</type>
+		<type fullname="Torappu.Building.UI.Meeting.BuildingClueSendHomeState">
+			<method name="OnCloseButtonPressed"/>
+			<method name="OnNextPeerPageButtonPressed"/>
+			<method name="OnPrevPeerPageButtonPressed"/>
+		</type>
+		<type fullname="Torappu.Building.UI.Assist.AssistReportState">
+			<method name="AnimatorSpread"/>
+			<method name="AnimatorUnspread"/>
+		</type>
+		<type fullname="Torappu.Building.UI.Trading.BuildingTradingNegotiationState">
+			<method name="DismissSelf"/>
+		</type>
+		<type fullname="Torappu.Building.UI.Meeting.MeetingClueProductView">
+			<method name="OnFetchRoomProductClueButtonPressed"/>
+			<method name="OnCloseButtonPressed"/>
+		</type>
+		<type fullname="Torappu.Building.UI.LaborAccel.BuildingLaborAccelState">
+			<method name="EventOnMinClicked"/>
+			<method name="EventOnMaxClicked"/>
+			<method name="EventOnCancelClicked"/>
+			<method name="EventOnConfirmClicked"/>
+		</type>
+		<type fullname="Torappu.Building.UI.Workshop.BuildingWorkshopFormulaState">
+			<method name="OnSortPanelEntryButtonPressed"/>
+			<method name="OnFilterBuildingButtonPressed"/>
+			<method name="OnFilterMetalButtonPressed"/>
+			<method name="OnSortIdButtonPressed"/>
+			<method name="OnFilterDiamondButtonPressed"/>
+			<method name="OnSortPriceButtonPressed"/>
+			<method name="OnFilterFurnitureButtonPressed"/>
+			<method name="OnSortRarityButtonPressed"/>
+			<method name="OnFilterEliteButtonPressed"/>
+		</type>
+		<type fullname="Torappu.Building.UI.Manufact.BuildingManufactFormulaState">
+			<method name="EventOnFilterBtnClicked"/>
+		</type>
+		<type fullname="Torappu.Building.UI.Manufact.BuildingManufactHomeState">
+			<method name="EventOnHarestClick"/>
+			<method name="EventOnLaborAccelClick"/>
+		</type>
+		<type fullname="Torappu.Building.UI.SM.BuildingStationManageHomeState">
+			<method name="EventOnRemoveSwitchClick"/>
+		</type>
+		<type fullname="Torappu.Building.UI.Trading.BuildingTradingNegotiationItem">
+			<method name="EventOnItemClicked"/>
+			<method name="EventOnItemClicked"/>
+			<method name="EventOnItemClicked"/>
+		</type>
+		<type fullname="Torappu.Building.UI.BuyLaborState">
+			<method name="SendCurrentBuy"/>
+			<method name="AddToMax"/>
+			<method name="Add"/>
+			<method name="Minus"/>
+			<method name="MinusToMin"/>
+		</type>
+		<type fullname="Torappu.Building.UI.Meeting.MeetingClueSlotView">
+			<method name="OnPressed"/>
+			<method name="OnPressed"/>
+			<method name="OnPressed"/>
+			<method name="OnPressed"/>
+			<method name="OnPressed"/>
+			<method name="OnPressed"/>
+			<method name="OnPressed"/>
+		</type>
+		<type fullname="Torappu.Building.UI.Manufact.BuildingManufactFormulaCategoryTab">
+			<method name="EventOnItemTypeClicked"/>
+			<method name="EventOnItemTypeClicked"/>
+			<method name="EventOnItemTypeClicked"/>
+		</type>
+		<type fullname="Torappu.Building.UI.Manufact.BuildingManufactOutputSlot">
+			<method name="EventOnPanelClick"/>
+		</type>
+		<type fullname="Torappu.Building.UI.Manufact.BuildingManufactFormulaSortFilterState">
+			<method name="EventOnCancelClicked"/>
+			<method name="EventOnConfirmClicked"/>
+		</type>
+		<type fullname="Torappu.Building.UI.Meeting.MeetingClueRemoveHintView">
+			<method name="CancelButtonPressed"/>
+			<method name="OkButtonPressed"/>
+		</type>
+		<type fullname="Torappu.Building.UI.Meeting.MeetingPeerView">
+			<method name="OnSendCluePressed"/>
+			<method name="OnSendCluePressed"/>
+			<method name="OnSendCluePressed"/>
+			<method name="OnSendCluePressed"/>
+		</type>
+		<type fullname="Torappu.Building.UI.Workshop.WorkshopFilterButton">
+			<method name="OnButtonPressed"/>
+			<method name="OnButtonPressed"/>
+			<method name="OnButtonPressed"/>
+			<method name="OnButtonPressed"/>
+			<method name="OnButtonPressed"/>
+		</type>
+		<type fullname="Torappu.Building.UI.Workshop.WorkshopSortButton">
+			<method name="OnButtonPressed"/>
+			<method name="OnButtonPressed"/>
+			<method name="OnButtonPressed"/>
+		</type>
+		<type fullname="Torappu.Building.UI.Manufact.BuildingManufactRemainCountView">
+			<method name="EventOnMaxClicked"/>
+			<method name="EventOnMinClicked"/>
+			<method name="EventOnConfirmClicked"/>
+			<method name="EventOnCancelClicked"/>
+		</type>
+		<type fullname="Torappu.Building.UI.Trading.BuildingTradingHomeState">
+			<method name="EventOnNegotiationClicked"/>
+		</type>
+		<type fullname="Torappu.Building.UI.Meeting.ToggleButton">
+			<method name="OnPressed"/>
+			<method name="OnPressed"/>
+			<method name="OnPressed"/>
+			<method name="OnPressed"/>
+			<method name="OnPressed"/>
+			<method name="OnPressed"/>
+			<method name="OnPressed"/>
+			<method name="OnPressed"/>
+			<method name="OnPressed"/>
+			<method name="OnPressed"/>
+			<method name="OnPressed"/>
+			<method name="OnPressed"/>
+			<method name="OnPressed"/>
+			<method name="OnPressed"/>
+			<method name="OnPressed"/>
+			<method name="OnPressed"/>
+			<method name="OnPressed"/>
+			<method name="OnPressed"/>
+			<method name="OnPressed"/>
+		</type>
+		<type fullname="Torappu.Building.UI.Workshop.WorkshopSortPanel">
+			<method name="OnCancelButtonPressed"/>
+			<method name="OnOkButtonPressed"/>
+		</type>
+		<type fullname="Torappu.Building.UI.SM.BuildingSMRoomItemView">
+			<method name="EventOnRemoveAllClicked"/>
+			<method name="EventOnRoomClicked"/>
+		</type>
+		<type fullname="Torappu.Building.UI.BuildingUIRoomTab">
+			<method name="OnTabClicked"/>
+			<method name="OnTabClicked"/>
+		</type>
+		<type fullname="Torappu.Building.UI.Meeting.MeetingClueItemView">
+			<method name="OnRemovePressed"/>
+			<method name="OnUnequipPressed"/>
+			<method name="OnPressed"/>
+		</type>
+		<type fullname="Torappu.Building.UI.Trading.BuildingTradingGainingOrderView">
+			<method name="EventOnLaborAccelClicked"/>
+		</type>
+		<type fullname="Torappu.Building.UI.Trading.BuildingTradingGainedOrderView">
+			<method name="EventOnFinishClicked"/>
+			<method name="EventOnDeleteClicked"/>
+		</type>
+	</assembly>
+	<assembly fullname="UnityEngine">
+		<type fullname="UnityEngine.GameObject">
+			<method name="SetActive"/>
+			<method name="SetActive"/>
+			<method name="SetActive"/>
+			<method name="SetActive"/>
+			<method name="SetActive"/>
+			<method name="SetActive"/>
+			<method name="SetActive"/>
+			<method name="SetActive"/>
+			<method name="SetActive"/>
+			<method name="SetActive"/>
+		</type>
+	</assembly>
+</linker>
