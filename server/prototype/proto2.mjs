@@ -202,6 +202,27 @@ if (Object.keys(save.stages).length === 0) {
   persist();
 }
 
+// 新手引导依赖关卡置 PASS：22 个 UILockTarget 锁经 .data.rel.ro 表映射到的 12 个 stageId
+// （.bss 槽 0x02A574B8..0x02A574E4，fact1277 全量表；MISSION_GUIDE=5 → main_01-07）。
+// 客户端 UIGuideController._IsStagePast 判定 PlayerStage.state>1（≥2 PASS）才放行引导，
+// 而 STAGE_INIT 首启把 642 关全灌成 state=0(UNLOCKED)，致『关卡全解锁但新手引导未解锁』卡住。
+// 仅点名这 12 关：其余关保持全解锁 state=0 不动；completeTimes 不动（首通奖励仍按
+// battleFinish 实际战斗发放，state=2 不自发放任何奖励）。
+const GUIDE_PASS_STAGES = [
+  'main_01-01', 'main_01-03', 'main_01-04', 'main_01-05', 'main_01-06', 'main_01-07',
+  'main_01-09', 'main_01-10', 'main_01-11', 'main_01-12', 'main_02-03', 'main_02-08',
+];
+let guidePassPatched = 0;
+for (const sid of GUIDE_PASS_STAGES) {
+  const st = save.stages[sid];
+  // 只升不降：已是 state>=2（如 main_01-01=3 COMPLETE）的不回退
+  if (st && typeof st.state === 'number' && st.state < 2) { st.state = 2; guidePassPatched++; }
+}
+if (guidePassPatched > 0) {
+  console.log('[GUIDE] set state=2(PASS) for', guidePassPatched, 'guide-dependency stages');
+  persist();
+}
+
 // ---- 关卡进度（引用存档对象，直接改即持久）----
 const playerStages = save.stages;
 const playerZones = save.zones;
