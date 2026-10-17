@@ -500,7 +500,7 @@ function playerData() {
       rooms: buildBuildingRooms(),
       // 已购家具：与 /building/sync L1424(buildFurniture) 及 cheat getAllFurniture L992-995 写入口径对齐
       // （旧代码硬编码 {}，导致客户端 syncData 永远收不到已购家具）
-      furniture: save.furniture || {},
+      furniture: buildFurniture(),
       diyPresetSolutions: {}
     }
   };
@@ -1518,8 +1518,11 @@ function buildBuildingData() {
 }
 
 // 已拥有的家具（家具店购买后写入 save.furniture）
+// building.furniture 的 value 必须与客户端 PlayerBuildingFurnitureInfo{count,inUse} 对齐；
+// save.json 里存的是 furniId -> 数量(int)，不能直接当 PlayerBuildingFurnitureInfo 下发，
+// 否则 Newtonsoft 反序列化 Dict<string,PlayerBuildingFurnitureInfo> 抛 JsonSerializationException。
 function buildFurniture() {
-  return save.furniture || {};
+  return Object.fromEntries(Object.keys(save.furniture || {}).map(k => [k, { count: save.furniture[k], inUse: 0 }]));
 }
 
 function makeHandler(tag) {
