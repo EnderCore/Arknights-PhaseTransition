@@ -659,6 +659,14 @@ function route(tag, req, res, body) {
   if (/\/u8\/user\/getToken/.test(p)) {
     return J({ result: 0, uid: UID, channelUid: UID, token: TOKEN, isGuest: false, extension: '{}' });
   }
+  // verifyAccount 专属路由：uid 取自会话 TOKEN 核对（非散落硬编码），
+  // 用 G 同时输出扁平字段与 data 包装（补齐 MsgBundle 反序列化 data 非空判据）。
+  if (/\/u8\/user\/verifyAccount/.test(p)) {
+    let j = {};
+    try { j = JSON.parse(body || '{}'); } catch (e) { j = {}; }
+    const vaUid = (j.uid && j.token === TOKEN) ? String(j.uid) : UID;
+    return G({ result: 0, uid: vaUid, channelUid: vaUid, token: TOKEN, isGuest: false, status: 0, extension: '{}' });
+  }
   if (/\/u8\//.test(p)) {
     return J({ result: 0, uid: UID, channelUid: UID, token: TOKEN, isGuest: false, status: 0, extension: '{}' });
   }
