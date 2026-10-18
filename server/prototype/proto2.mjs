@@ -639,8 +639,33 @@ function route(tag, req, res, body) {
   }
   if (/hot_update_list\.json/.test(p)) return J({ versionId: RES_VERSION, fullPack: { name: '', hash: '', md5: '', totalSize: 0 }, abInfos: [] });
   if (/persistent_res_list\.json/.test(p)) return J({ abInfos: [] });
-  if (/preannouncement\.meta\.json|announcement\.meta\.json/.test(p)) {
-    return J({ announceList: [], focusAnnounceId: '' });
+  // ---------- 公告：拆分双路由返回各自 schema（fact1762 根因修复）----------
+  // 原 stub 对 preannouncement/announcement 两 URL 同返 {announceList:[],focusAnnounceId:''}，
+  // 客户端期望双 schema（v0728 dump L541891-541944 / v0666 dump_arm.cs L471924-471977 实证）：
+  //   preannouncement.meta.json → PreAnnounceData{preAnnounceId, preAnnounceType, preAnnounceUrl}
+  //   announcement.meta.json    → AnnounceData{announceList, focusAnnounceId}
+  // group 带字段级 JsonConverter（dump L541934），按枚举名字符串下发（Newtonsoft 默认与
+  // StringEnumConverter 两路径均可解析）；webUrl 指向下方 /protocol/ 已存在的真实协议页。
+  if (/preannouncement\.meta\.json/.test(p)) {
+    return J({
+      preAnnounceId: 'proto2-protocol',
+      preAnnounceType: 2, // PreAnnounceType.NEVER_AUTO_OPEN：不自动弹出，仅公告入口可查
+      preAnnounceUrl: 'https://dev-gs.mpcjnet.com:10012/protocol/service',
+    });
+  }
+  if (/announcement\.meta\.json/.test(p)) {
+    return J({
+      announceList: [{
+        announceId: 'proto2-service-protocol',
+        title: '服务协议与隐私条款',
+        isWebUrl: true,
+        group: 'SYSTEM', // AnnounceGroup: ACTIVITY=0/SYSTEM=1/ENUM=2（枚举名，见 dump L541881-541888）
+        webUrl: 'https://dev-gs.mpcjnet.com:10012/protocol/service',
+        day: 1,  // FIXED_BETA_EPOCH 2019-04-01 内测基准时间
+        month: 4,
+      }],
+      focusAnnounceId: '',
+    });
   }
 
   // ---------- SDK 服（扁平响应，无 data 包装）----------
